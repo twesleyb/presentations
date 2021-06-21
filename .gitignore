@@ -1,0 +1,23 @@
+# dirs to ignore
+ARCHIVE/
+
+# files to ignore
+*.note
+*.sw*
+*.bak
+*.sw*
+*.bak
+
+# reaveal.js to ignore
+.idea/
+*.iml
+*.iws
+*.eml
+out/
+.DS_Store
+.svn
+log/*.log
+tmp/**
+node_modules/
+.sass-cache
+dist/*.map
