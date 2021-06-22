@@ -1,5 +1,5 @@
 # swip presentation
-[https://twesleyb.github.io/presentations/swip/index.html](slides)
+[slides](https://twesleyb.github.io/presentations/swip/index.html)
 
 ## Notes
 
