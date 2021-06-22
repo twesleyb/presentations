@@ -57,7 +57,11 @@
 												</div>
 
 												<div class="col">
-														Column 2 Content
+														column 2 content
+														<figure>
+																<img src="./graphics/cpm.png" alt="cpm" style="width:50%">
+																<figcaption>caption</figcaption>
+														</figure> 
 												</div>
 
 										</div>
@@ -74,7 +78,7 @@
 								</section>
 
 								<section data-background-image="./graphics/elife-image.png" 
-										data-background-size="fill" data-background-opacity=0.20>
+										 data-background-size="fill" data-background-opacity=0.20>
 										<h3>Objectives</h3>
 										<ul>
 												<li><a href="https://bit.ly/2RbEBZ8" alt="DOI: 10.7554/eLife.61590">Courtland and Bradshaw, eLife 2021:</a><em> Genetic disruption of WASHC4 drives endo-lysosomal dysfunction and cognitive-movement impairments</em></li>
@@ -201,7 +205,7 @@
 								</section>
 
 								<section data-background-image="./graphics/spatprot-network.png" 
-										data-background-size="fill" data-background-opacity=0.20>
+										 data-background-size="fill" data-background-opacity=0.20>
 										<h3>SWIP Spatial Proteomics</h3>
 										<figure>
 												<img src="./graphics/spatprot.png" alt="spatial-proteomics" style="width:100%">
@@ -253,10 +257,10 @@
 										data(swip, wash_bioid, package="SwipProteomics")
 
 										fx <- log2(Intensity) ~ 0 + Condition
-									 fm <- lm(fx, data = subset(wash_bioid, Accession==swip)
+															   fm <- lm(fx, data = subset(wash_bioid, Accession==swip)
 
-									 LT <- getContrast(fm, "WASH","Control")
-									 lmTestContrast(fm, LT)		   
+															   LT <- getContrast(fm, "WASH","Control")
+															   lmTestContrast(fm, LT)		   
 										</code></pre>
 								</section>
 
@@ -266,8 +270,8 @@
 												```
 												bar = 5
 												x <- 67
-												y <- sample(x)
-												```
+												  y <- sample(x)
+												  ```
 										</textarea>
 								</section>
 
