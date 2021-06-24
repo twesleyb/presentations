@@ -46,6 +46,10 @@
 												<a href="https://github.com/twesleyb/presentations/tree/master/swip" target="_blank">Slide Source Code</a>
 										</div>
 
+										<aside data-markdown class="notes" >
+												# Hi, I'm Tyler Bradshaw!
+										</aside>
+
 								</section>
 
 								<!-- objectives -->
@@ -61,6 +65,11 @@
 														<li><em>Proximity Proteomics</em> (proximity labeling)</li>
 												</ul>
 										</ul>
+
+										<aside data-markdown class="notes" >
+												Transition: Both proximity and spatial proteomics hinge upon a fundamental biological principle...
+										</aside>
+
 								</section>
 
 								<!-- background: fundamental biology -->
@@ -74,6 +83,11 @@
 										<div class='foot-right'>
 												EM images: <a href="https://synapseweb.clm.utexas.edu/" target="_blank">SynapseWeb</a>
 										</div>
+
+										<aside data-markdown class="notes" >
+												transition: we can use proteomics to identify the proteins that reside at these specialized subcellular compartments...
+										</aside>
+
 								</section>
 
 								<!-- background: overview -->
@@ -83,6 +97,11 @@
 												<img src="./graphics/protms.png" alt="protms" style="width:100%">
 												<figcaption>Proximity Proteomics (A) and Spatial Proteomics (B) define protein subcellular localization.</figcaption>
 										</figure> 
+
+										<aside data-markdown class="notes" >
+												transition: we can use proteomics to identify the proteins that reside at these specialized subcellular compartments...
+										</aside>
+
 								</section>
 
 								<!-- background: spatial proteomics -->
@@ -96,11 +115,17 @@
 										<div class='foot-right'>
 												SFARI ASD Genes: <a href="https://github.com/twesleyb/getPPIs" target="_blank">twesleyb/geneLists</a>
 										</div>
+
+										<aside data-markdown class="notes" >
+												transition: while spatial proteomics leverages the fact that many organelles are enclosed in a plasma membrane...
+										</aside>
+
 								</section>
 
 								<!-- background: proximity proteomics -->
 								<section>
 										<h4>Proximity Proteomics: Resolving Subcellular Space by Proximity Labeling</h4>
+
 										<figure>
 												<img src="./graphics/gphn.png" alt="gphn-bioid" style="width:65%">
 												<figcaption>Hard-to-reach subcellular compartments can be captured with BioID proximity proteomics.</figcaption>
@@ -109,6 +134,11 @@
 										<div class='foot-right'>
 												<a href="https://bit.ly/3wO1CkG" target="_blank">Uezu, Kanak and Bradshaw <em>et al.</em>, 2016</a>
 										</div>
+
+										<aside data-markdown class="notes" >
+												transition: both of these proteomics approaches use mass spectrometry to identify and quantify proteins...
+										</aside>
+
 								</section>
 
 								<!-- background: fundamental technology -->
@@ -122,17 +152,12 @@
 														<a href="https://github.com/twesleyb/tidyProt" target="_blank">twesleyb/tidyProt</a>
 												</div>
 										</figure> 
-								</section>
 
-								<!-- background: MS analysis
-				<section>
-				<h4>Basic Protein MS Analytical Workflow</h4>
-				<figure>
-				<img src="./graphics/ms-analysis.png" alt="ms" style="width:100%">
-				<figcaption>Normalization &rarr; Protein Summarization &rarr; Statistical Testing</figcaption>
-				</figure> 
-				</section>
-								-->
+										<aside data-markdown class="notes" >
+												transition: WASHC4
+										</aside>
+
+								</section>
 
 								<!-- intro: WASHC4 -->
 								<section>
@@ -145,6 +170,11 @@
 										<div class='foot-right'>
 												<a href="https://bit.ly/3qjL2qA" target="_blank">Ropers <em>et al.</em>, 2011</a>
 										</div>
+
+										<aside data-markdown class="notes" >
+												transition: SWIP is encoded by the WASHC4 gene, and is a component of the WASH complex...
+										</aside>
+
 								</section>
 
 								<!-- background: WASH Complex -->
@@ -159,6 +189,10 @@
 												<a href="https://bit.ly/2SlQufW" target="_blank">Valdmanis <em>et al.</em>, 2007</a>
 										</div>
 
+										<aside data-markdown class="notes" >
+												transition: work in yeast and heterologous cells...
+										</aside>
+
 								</section>
 
 								<!-- background: WASH Complex Function -->
@@ -170,6 +204,11 @@
 										<div class='foot-right'>
 												<a href="https://bit.ly/3gSvDsV" target="_blank">Derivery <em>et al.</em>, 2009</a>
 										</div>
+
+										<aside data-markdown class="notes" >
+												transition: to date, no one has studied the function of WASHC4 in the brain...
+										</aside>
+
 								</section>
 
 								<!-- transition: paper -->
@@ -180,25 +219,37 @@
 												<li>What is the function of WASHC4 in the brain?</li>
 												<li>What is the affect of the P1019R mutation on the neuronal proteome?</li>
 										</ul>
+
+										<aside data-markdown class="notes" >
+												transition: we addressed these questions using proteomics...
+										</aside>
+
 								</section>
 
 								<!-- results: WASH BioID -->
 								<section>
 										<h3>WASH <em>in vivo</em> BioID</h3>
 										<figure>
-												<img src="./graphics/bioid-ihc.png" alt="wash-bioid-ihc" style="width:75%">
+												<img src="./graphics/bioid-ihc.png" alt="wash-bioid-ihc" style="width:70%">
 										</figure> 
+										<p><b>Negative control:</b> Soluble BioID2</p>
+
+										<aside data-markdown class="notes" >
+												transition: I performed analysis in order to identify proteins that are significantly enriched...
+										</aside>
+
 								</section>
 
 								<!-- results: WASH Proximity Proteome -->
 								<section>
-										<h3>WASH Proximity Proteome</h3>
+										<h3>The WASH Proximity Proteome</h3>
 										<img class="r-stretch" src="./graphics/wash-bioid.png">
 										<p>Identification of the <em>in vivo</em> WASH proximity proteome supports its role in endosomal trafficking.</p>
-										<br>
-										<div class='foot-right'>
-												PPIs: <a href="https://github.com/twesleyb/getPPIs" target="_blank">twesleyb/getPPIs</a>
-										</div>
+
+										<aside data-markdown class="notes" >
+												transition: to further interrogate the function of WASHC4 in the brain...
+										</aside>
+
 								</section>
 
 								<!-- results: WASHC4 mutant mouse -->
@@ -208,8 +259,12 @@
 												<img src="./graphics/washc4mouse.png" alt="mut-mouse" style="width:100%">
 												<figcaption>The P1019R missense mutation results in decreased Strumpellin and WASH1 protein.</figcaption>
 										</figure> 
-								</section>
 
+										<aside data-markdown class="notes" >
+												transition: we used this mutant mouse to study the consequences of the P1019R mutation on the neuronal proteome...
+										</aside>
+
+								</section>
 
 								<!-- results: WASH Spatial Proteome -->
 								<section>
@@ -221,12 +276,17 @@
 												<div class='foot-right'>
 														LOPIT-DC: <a href="https://go.nature.com/3gQNKjW" target="_blank">Geladaki <em>et al.</em>, 2019</a>
 												</div>
+
+												<aside data-markdown class="notes" >
+														transition: analysis of these data presents several challenges...
+												</aside>
+
 								</section>
 
 								<!-- EMPHASIS: challenges -->
 								<section data-background-image="./graphics/spatprot-network.png" 
 										 data-background-size="contain" data-background-opacity=0.20>
-										<h3>Challenges inherint in analyzing spatial proteomics</h3>
+										<h3>Challenges inherit in analyzing spatial proteomics</h3>
 										<br>
 										<div class="container">
 												<div class="col">
@@ -242,6 +302,11 @@
 										<div class='foot-left'>
 												pRoloc: <a href="https://bit.ly/3wYPayA" target="_blank">Breckels, Gatto, Crook <em>et al.</em>, 2014, 2016, 2019</a>
 										</div>
+
+										<aside data-markdown class="notes" >
+												transition: my solution to these problems...
+										</aside>
+
 								</section>
 
 								<!-- EMPHASIS: Solutions -->
@@ -252,7 +317,7 @@
 										<div class="container">
 												<div class="col">
 														<h4>Community Detection</h4>
-														<em>Network Enhancment + Leiden Algorithm</em>
+														<em>Network Enhancement + Leiden Algorithm</em>
 														<br>
 														<small>neten: <a href="https://go.nature.com/3gT86Jv" target="_blank">Wang <em>et al.</em> 2018</a></small>
 														<small>leidenalg: <a href="https://go.nature.com/3gSl75U" target="_blank">Traag <em>et al.</em> 2019</a></small>
@@ -266,60 +331,57 @@
 														<small>t-statistic (lmerTest): <a href="https://bit.ly/3gYRnTX" target="_blank">Kuznetsova <em>et al.</em>, 2017</a></small>
 												</div>
 										</div>
+
+										<aside data-markdown class="notes" >
+												transition: I use linear models to assess differential abundance at two different resolutions...
+										</aside>
+
 								</section>
 
-								<!-- EMPHASIS: Module-level analysis -->
-								<section>
-										<h4>Module-level analysis powers biological insight in spatial proteomics</h4>
-										<figure>
-												<img src="./graphics/flow.png" alt="prot-complex-module" style="width:75%">
-										</figure> 
-										\[\begin{gather}
-										log_2(Protein Intensity) =  \mu + Condition\\
-										log_2(Module Intensity) =  \mu + Condition + (1|Protein)
-										\end{gather}\]
-								</section>
+								<!-- EMPHASIS: Module-level analysis
+				<section>
+				<h4>Module-level analysis powers biological insight in spatial proteomics</h4>
+				<figure>
+				<img src="./graphics/flow.png" alt="prot-complex-module" style="width:75%">
+				</figure> 
+				\[\begin{gather}
+				log_2(Protein Intensity) =  \mu + Condition\\
+				log_2(Module Intensity) =  \mu + Condition + (1|Protein)
+				\end{gather}\]
+
+				<aside data-markdown class="notes" >
+				transition:
+				</aside>
+
+				</section>
+								-->
 
 								<!-- overview: spatprot network -->
 								<section data-background-image="./graphics/spatprot-network.png" 
 										 data-background-size="contain" data-background-opacity=0.90>
 										<h2 class="r-fit-text">Neten + Leiden (Surprise)</h2>
-										<p>k=49</p>
+										<p>Nodes = 5,869</p>
+										<p>k = 49</p>
 										<br>
 										<p><small>Endosome (M38) | Lysosome (M36) | ER (M6) | Synapse (M27)</small></p>
+
+										<aside data-markdown class="notes" >
+												transition:
+										</aside>
+
 								</section>
 
 								<!-- results: Endosomal Module -->
 								<section>
-										<h3>Significant Dysruption of an Endosomal Module</h3>
+										<h3>Significant Disruption of an Endosomal Module Containing SWIP</h3>
 										<figure>
 												<img src="./graphics/endosome.png" alt="m38" style="width:70%">
 										</figure> 
-								</section>
 
-								<!-- results: Lysosome Module -->
-								<section>
-										<h3>Dysruption of a Lysosomal Protein Network</h3>
-										<figure>
-												<img src="./graphics/lysosome-2.png" alt="bioid" style="width:70%">
-										</figure> 
-								</section>
+										<aside data-markdown class="notes" >
+												transition:
+										</aside>
 
-								<!-- results: ER Stress Module -->
-								<section>
-										<h3>Dysruption of an ER Stress Associated Module</h3>
-										<figure>
-												<img src="./graphics/m6.png" alt="m6" style="width:70%">
-												<figcaption>Increased ER stress proteins: e.g. HSPA5, PDIA3, PDIA4, PDIA6, and DNAJC3</figcaption>
-										</figure> 
-								</section>
-
-								<!-- results: Synapse -->
-								<section>
-										<h4>Decreased abundance of a Synapse Module</h4>
-										<figure>
-												<img src="./graphics/synapse-2.png" alt="synapse" style="width:75%">
-										</figure> 
 								</section>
 
 								<!-- results: Endosome ICC -->
@@ -329,6 +391,24 @@
 												<img src="./graphics/endosome-icc.png" alt="endosome-icc" style="width:75%">
 												<figcaption>Increased early endosome volume is consistent with WASH-complex loss-of-function.</figcaption>
 										</figure> 
+
+										<aside data-markdown class="notes" >
+												transition:
+										</aside>
+
+								</section>
+
+								<!-- results: Lysosome Module -->
+								<section>
+										<h3>Disruption of a Lysosomal Protein Network</h3>
+										<figure>
+												<img src="./graphics/lysosome-2.png" alt="bioid" style="width:70%">
+										</figure> 
+
+										<aside data-markdown class="notes" >
+												transition:
+										</aside>
+
 								</section>
 
 								<!-- results: Lipofuscin -->
@@ -337,7 +417,53 @@
 										<figure>
 												<img src="./graphics/lyso-tem-2.png" alt="lyso-tem" style="width:100%">
 										</figure> 
+
+										<aside data-markdown class="notes" >
+												transition:
+										</aside>
+
 								</section>
+
+								<!-- results: ER Stress Module -->
+								<section>
+										<h3>Disruption of an ER Stress Associated Module</h3>
+										<figure>
+												<img src="./graphics/m6.png" alt="m6" style="width:70%">
+												<figcaption>Increased ER stress proteins: e.g. HSPA5, PDIA3, PDIA4, PDIA6, and DNAJC3</figcaption>
+										</figure> 
+
+										<aside data-markdown class="notes" >
+												transition:
+										</aside>
+
+								</section>
+
+								<!-- results: Neurodegeneration -->
+								<section>
+										<h3>Evidence of Neurodegeneration in SWIP<sup>P1019R</sup> Adult Motor Cortex</h3>
+										<figure>
+												<img src="./graphics/caspase.png" alt="caspase" style="width:50%">
+										</figure> 
+
+										<aside data-markdown class="notes" >
+												transition:
+										</aside>
+
+								</section>
+
+								<!-- results: Synapse -->
+								<section>
+										<h4>Decreased abundance of a Synapse Module</h4>
+										<figure>
+												<img src="./graphics/synapse-2.png" alt="synapse" style="width:75%">
+										</figure> 
+
+										<aside data-markdown class="notes" >
+												transition:
+										</aside>
+
+								</section>
+
 
 								<!-- results: Decreased Synapse Number -->
 								<section>
@@ -345,15 +471,13 @@
 										<figure>
 												<img src="./graphics/synapse-ihc.png" alt="synapse-ihc" style="width:50%">
 										</figure> 
+
+										<aside data-markdown class="notes" >
+												transition:
+										</aside>
+
 								</section>
-								
-								<!-- results: Neurodegeneration -->
-								<section>
-										<h3>Evidence of Neurodegeneration in SWIP<sup>P1019R</sup> Adult Motor Cortex</h3>
-										<figure>
-												<img src="./graphics/caspase.png" alt="caspase" style="width:50%">
-										</figure> 
-								</section>
+
 
 								<!-- results: aged-motor -->
 								<section>
@@ -361,14 +485,33 @@
 										<figure>
 												<img src="./graphics/treadscan.png" alt="varpart" style="width:75%">
 										</figure> 
+										<p><b>Not shown:</b> rotorod deficit, impaired fear conditioning</p>
+
+										<aside data-markdown class="notes" >
+												transition: strikingly, ...
+										</aside>
+
+								</section>
+
+								<!-- results: human-motor -->
+								<section>
+										<h3>Impaired motor behaviors in SWIP<sup>P1019R</sup> Patient Cohort</h3>
+										<figure>
+												<img src="./graphics/hs-motor.png" alt="hs-motor" style="width:100%">
+										</figure> 
+
+										<aside data-markdown class="notes" >
+												transition:
+										</aside>
+
 								</section>
 
 								<!-- Conclusions -->
 								<section>
 										<h3>Updated Model: Parallels with Neurodegeneration Disorders</h3>
-												<figure>
-														<img src="./graphics/model.png" alt="image" style="width:100%">
-												</figure> 
+										<figure>
+												<img src="./graphics/model.png" alt="image" style="width:100%">
+										</figure> 
 								</section>
 
 								<!-- Future Directions -->
@@ -421,7 +564,7 @@
 										<h3>Rogdi, Rav2, and the RAVE Complex</h3>
 										<figure>
 												<img src="./graphics/rogdi-rav2.png" alt="rogdi-structure" style="width:50%">
-												<figcaption>Structural alignment of Rogdi and Rav2.</figcaption>
+												<figcaption>Structural alignment of Rogdi and Reva2.</figcaption>
 										</figure> 
 										<br>
 										<div class='foot-right'>
@@ -441,7 +584,7 @@
 
 								<!-- network enhancment -->
 								<section>
-										<h3>Network Enhacment Facilitates Community Detection</h3>
+										<h3>Network Enhancement Facilitates Community Detection</h3>
 										<figure>
 												<img src="./graphics/neten.png" alt="neten" style="width:50%">
 										</figure> 
@@ -462,14 +605,25 @@
 								<!-- statistics -->
 								<section>
 										<h2>Extending Linear Models with Mixed Effects</h2>
-										\[\begin{aligned}
-										Y_{p} = X\beta_{p} + \epsilon_{p} \\ % lm
-										Y_{p} =  Z\alpha_{p} + X\beta_{p} + \epsilon_{p} \\ % lmer
-										\epsilon_{p} \stackrel{iid}{\sim} N(0,\sigma^2) \\ % e = N(0,s2)
-										\alpha_{p} \stackrel{iid}{\sim} N(0,\sigma_{Z}^2) \\ % a = N(0,s2)
-										H_0: l^T * \beta = 0 \\
-										t = \frac{l^T \hat{\beta}}{\sqrt{l \sigma^2 \hat{V} l^T}} \\ % t-stat
-										\end{aligned} \]
+
+										<div class="container">
+
+												<div class="col">
+														\[\begin{aligned}
+														Y_{p} = X\beta_{p} + \epsilon_{p} \\ % lm
+														Y_{p} =  Z\alpha_{p} + X\beta_{p} + \epsilon_{p} \\ % lmer
+														\epsilon_{p} \stackrel{iid}{\sim} N(0,\sigma^2) \\ % e = N(0,s2)
+														\alpha_{p} \stackrel{iid}{\sim} N(0,\sigma_{Z}^2) \\ % a = N(0,s2)
+														\end{aligned} \]
+												</div>
+
+												<div class="col">
+														\[\begin{aligned}
+														H_0: l^T * \beta = 0 \\
+														t = \frac{l^T \hat{\beta}}{\sqrt{l \sigma^2 \hat{V} l^T}} \\ % t-stat
+														\end{aligned} \]
+												</div>
+										</div>
 								</section>
 
 								<!-- leidenalg: cpm -->
@@ -493,21 +647,21 @@
 								</section>
 
 								<!-- aligning this shit is tough
-								<section data-markdown>
-										<h3>Assessing Differential Protein Abundance with <code>tidyProt</code></h3>
-										<textarea data-template>
-												```R
-												library(tidyProt)
-												data(swip, wash_bioid, package="SwipProteomics")
+				<section data-markdown>
+				<h3>Assessing Differential Protein Abundance with <code>tidyProt</code></h3>
+				<textarea data-template>
+				```R
+				library(tidyProt)
+				data(swip, wash_bioid, package="SwipProteomics")
 
-												fx <- log2(Intensity) ~ 0 + Condition
-						    fm <- lm(fx, data = subset(wash_bioid, Accession==swip)
+				fx <- log2(Intensity) ~ 0 + Condition
+				fm <- lm(fx, data = subset(wash_bioid, Accession==swip)
 
-											    LT <- getContrast(fm, "WASH","Control")
-											    lmTestContrast(fm, LT)		   
-												```
-										</textarea>
-								</section>
+				LT <- getContrast(fm, "WASH","Control")
+				lmTestContrast(fm, LT)		   
+				```
+				</textarea>
+				</section>
 								-->
 
 						</div>
