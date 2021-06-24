@@ -76,7 +76,6 @@
 										</div>
 								</section>
 
-
 								<!-- background: overview -->
 								<section>
 										<h4>Resolving Subcellular Space with Proximity and Spatial Proteomics</h4>
@@ -150,7 +149,7 @@
 
 								<!-- background: WASH Complex -->
 								<section>
-										<h3>WASHC4 is a Subunit of the Pentameric WASH Complex</h3>
+										<h3>SWIP is a Subunit of the Pentameric WASH Complex</h3>
 										<figure>
 												<img src="./graphics/washcnew.png" alt="washc" style="width:30%">
 												<figcaption>Mutations in WASHC4 (SWIP) and WASHC5 (Strumpellin) are associated with intellectual disability and spastic paraplegia.</figcaption>
@@ -214,7 +213,7 @@
 								<section>
 										<h3>SWIP Spatial Proteomics</h3>
 										<figure>
-												<img src="./graphics/spatprot-2.png" alt="spatial-proteomics" style="width:100%">
+												<img src="./graphics/spatprot.png" alt="spatial-proteomics" style="width:100%">
 												<figcaption>Profiling protein abundance across seven biological fractions (BioFractions).</figcaption>
 												<br>
 												<div class='foot-right'>
@@ -269,68 +268,62 @@
 
 								<!-- EMPHASIS: Module-level analysis -->
 								<section>
-										<h4>Extending linear models with mixed effects</h4>
-										\[log_2(Module Intensity) =  \mu + Condition + (1|Protein)\]
+										<h4>Module-level analysis powers biological insight in spatial proteomics</h4>
 										<figure>
 												<img src="./graphics/flow.png" alt="prot-complex-module" style="width:75%">
-												<figcaption>Module-level analysis powers biological insight in spatial proteomics.</figcaption>
 										</figure> 
-										<br><br>
-										<div class='foot-left'>
-										\[H_0: l^T * \beta = 0\]
-										</div>
-										<div class='foot-right'>
-										\[t = \frac{l^T \hat{\beta}}{\sqrt{l \sigma^2 \hat{V} l^T}}\]
-										</div>
+										\[\begin{gather}
+										log_2(Protein Intensity) =  \mu + Condition\\
+										log_2(Module Intensity) =  \mu + Condition + (1|Protein)
+										\end{gather}\]
 								</section>
 
 								<!-- overview: spatprot network -->
 								<section data-background-image="./graphics/spatprot-network.png" 
 										 data-background-size="contain" data-background-opacity=0.90>
+										<h2 class="r-fit-text">Neten + Leiden (Surprise)</h2>
+										<p>k=49</p>
+										<br>
+										<p>Endosome (M38) | Lysosome (M36) | Synapse (M27)</p>
 								</section>
 
 								<!-- results: Endosomal Module -->
 								<section>
-										<h3>Endosome</h3>
+										<h3>Significant Dysruption of an Endosomal Module</h3>
 										<figure>
 												<img src="./graphics/endosome.png" alt="m38" style="width:70%">
-												<figcaption>Decreased abundance of an endosomal module.</figcaption>
 										</figure> 
 								</section>
 
 								<!-- results: Lysosome Module -->
 								<section>
-										<h3>Lysosome</h3>
+										<h3>Dysruption of a Lysosomal Protein Network</h3>
 										<figure>
 												<img src="./graphics/lysosome-2.png" alt="bioid" style="width:70%">
-												<figcaption>Increased abundance of a lysosomal module.</figcaption>
 										</figure> 
 								</section>
 
 								<!-- results: Lipofuscin -->
 								<section>
-										<h3>Lysosome Module</h3>
+										<h3>Lipofuscin Accumulation in SWIP<sup>P1019R</sup> Mutant Brain</h3>
 										<figure>
 												<img src="./graphics/lyso-tem-2.png" alt="lyso-tem" style="width:100%">
-												<figcaption>Lipofuscin accumulation.</figcaption>
 										</figure> 
 								</section>
 
 								<!-- results: Synapse -->
 								<section>
-										<h3>Synapse Module</h3>
+										<h3>Decreased abundance of a Synapse Module</h3>
 										<figure>
-												<img src="./graphics/synapse-module.png" alt="synapse-module" style="width:100%">
-												<figcaption>Decreased abundance of a synapse module.</figcaption>
+												<img src="./graphics/synapse-2.png" alt="synapse" style="width:70%">
 										</figure> 
 								</section>
 
 								<!-- results: Decreased Synapse + Degeneration -->
 								<section>
-										<h3>Synapse and marker of neurodegeneration</h3>
+										<h3>Decreased Synapse Number in SWIP<sup>P1019R</sup> Adult Motor Cortex</h3>
 										<figure>
-												<img src="./graphics/synapse-caspase.png" alt="synapse-caspase" style="width:100%">
-												<figcaption>Degeneration.</figcaption>
+												<img src="./graphics/synapse-ihc.png" alt="synapse-ihc" style="width:50%">
 										</figure> 
 								</section>
 
@@ -373,7 +366,7 @@
 												<li>Dr. Jamie Courtland, MD, PhD</li>
 												<li>Dr. Scott Soderling, PhD</li>
 												<li>Dr. Akiyoshi Uezu, MD, PhD</li>
-												<li>Soderling Lab (SD, AP, JK, YG, EE, WB)</li>
+												<li>Soderling Lab</li>
 												<li>Greg Waitt and Duke's Proteomics Core Facility</li>
 												<li>Funding: (NIH F31 5F31NS113738-03)</li>
 										</ul>
@@ -387,6 +380,11 @@
 										<div class='foot-right'>
 												email: <a href="mailto: twesleyb10@gmail.com">twesleyb10@gmail.com</a>
 										</div>
+								</section>
+
+								<!-- Extras -->
+								<section>
+										<h2>Extra Slides</h2>
 								</section>
 
 								<!-- transition: Spatial Proteomics Network -->
@@ -449,29 +447,19 @@
 										<p><code>Konigsberg < Kaliningrad < Russia</code></p>
 								</section>
 
-								<section>
-										<h3>Assessing Differential Protein Abundance with <code>tidyProt</code></h3>
-
-										<pre><code data-trim>
-										library(tidyProt)
-										data(swip, wash_bioid, package="SwipProteomics")
-
-										fx <- log2(Intensity) ~ 0 + Condition
-															   fm <- lm(fx, data = subset(wash_bioid, Accession==swip)
-
-															   LT <- getContrast(fm, "WASH","Control")
-															   lmTestContrast(fm, LT)		   
-										</code></pre>
-								</section>
-
 								<section data-markdown>
+										<h3>Assessing Differential Protein Abundance with <code>tidyProt</code></h3>
 										<textarea data-template>
-												# foo
 												```
-												bar = 5
-												x <- 67
-												  y <- sample(x)
-												  ```
+												library(tidyProt)
+												data(swip, wash_bioid, package="SwipProteomics")
+
+												fx <- log2(Intensity) ~ 0 + Condition
+											    fm <- lm(fx, data = subset(wash_bioid, Accession==swip)
+
+											    LT <- getContrast(fm, "WASH","Control")
+											    lmTestContrast(fm, LT)		   
+												```
 										</textarea>
 								</section>
 
