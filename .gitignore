@@ -8,6 +8,9 @@ ARCHIVE/
 *.sw*
 *.bak
 
+# linthtml configuration
+.htmllintrc
+
 # reaveal.js to ignore
 .idea/
 *.iml
