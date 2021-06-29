@@ -16,7 +16,7 @@
 
 				<link rel="stylesheet" href="dist/reset.css">
 				<link rel="stylesheet" href="dist/reveal.css">
-				<link rel="stylesheet" href="dist/theme/custom.css" id="theme">
+				<link rel="stylesheet" href="lib/css/custom.css" id="theme">
 				<link rel="stylesheet" href="plugin/highlight/zenburn.css">
 		</head>
 
@@ -31,7 +31,7 @@
 								<section>
 										<em>Revealing Organization of the Neuronal Proteome with 
 												Proximity and Spatial Proteomics</em>
-										<img class="r-stretch" src="./images/goodsell.png">
+												<img src="./images/goodsell.png" alt="ms" style="width:50%">
 
 										<h3>Tyler W. A. Bradshaw</h3>
 										Neurobiology PhD
@@ -49,12 +49,7 @@
 										<aside data-markdown class="notes" >
 												# Hi, I'm Tyler Bradshaw!
 										</aside>
-								</section>
 
-								<!-- cytoscape example -->
-								<section>
-										<h2>Konigsberg Graph</h2>
-										<div id="graph1-cy" class="graph"></div>
 								</section>
 
 								<!-- objectives -->
@@ -77,11 +72,16 @@
 
 								</section>
 
+								<!-- example: cytoscape -->
+								<section>
+										<div id="graph1-cy" class="graph"></div>
+								</section>
+
 								<!-- background: fundamental biology -->
 								<section>
 										<h3>Cells are compartmentalized</h3>
 										<figure>
-												<img src="./images/synapses.png" alt="synapses" style="width:100%">
+												<img src="./images/synapses.png" alt="synapses" style="width:80%">
 												<figcaption>Cells are compartmentalized into functionally-defined membrane and non-membrane bound organelles.</figcaption>
 										</figure> 
 										<br>
@@ -652,11 +652,6 @@
 				</div>
 				<!-- end slides -->
 
-				<!-- cytoscape.js src -->
-				<script src="lib/cytoscape.min.js"></script>
-				<script src="lib/konigsberg_data.js"></script>
-				<script src="lib/konigsberg_graph.js"></script>
-
 				<!-- reveal.js src -->
 				<script src="dist/reveal.js"></script>
 				<script src="plugin/math/math.js"></script>
@@ -679,10 +674,16 @@
 								margin: 0,
 								minScale: 1,
 								maxScale: 1,
-								plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight, RevealMath]
+								transition: 'none',
+								// plugins
+								plugins: [RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight, RevealMath]
 						});
-
 				</script>
+
+				<!-- cytoscape.js src -->
+				<script src="lib/js/cytoscape/cytoscape.min.js"></script>
+				<script src="lib/graphs/graph_data.js"></script>
+				<script src="lib/graphs/graph1/graph1.js"></script>
 
 		</body>
 </html>

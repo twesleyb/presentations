@@ -383,3 +383,45 @@ section.has-light-background, section.has-light-background h1, section.has-light
 .reveal .col {
 		flex: 1;
 }
+
+/*********************************************
+ * CYTOSCAPE 
+ *********************************************/
+
+div.graph {
+  border-width: 0.1em;
+  border-style: solid;
+  border-color: transparent;
+  text-align: left;
+  height: 80vh;
+}
+
+#highlight-networks {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 6em; /* two icons at 3x size = 6em */
+  height: 6em;
+  border: 1em solid white;
+  border-radius: 50%;
+}
+
+i.logo-size {
+  font-size: 6em;
+}
+img.plain.logo {
+  margin: 0px;
+  background: transparent;
+}
+img.font-size {
+  height: 1em;
+}
+
+.org-list img.org {
+  float: left;
+  height: 4em;
+  background: #ffffff;
+  margin-left: 10px;
+  margin-right: 10px;
+}
