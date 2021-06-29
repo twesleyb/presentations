@@ -16,7 +16,7 @@
 
 				<link rel="stylesheet" href="dist/reset.css">
 				<link rel="stylesheet" href="dist/reveal.css">
-				<link rel="stylesheet" href="dist/theme/custom.css" id="theme">
+				<link rel="stylesheet" href="lib/css/custom.css" id="theme">
 				<link rel="stylesheet" href="plugin/highlight/zenburn.css">
 		</head>
 
@@ -31,7 +31,7 @@
 								<section>
 										<em>Revealing Organization of the Neuronal Proteome with 
 												Proximity and Spatial Proteomics</em>
-										<img class="r-stretch" src="./lib/images/goodsell.png">
+										<img src="./lib/images/goodsell.png" alt="goodsell" style="width:50%">
 
 										<h3>Tyler W. A. Bradshaw</h3>
 										Neurobiology PhD
@@ -70,6 +70,12 @@
 												Transition: Both proximity and spatial proteomics hinge upon a fundamental biological principle...
 										</aside>
 
+								</section>
+
+								<!-- example: cytoscape -->
+								<section>
+										<h2>Konigsberg Graph</h2>
+										<div id="konigsberg-graph" class="cytoscape"></div>
 								</section>
 
 								<!-- background: fundamental biology -->
@@ -647,6 +653,7 @@
 				</div>
 				<!-- end slides -->
 
+				<!-- reveal.js src -->
 				<script src="dist/reveal.js"></script>
 				<script src="plugin/math/math.js"></script>
 				<script src="plugin/zoom/zoom.js"></script>
@@ -657,15 +664,28 @@
 				<script>
 
 						Reveal.initialize({
+								// slide settings
 								controls: true,
 								progress: true,
 								center: true,
 								hash: true,
 								slideNumber: true,
-								plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight, RevealMath]
+								// cytoscape adjustments
+								width: '100%',
+								height: '100%',
+								margin: 0,
+								minScale: 1,
+								maxScale: 1,
+								// plugins
+								plugins: [RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight, RevealMath]
 						});
 
 				</script>
+
+				<!-- cytoscape.js src -->
+				<script src="lib/js/cytoscape/cytoscape.min.js"></script>
+				<script src="lib/graphs/konigsberg/data.js"></script>
+				<script src="lib/graphs/konigsberg/graph.js"></script>
 
 		</body>
 </html>
