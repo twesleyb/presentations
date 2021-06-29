@@ -37,3 +37,4 @@ gg=G
 * generate `graph.js`--> name should match graph `<div id>` tag
 * include cytoscape js source code (data, graph, cytoscape)
 * NOTE: order seems to be important! cytoscape.js src should be after reveal.js!
+* adjust slide size to be `with:100%` and `height:100%`
