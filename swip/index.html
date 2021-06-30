@@ -54,6 +54,7 @@
 
 								</section>
 
+
 								<!-- objectives -->
 								<section data-background-image="./lib/images/elife-image.png" 
 										 data-background-size="fill" data-background-opacity=0.20>
@@ -498,13 +499,19 @@
 
 								</section>
 
-
 								<!-- results: aged-motor -->
 								<section>
 										<h3>Motor Function Decline with Age</h3>
-										<figure>
-												<img src="./lib/images/treadscan.png" alt="varpart" style="width:100%">
-										</figure> 
+										<div class="container">
+												<div class="col">
+														<video data-autoplay src="./lib/images/treadscan.mp4" style="width:75%"></video>
+												</div>
+												<div class="col">
+														<figure>
+																<img src="./lib/images/treadscan.png" alt="varpart" style="width:50%">
+														</figure> 
+												</div>
+										</div>
 										<p><b>Not shown:</b> rotorod deficit, impaired fear conditioning</p>
 
 										<aside data-markdown class="notes" >
@@ -685,8 +692,8 @@
 								margin: 0.05,
 								minScale: 1,
 								maxScale: 1,
-								width: '100%',
-								height: '100%',
+								//width: '100%',
+								//height: '100%',
 								// plugins
 								plugins: [RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight, RevealMath]
 						});
