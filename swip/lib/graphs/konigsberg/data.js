@@ -1,3 +1,4 @@
+// konigsberg graph data -- exported from cytoscape 
 let data = {
 		"format_version" : "1.0",
 		"generated_by" : "cytoscape-3.8.2",

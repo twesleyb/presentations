@@ -1,3 +1,4 @@
+// konigsberg graph
 let netw = cytoscape({
   container: document.getElementById('konigsberg-graph'),
   elements: data.elements,
@@ -16,7 +17,7 @@ let netw = cytoscape({
 				}
 		],
   layout: {
-    name: 'circle'
+    name: 'cose'
   }
 });
 
