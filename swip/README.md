@@ -3,14 +3,18 @@
 
 ## Notes
 
-Start-up
+### Start-up
 ```
 npm install
 npm start
 localhost
 ```
 
-Vim Auto-indent
+### Vim Auto-indent
 ```
 gg=G
 ```
+
+### Appearance of cytoscape graphs
+* avoid apply global defaults like `width: '100%'`
+* style div element with css!
