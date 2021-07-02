@@ -19,3 +19,15 @@ dependencies: [
 ]
 
 ```
+
+# Use reveald3 to point to cytoscape!
+a cytoscape graph will have the following elements:
+* cytoscape.js, e.g. `cytoscape.min.js` --> put this in `lib/js/`
+* main page: index.html
+* graph data: data.json
+* graph code: code.js
+* graph style: style.css
+
+This way each graph can be a stand-alone page that is easy to work with and easy
+to point to within a reveal.js presentation. To render the static webpage we
+need reveald3!
