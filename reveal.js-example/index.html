@@ -1,40 +1,67 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<head>
+				<meta charset="utf-8">
+				<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+				<title>reveal.js</title>
 
-		<link rel="stylesheet" href="dist/reset.css">
-		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+				<link rel="stylesheet" href="dist/reset.css">
+				<link rel="stylesheet" href="dist/reveal.css">
+				<link rel="stylesheet" href="dist/theme/black.css">
 
-		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="plugin/highlight/monokai.css">
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
-		</div>
+				<!-- Additional reveald3 css -->
+				<link rel="stylesheet" href="lib/css/custom-gc.css">
 
-		<script src="dist/reveal.js"></script>
-		<script src="plugin/notes/notes.js"></script>
-		<script src="plugin/markdown/markdown.js"></script>
-		<script src="plugin/highlight/highlight.js"></script>
-		<script>
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
-			Reveal.initialize({
-				hash: true,
+				<!-- Theme used for syntax highlighted code -->
+				<link rel="stylesheet" href="plugin/highlight/monokai.css">
+		</head>
+		<body>
+				<div class="reveal">
+						<div class="slides">
 
-				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
-			});
-		</script>
-	</body>
+								<!-- simple slide with reveald3 -->
+								<section>
+										<div class="fig-container" data-file="d3-fig/eclipses.html"></div>
+								</section>
+
+								<!-- slide with reveald3 and custom css -->
+								<section>
+										<h3>Embed interactive D3 visualizations</h3>
+										<div class="row no-margin-top">
+												<div class="col-50">
+														<p>Embed D3 visualizations into slides, and keep the original interactivity.</p>
+														<p>(click on the globe and drag it to explore the different paths!)</p>
+														<p><span class="u">Visualization:</span><br><a href='https://bl.ocks.org/Fil/63366253a5d2f00640c15b096c29a38c' target='_blank'>Eclipses path</a> by Philippe Riviere and friends</p>
+														<p class="small">(Press right arrow or space bar to navigate to next slide)</p>
+												</div>
+												<div class="col-50 fig-container no-margin-top" data-file="d3-fig/eclipses.html">
+												</div>
+										</div>
+								</section>
+
+						</div>
+				</div>
+
+				<script src="dist/reveal.js"></script>
+				<script src="plugin/notes/notes.js"></script>
+				<script src="plugin/markdown/markdown.js"></script>
+				<script src="plugin/highlight/highlight.js"></script>
+				<script>
+						// More info about initialization & config:
+						// - https://revealjs.com/initialization/
+						// - https://revealjs.com/config/
+						Reveal.initialize({
+								hash: true,
+
+								// Learn about plugins: https://revealjs.com/plugins/
+								plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ],
+
+								dependencies: [
+										{ src: 'node_modules/reveald3/reveald3.js' }
+								]
+
+						});
+				</script>
+		</body>
 </html>
