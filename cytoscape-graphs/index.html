@@ -6,6 +6,7 @@
 
 				<title>reveal.js</title>
 
+				<!-- reveal.js css -->
 				<link rel="stylesheet" href="dist/reset.css">
 				<link rel="stylesheet" href="dist/reveal.css">
 				<link rel="stylesheet" href="dist/theme/black.css">
@@ -46,19 +47,12 @@
 				<script src="plugin/markdown/markdown.js"></script>
 				<script src="plugin/highlight/highlight.js"></script>
 				<script>
-						// More info about initialization & config:
-						// - https://revealjs.com/initialization/
-						// - https://revealjs.com/config/
 						Reveal.initialize({
 								hash: true,
-
-								// Learn about plugins: https://revealjs.com/plugins/
 								plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ],
-
 								dependencies: [
 										{ src: 'node_modules/reveald3/reveald3.js' }
 								]
-
 						});
 				</script>
 		</body>

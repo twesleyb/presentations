@@ -1,18 +1,9 @@
-body {
-  font-family: helvetica;
-  font-size: 14px;
-}
-
 #cy {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  left: 0;
-  top: 0;
-  z-index: 999;
-}
-
-h1 {
-  opacity: 0.5;
-  font-size: 1em;
+  border-width: 0.1em; /* a border can be helpful to visualize the position of a graph on the page */
+  border-style: solid;
+  border-color: white;
+  width: 80%; /* width of graph */
+  height: 80%; /* width of graph */
+  margin: auto; /* set to auto for centering */
+  z-index: 999; /* z-position of graph */
 }
