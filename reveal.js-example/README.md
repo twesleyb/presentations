@@ -31,3 +31,10 @@ a cytoscape graph will have the following elements:
 This way each graph can be a stand-alone page that is easy to work with and easy
 to point to within a reveal.js presentation. To render the static webpage we
 need reveald3!
+
+Its pretty easy now to incorporate any of the cytoscape examples. 
+
+Not sure how to save graph data as flat json and not cytoscape json (*.cyjs). 
+
+Documentation points to `cy.json()`
+
