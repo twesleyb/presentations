@@ -1,0 +1,5 @@
+* rm existing cytoscape graph
+* add reveald3 
+* add cytoscape src to lib/
+* add cytoscape example graph, e.g. grid to lib/
+* reformat konigsberg data and code 
