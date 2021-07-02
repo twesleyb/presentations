@@ -38,6 +38,5 @@ Not sure how to save graph data as flat json and not cytoscape json (*.cyjs).
 
 Documentation points to `cy.json()`
 
-
 With the following directory structure, all we need to do is point our
 presentation to a html file for a cytoscape graph!
