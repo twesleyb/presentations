@@ -1,5 +1,3 @@
-* rm existing cytoscape graph
-* add reveald3 
-* add cytoscape src to lib/
-* add cytoscape example graph, e.g. grid to lib/
-* reformat konigsberg data and code 
+* crop (time) treadscan video
+* incorporate treadscan video
+* resize everything... how to avoid forcing height/width for all slides to 100%?
