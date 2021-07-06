@@ -12,7 +12,7 @@ $.getJSON("data.json", function (data) {
 										'width': 85,
 										'height': 85,
 										'background-color': 'data(Color)',
-										'border-color': 'black',
+										'border-color': 'data(takamori)',
 										'border-width': 4,
 										'color': 'black',
 								}
