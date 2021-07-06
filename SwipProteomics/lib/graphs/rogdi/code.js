@@ -20,7 +20,7 @@ $.getJSON("data.json", function (data) {
 								selector: 'edge',
 								style: {
 										'width': '6px',
-										'color': 'red',
+										'line-color': 'mapData(weight, 1, 500, gray, red)',
 								}
 						}
 				],

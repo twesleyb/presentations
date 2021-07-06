@@ -85,26 +85,21 @@
 								<!-- intro: konigsberg solution -->
 								<section>
 										<h3>Euler 1735: Konigsberg Graph</h3>
-										<div class="fig-container" data-file="lib/graphs/konigsberg/index.html"></div>
+										<div class="fig-container r-stretch" data-file="lib/graphs/konigsberg/index.html"></div>
 								</section>
 
-								<!-- leidenalg: cpm -->
+								<!-- intro: community detection -->
 								<section>
-										<h3>Structure in Graphs at Multiple Resolutions</h3>
+										<h4>Two Routes to Community Detection</h4>
 										<div class="container">
-
 												<div class="col">
-														<img class="r-stretch" src="./lib/images/konigsberg-cropped.gif" alt="konigsberg-gif" style="width:75%">
+														<img class="r-stretch" src="./lib/images/svm.png" alt="svm">
+														<p><b>Supervised:</b> Support Vector Machine</p>
 												</div>
-
 												<div class="col">
-														<img class="r-stretch" src="./lib/images/cpm.png" alt="cpm" style="width:58%">
+														<img class="r-stretch" src="./lib/images/unsupervised.png" alt="unsupervised">
+														<p><b>Unsupervised:</b> Quality Optimization</p>
 												</div>
-										</div>
-										<p><code>Konigsberg < Kaliningrad < Russia</code></p>
-										<br>
-										<div class='foot-right'>
-												Leiden Algorithm: <a href="https://go.nature.com/3gSl75U" target="_blank">Traag <em>et al.</em> 2019</a>
 										</div>
 								</section>
 
@@ -137,18 +132,6 @@
 
 										<aside data-markdown class="notes" >
 												transition: proximity and spatial proteomics overview
-										</aside>
-
-								</section>
-
-								<!-- background: overview -->
-								<section>
-										<h4>Resolving Subcellular Space with Proximity and Spatial Proteomics</h4>
-										<img class="r-stretch" src="./lib/images/protms.png" alt="protms">
-										<p>Proximity Proteomics (A) and Spatial Proteomics (B) define protein subcellular localization.</p>
-
-										<aside data-markdown class="notes" >
-												transition: we can use proteomics to identify the proteins that reside at these specialized subcellular compartments...
 										</aside>
 
 								</section>
@@ -205,8 +188,8 @@
 								<!-- background: WASH Complex -->
 								<section>
 										<h3>SWIP is a Subunit of the Pentameric WASH Complex</h3>
-												<img class="r-stretch" src="./lib/images/washcnew.png" alt="washc">
-												<p>Mutations in WASHC4 (SWIP) and WASHC5 (Strumpellin) are associated with intellectual disability and spastic paraplegia.</p>
+										<img class="r-stretch" src="./lib/images/washcnew.png" alt="washc">
+										<p>Mutations in WASHC4 (SWIP) and WASHC5 (Strumpellin) are associated with intellectual disability and spastic paraplegia.</p>
 										<br>
 										<div class='foot-right'>
 												<a href="https://bit.ly/2SlQufW" target="_blank">Valdmanis <em>et al.</em>, 2007</a>
@@ -252,7 +235,7 @@
 								<!-- results: WASH BioID -->
 								<section>
 										<h3>WASH <em>in vivo</em> BioID</h3>
-												<img class="r-stretch" src="./lib/images/bioid-ihc.png" alt="wash-bioid-ihc">
+										<img class="r-stretch" src="./lib/images/bioid-ihc.png" alt="wash-bioid-ihc">
 										<p><b>Negative control:</b> Soluble BioID2</p>
 
 										<aside data-markdown class="notes" >
@@ -264,7 +247,7 @@
 								<!-- results: WASH Proximity Proteome -->
 								<section>
 										<h3>The WASH Proximity Proteome</h3>
-												<img class="r-stretch" src="./lib/images/wash-bioid.png" alt="bioid-netw">
+										<img class="r-stretch" src="./lib/images/wash-bioid.png" alt="bioid-netw">
 										<p>Identification of the <em>in vivo</em> WASH proximity proteome supports its role in endosomal trafficking.</p>
 
 										<aside data-markdown class="notes" >
@@ -276,8 +259,8 @@
 								<!-- results: WASHC4 mutant mouse -->
 								<section>
 										<h3>A WASHC4<sup>P1019R</sup> Mutant Mouse</h3>
-												<img class="r-stretch" src="./lib/images/washc4mouse.png" alt="mut-mouse">
-												<p>The P1019R missense mutation results in decreased Strumpellin and WASH1 protein.</p>
+										<img class="r-stretch" src="./lib/images/washc4mouse.png" alt="mut-mouse">
+										<p>The P1019R missense mutation results in decreased Strumpellin and WASH1 protein.</p>
 
 										<aside data-markdown class="notes" >
 												transition: we used this mutant mouse to study the consequences of the P1019R mutation on the neuronal proteome...
@@ -288,16 +271,16 @@
 								<!-- results: WASH Spatial Proteome -->
 								<section>
 										<h3>SWIP Spatial Proteomics</h3>
-												<img class="r-stretch" src="./lib/images/spatprot.png" alt="spatial-proteomics">
-												<p>Profiling protein abundance across seven biological fractions (BioFractions).</p>
-												<br>
-												<div class='foot-right'>
-														LOPIT-DC: <a href="https://go.nature.com/3gQNKjW" target="_blank">Geladaki <em>et al.</em>, 2019</a>
-												</div>
+										<img class="r-stretch" src="./lib/images/spatprot.png" alt="spatial-proteomics">
+										<p>Profiling protein abundance across seven biological fractions (BioFractions).</p>
+										<br>
+										<div class='foot-right'>
+												LOPIT-DC: <a href="https://go.nature.com/3gQNKjW" target="_blank">Geladaki <em>et al.</em>, 2019</a>
+										</div>
 
-												<aside data-markdown class="notes" >
-														transition: analysis of these data presents several challenges...
-												</aside>
+										<aside data-markdown class="notes" >
+												transition: analysis of these data presents several challenges...
+										</aside>
 
 								</section>
 
@@ -408,7 +391,7 @@
 								<!-- results: Lipofuscin -->
 								<section>
 										<h3>Lipofuscin Accumulation in SWIP<sup>P1019R</sup> Mutant Brain</h3>
-												<img class="r-stretch" src="./lib/images/lyso-tem-2.png" alt="lyso-tem">
+										<img class="r-stretch" src="./lib/images/lyso-tem.png" alt="lyso-tem">
 
 										<aside data-markdown class="notes" >
 												transition:
@@ -419,8 +402,8 @@
 								<!-- results: ER Stress Module -->
 								<section>
 										<h3>Disruption of an ER Stress Associated Module</h3>
-												<img class="r-stretch" src="./lib/images/m6.png" alt="m6">
-												<p>Increased ER stress proteins: e.g. HSPA5, PDIA3, PDIA4, PDIA6, and DNAJC3</p>
+										<img class="r-stretch" src="./lib/images/m6.png" alt="m6">
+										<p>Increased ER stress proteins: e.g. HSPA5, PDIA3, PDIA4, PDIA6, and DNAJC3</p>
 
 										<aside data-markdown class="notes" >
 												transition:
@@ -431,7 +414,7 @@
 								<!-- results: Neurodegeneration -->
 								<section>
 										<h4>Evidence of Neurodegeneration in SWIP<sup>P1019R</sup> Adult Motor Cortex</h4>
-												<img class="r-stretch" src="./lib/images/caspase.png" alt="caspase">
+										<img class="r-stretch" src="./lib/images/caspase.png" alt="caspase">
 
 										<aside data-markdown class="notes" >
 												transition:
@@ -442,26 +425,13 @@
 								<!-- results: Synapse -->
 								<section>
 										<h4>Decreased abundance of a Synapse Module</h4>
-												<img class="r-stretch" src="./lib/images/synapse-2.png" alt="synapse">
+										<img class="r-stretch" src="./lib/images/synapse-2.png" alt="synapse">
 
 										<aside data-markdown class="notes" >
 												transition:
 										</aside>
 
 								</section>
-
-
-								<!-- results: Decreased Synapse Number 
-								<section>
-										<h4>Decreased Synapse Number in SWIP<sup>P1019R</sup> Adult Motor Cortex</h4>
-												<img class="r-stretch" src="./lib/images/synapse-ihc.png" alt="synapse-ihc">
-
-										<aside data-markdown class="notes" >
-												transition:
-										</aside>
-
-								</section>
-								-->
 
 								<!-- results: aged-motor -->
 								<section>
@@ -469,12 +439,13 @@
 										<div class="container">
 												<div class="col">
 														<figure>
+																<figcaption>Treadscan</figcaption>
 																<video data-autoplay src="./lib/images/treadscan.mp4" style="width:100%"></video>
 														</figure>
 												</div>
 												<div class="col">
 														<figure>
-																<img src="./lib/images/treadscan.png" alt="varpart" style="width:70%">
+																<img src="./lib/images/treadscan.png" alt="treadscan" style="width:80%">
 														</figure> 
 												</div>
 										</div>
@@ -489,7 +460,7 @@
 								<!-- results: human-motor -->
 								<section>
 										<h3>Impaired motor behaviors in SWIP<sup>P1019R</sup> Patient Cohort</h3>
-												<img class="r-stretch" src="./lib/images/hs-motor.png" alt="hs-motor">
+										<img class="r-stretch" src="./lib/images/hs-motor.png" alt="hs-motor">
 
 										<aside data-markdown class="notes" >
 												transition:
@@ -500,7 +471,7 @@
 								<!-- Conclusions -->
 								<section>
 										<h4>Parallels with Neurodegeneration Disorders</h4>
-												<img class="r-stretch" src="./lib/images/model.png" alt="image">
+										<img class="r-stretch" src="./lib/images/model.png" alt="image">
 								</section>
 
 								<!-- Future Directions -->
@@ -543,10 +514,106 @@
 										</div>
 								</section>
 
-								<!-- predicting protein subcellular localization -->
+								<!-- extras -->
 								<section>
+										<h2 class="r-fit-text">Extra Slides</h2>
+								</section>
+
+								<!-- background: overview -->
+								<section>
+										<h4>Resolving Subcellular Space with Proximity and Spatial Proteomics</h4>
+										<img class="r-stretch" src="./lib/images/protms.png" alt="protms">
+										<p>Proximity Proteomics (A) and Spatial Proteomics (B) define protein subcellular localization.</p>
+
+										<aside data-markdown class="notes" >
+												transition: we can use proteomics to identify the proteins that reside at these specialized subcellular compartments...
+										</aside>
+
+								</section>
+
+
+								<!-- leidenalg: cpm -->
+								<section>
+										<h3>Structure in Graphs at Multiple Resolutions</h3>
+										<div class="container">
+
+												<div class="col">
+														<img class="r-stretch" src="./lib/images/konigsberg-cropped.gif" alt="konigsberg-gif" style="width:75%">
+												</div>
+
+												<div class="col">
+														<img class="r-stretch" src="./lib/images/cpm.png" alt="cpm" style="width:58%">
+												</div>
+										</div>
+										<p><code>Konigsberg < Kaliningrad < Europe</code></p>
+										<br>
+										<div class='foot-right'>
+												Leiden Algorithm: <a href="https://go.nature.com/3gSl75U" target="_blank">Traag <em>et al.</em> 2019</a>
+										</div>
+								</section>
+
+								<!-- network enhancment -->
+								<section>
+										<h3>Network Enhancement Facilitates Community Detection</h3>
+												<img class="r-stretch" src="./lib/images/neten.png" alt="neten">
+								</section>
+
+								<!-- variance partition -->
+								<section>
+										<h3>Partitioning the Variance</h3>
+												<img src="./lib/images/varpart.png" alt="varpart" style="width:70%">
+												<br><br>
+										<div class='foot-right'>
+												<a href="https://bit.ly/35OtYiG" target="_blank">Hoffman <em>et al.</em> 2016, 2019</a>
+										</div>
+								</section>
+								
+								<!-- statistics -->
+								<section>
+										<h2>Extending Linear Models with Mixed Effects</h2>
+
+										<div class="container">
+
+												<div class="col">
+														\[\begin{aligned}
+														Y_{p} = X\beta_{p} + \epsilon_{p} \\ % lm
+														Y_{p} =  Z\alpha_{p} + X\beta_{p} + \epsilon_{p} \\ % lmer
+														\epsilon_{p} \stackrel{iid}{\sim} N(0,\sigma^2) \\ % e = N(0,s2)
+														\alpha_{p} \stackrel{iid}{\sim} N(0,\sigma_{Z}^2) \\ % a = N(0,s2)
+														\end{aligned} \]
+												</div>
+
+												<div class="col">
+														\[\begin{aligned}
+														H_0: l^T * \beta = 0 \\
+														t = \frac{l^T \hat{\beta}}{\sqrt{l \sigma^2 \hat{V} l^T}} \\ % t-stat
+														\end{aligned} \]
+												</div>
+										</div>
+								</section>
+
+								<!-- edgeR GOF -->
+								<section>
+										<h3>Goodness-of-fit of the <code>edgeR</code> model for TMT Proteomics</h3>
+												<img class="r-stretch" src="./lib/images/gof.png" alt="gof">
+												<p>Quantile-Quantile plots evaluating the goodness of fit of the NB model for TMT proteomics data.</p>
+								</section>
+
+								<!-- predicting protein subcellular localization -->
+								<section data-background-image="lib/images/sv.png" data-background-position="top right" data-background-size="3em">
 										<h4>A presynaptic vesicle module containing ROGDI, WDR7, and DMXL2</h4>
-										<div class="fig-container" data-file="lib/graphs/rogdi/index.html"></div>
+										<div class="fig-container r-stretch" data-file="lib/graphs/rogdi/index.html"></div>
+								</section>
+
+								<!-- Rogdi-Rav2 alignment -->
+								<section>
+										<h3>Rogdi, Rav2, and the RAVE Complex</h3>
+												<img class="r-stretch" src="./lib/images/rogdi-rav2.png" alt="rogdi-structure">
+												<p>Structural alignment of Rogdi and Rav2.</p>
+										<br>
+										<div class='foot-right'>
+												Rogdi crystal structure: <a href="https://go.nature.com/3d6jpf1" target="_blank">Lee <em>et al.</em>, 2017</a>
+										</div>
 								</section>
 
 						</div>
