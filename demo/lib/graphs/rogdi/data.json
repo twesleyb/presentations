@@ -1,0 +1,6465 @@
+{
+    "nodes" : [ {
+      "data" : {
+        "id" : "43140",
+        "sigprot" : "0",
+        "DF" : "26.00000",
+        "isSingular" : "FALSE",
+        "PROTO" : false,
+        "Symbol" : "Atp6v0a1",
+        "shared_name" : "Q9Z1G4",
+        "UniProt_Cyto" : false,
+        "Pvalue" : "4.246581e-01",
+        "SE" : "0.037467443",
+        "PEROXI" : false,
+        "FDR" : "6.789055e-01",
+        "SUID" : 43140,
+        "id_original" : "Atp6v0a1|Q9Z1G4",
+        "selected" : false,
+        "RIBOSOME" : false,
+        "isWASH" : "0",
+        "Color" : "gray",
+        "label" : "65",
+        "ER" : false,
+        "Contrast" : "Mutant-Control",
+        "Protein" : "ATP6V0A1",
+        "log2FoldChange" : -0.02835054,
+        "MITO" : false,
+        "Padjust" : "1.000000e+00",
+        "size" : 891.342838193163,
+        "NUCLEUS" : false,
+        "Tstatistic" : "-8.111235e-01",
+        "percentControl" : "0.9791551",
+        "name" : "Q9Z1G4",
+        "takamori" : "yellow",
+        "CYTOSOL" : false,
+        "Module" : "M35",
+        "log2FC" : "-3.039072e-02",
+        "PM" : false,
+        "Entrez" : "    11975",
+        "S2" : "0.0147399977"
+      },
+      "position" : {
+        "x" : -83.09888276334664,
+        "y" : 319.0469875289432
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43139",
+        "sigprot" : "0",
+        "DF" : "26.00000",
+        "isSingular" : "FALSE",
+        "PROTO" : false,
+        "Symbol" : "Atp6v1c1",
+        "shared_name" : "Q9Z1G3",
+        "UniProt_Cyto" : false,
+        "Pvalue" : "7.617701e-01",
+        "SE" : "0.036307056",
+        "PEROXI" : false,
+        "FDR" : "8.980724e-01",
+        "SUID" : 43139,
+        "id_original" : "Atp6v1c1|Q9Z1G3",
+        "selected" : false,
+        "RIBOSOME" : false,
+        "isWASH" : "0",
+        "Color" : "gray",
+        "label" : "64",
+        "ER" : false,
+        "Contrast" : "Mutant-Control",
+        "Protein" : "ATP6V1C1",
+        "log2FoldChange" : 0.007001443,
+        "MITO" : false,
+        "Padjust" : "1.000000e+00",
+        "size" : 1817.98945747269,
+        "NUCLEUS" : false,
+        "Tstatistic" : "-3.063606e-01",
+        "percentControl" : "0.9923197",
+        "name" : "Q9Z1G3",
+        "takamori" : "yellow",
+        "CYTOSOL" : false,
+        "Module" : "M35",
+        "log2FC" : "-1.112305e-02",
+        "PM" : false,
+        "Entrez" : "    66335",
+        "S2" : "0.0138411241"
+      },
+      "position" : {
+        "x" : -37.15322191229643,
+        "y" : 91.1785698406893
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43138",
+        "sigprot" : "0",
+        "DF" : "26.00000",
+        "isSingular" : "FALSE",
+        "PROTO" : false,
+        "Symbol" : "Atp6v1g2",
+        "shared_name" : "Q9WTT4",
+        "UniProt_Cyto" : false,
+        "Pvalue" : "4.409907e-01",
+        "SE" : "0.050478429",
+        "PEROXI" : false,
+        "FDR" : "6.913787e-01",
+        "SUID" : 43138,
+        "id_original" : "Atp6v1g2|Q9WTT4",
+        "selected" : false,
+        "RIBOSOME" : false,
+        "isWASH" : "0",
+        "Color" : "gray",
+        "label" : "63",
+        "ER" : false,
+        "Contrast" : "Mutant-Control",
+        "Protein" : "ATP6V1G2",
+        "log2FoldChange" : 0.02407273,
+        "MITO" : false,
+        "Padjust" : "1.000000e+00",
+        "size" : 1308.74036112505,
+        "NUCLEUS" : false,
+        "Tstatistic" : " 7.824985e-01",
+        "percentControl" : "1.0277571",
+        "name" : "Q9WTT4",
+        "takamori" : "yellow",
+        "CYTOSOL" : false,
+        "Module" : "M35",
+        "log2FC" : " 3.949930e-02",
+        "PM" : false,
+        "Entrez" : "    66237",
+        "S2" : "0.0267547539"
+      },
+      "position" : {
+        "x" : -30.994868754474737,
+        "y" : -74.23056801615894
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43137",
+        "sigprot" : "0",
+        "DF" : "26.00000",
+        "isSingular" : "FALSE",
+        "PROTO" : false,
+        "Symbol" : "Usp21",
+        "shared_name" : "Q9QZL6",
+        "UniProt_Cyto" : false,
+        "Pvalue" : "2.805063e-01",
+        "SE" : "0.058188819",
+        "PEROXI" : false,
+        "FDR" : "5.502417e-01",
+        "SUID" : 43137,
+        "id_original" : "Usp21|Q9QZL6",
+        "selected" : false,
+        "RIBOSOME" : false,
+        "isWASH" : "0",
+        "Color" : "gray",
+        "label" : "62",
+        "ER" : false,
+        "Contrast" : "Mutant-Control",
+        "Protein" : "USP21",
+        "log2FoldChange" : -0.08548878,
+        "MITO" : false,
+        "Padjust" : "1.000000e+00",
+        "size" : 871.671823352348,
+        "NUCLEUS" : false,
+        "Tstatistic" : "-1.102123e+00",
+        "percentControl" : "0.9565212",
+        "name" : "Q9QZL6",
+        "takamori" : "black",
+        "CYTOSOL" : false,
+        "Module" : "M35",
+        "log2FC" : "-6.413122e-02",
+        "PM" : false,
+        "Entrez" : "    30941",
+        "S2" : "0.0355523558"
+      },
+      "position" : {
+        "x" : 21.315871392944246,
+        "y" : 64.55221131176222
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43136",
+        "sigprot" : "0",
+        "DF" : "26.00000",
+        "isSingular" : "FALSE",
+        "PROTO" : false,
+        "Symbol" : "Reep6",
+        "shared_name" : "Q9JM62",
+        "UniProt_Cyto" : false,
+        "Pvalue" : "8.687488e-02",
+        "SE" : "0.053843139",
+        "PEROXI" : false,
+        "FDR" : "2.749383e-01",
+        "SUID" : 43136,
+        "id_original" : "Reep6|Q9JM62",
+        "selected" : false,
+        "RIBOSOME" : false,
+        "isWASH" : "0",
+        "Color" : "gray",
+        "label" : "61",
+        "ER" : false,
+        "Contrast" : "Mutant-Control",
+        "Protein" : "REEP6",
+        "log2FoldChange" : -0.09077887,
+        "MITO" : false,
+        "Padjust" : "1.000000e+00",
+        "size" : 446.10229657773,
+        "NUCLEUS" : false,
+        "Tstatistic" : "-1.779360e+00",
+        "percentControl" : "0.9357491",
+        "name" : "Q9JM62",
+        "takamori" : "black",
+        "CYTOSOL" : false,
+        "Module" : "M35",
+        "log2FC" : "-9.580630e-02",
+        "PM" : false,
+        "Entrez" : "    70335",
+        "S2" : "0.0304403775"
+      },
+      "position" : {
+        "x" : -340.19456855887256,
+        "y" : 183.55294105032226
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43135",
+        "sigprot" : "1",
+        "DF" : "26.00000",
+        "isSingular" : "FALSE",
+        "PROTO" : false,
+        "Symbol" : "Rab37",
+        "shared_name" : "Q9JKM7",
+        "UniProt_Cyto" : false,
+        "Pvalue" : "5.244089e-09",
+        "SE" : "0.023819376",
+        "PEROXI" : false,
+        "FDR" : "7.191719e-07",
+        "SUID" : 43135,
+        "id_original" : "Rab37|Q9JKM7",
+        "selected" : false,
+        "RIBOSOME" : false,
+        "isWASH" : "0",
+        "Color" : "gray",
+        "label" : "60",
+        "ER" : false,
+        "Contrast" : "Mutant-Control",
+        "Protein" : "RAB37",
+        "log2FoldChange" : -0.2276436,
+        "MITO" : false,
+        "Padjust" : "3.092439e-05",
+        "size" : 722.682114064947,
+        "NUCLEUS" : false,
+        "Tstatistic" : "-8.526569e+00",
+        "percentControl" : "0.8686834",
+        "name" : "Q9JKM7",
+        "takamori" : "black",
+        "CYTOSOL" : false,
+        "Module" : "M35",
+        "log2FC" : "-2.030976e-01",
+        "PM" : false,
+        "Entrez" : "    58222",
+        "S2" : "0.0059573078"
+      },
+      "position" : {
+        "x" : 362.4315331671896,
+        "y" : 73.23086266798782
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43134",
+        "sigprot" : "0",
+        "DF" : "26.00000",
+        "isSingular" : "FALSE",
+        "PROTO" : false,
+        "Symbol" : "Scamp5",
+        "shared_name" : "Q9JKD3",
+        "UniProt_Cyto" : false,
+        "Pvalue" : "2.881555e-01",
+        "SE" : "0.036970199",
+        "PEROXI" : false,
+        "FDR" : "5.558563e-01",
+        "SUID" : 43134,
+        "id_original" : "Scamp5|Q9JKD3",
+        "selected" : false,
+        "RIBOSOME" : false,
+        "isWASH" : "0",
+        "Color" : "gray",
+        "label" : "59",
+        "ER" : false,
+        "Contrast" : "Mutant-Control",
+        "Protein" : "SCAMP5",
+        "log2FoldChange" : -0.005173332,
+        "MITO" : false,
+        "Padjust" : "1.000000e+00",
+        "size" : 1158.02160795875,
+        "NUCLEUS" : false,
+        "Tstatistic" : "-1.084367e+00",
+        "percentControl" : "0.9725948",
+        "name" : "Q9JKD3",
+        "takamori" : "yellow",
+        "CYTOSOL" : false,
+        "Module" : "M35",
+        "log2FC" : "-4.008925e-02",
+        "PM" : false,
+        "Entrez" : "    56807",
+        "S2" : "0.0143513539"
+      },
+      "position" : {
+        "x" : -252.7998852630626,
+        "y" : 300.1767340845472
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43133",
+        "sigprot" : "1",
+        "DF" : "28.00000",
+        "isSingular" : " TRUE",
+        "PROTO" : false,
+        "Symbol" : "Ybx3",
+        "shared_name" : "Q9JKB3",
+        "UniProt_Cyto" : false,
+        "Pvalue" : "5.287522e-03",
+        "SE" : "0.040420673",
+        "PEROXI" : false,
+        "FDR" : "4.081219e-02",
+        "SUID" : 43133,
+        "id_original" : "Ybx3|Q9JKB3",
+        "selected" : false,
+        "RIBOSOME" : false,
+        "isWASH" : "0",
+        "Color" : "gray",
+        "label" : "58",
+        "ER" : false,
+        "Contrast" : "Mutant-Control",
+        "Protein" : "YBX3",
+        "log2FoldChange" : -0.1226807,
+        "MITO" : false,
+        "Padjust" : "1.000000e+00",
+        "size" : 731.240348951695,
+        "NUCLEUS" : false,
+        "Tstatistic" : "-3.024426e+00",
+        "percentControl" : "0.9187541",
+        "name" : "Q9JKB3",
+        "takamori" : "black",
+        "CYTOSOL" : false,
+        "Module" : "M35",
+        "log2FC" : "-1.222493e-01",
+        "PM" : false,
+        "Entrez" : "    56449",
+        "S2" : "0.0171552232"
+      },
+      "position" : {
+        "x" : 273.78339294286707,
+        "y" : 44.803691379507654
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43132",
+        "sigprot" : "0",
+        "DF" : "26.00000",
+        "isSingular" : "FALSE",
+        "PROTO" : false,
+        "Symbol" : "Sh3glb1",
+        "shared_name" : "Q9JK48",
+        "UniProt_Cyto" : false,
+        "Pvalue" : "8.942123e-01",
+        "SE" : "0.031922977",
+        "PEROXI" : false,
+        "FDR" : "9.578965e-01",
+        "SUID" : 43132,
+        "id_original" : "Sh3glb1|Q9JK48",
+        "selected" : false,
+        "RIBOSOME" : false,
+        "isWASH" : "0",
+        "Color" : "gray",
+        "label" : "57",
+        "ER" : false,
+        "Contrast" : "Mutant-Control",
+        "Protein" : "SH3GLB1",
+        "log2FoldChange" : 0.009754298,
+        "MITO" : false,
+        "Padjust" : "1.000000e+00",
+        "size" : 1251.03887713609,
+        "NUCLEUS" : false,
+        "Tstatistic" : "-1.342838e-01",
+        "percentControl" : "0.9970331",
+        "name" : "Q9JK48",
+        "takamori" : "black",
+        "CYTOSOL" : false,
+        "Module" : "M35",
+        "log2FC" : "-4.286738e-03",
+        "PM" : false,
+        "Entrez" : "    54673",
+        "S2" : "0.0107003027"
+      },
+      "position" : {
+        "x" : 31.098849496054754,
+        "y" : -86.25943832742632
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43131",
+        "sigprot" : "0",
+        "DF" : "26.00000",
+        "isSingular" : "FALSE",
+        "PROTO" : false,
+        "Symbol" : "Sv2a",
+        "shared_name" : "Q9JIS5",
+        "UniProt_Cyto" : false,
+        "Pvalue" : "1.573492e-01",
+        "SE" : "0.028345361",
+        "PEROXI" : false,
+        "FDR" : "3.990917e-01",
+        "SUID" : 43131,
+        "id_original" : "Sv2a|Q9JIS5",
+        "selected" : false,
+        "RIBOSOME" : false,
+        "isWASH" : "0",
+        "Color" : "gray",
+        "label" : "56",
+        "ER" : false,
+        "Contrast" : "Mutant-Control",
+        "Protein" : "SV2A",
+        "log2FoldChange" : -0.03409237,
+        "MITO" : false,
+        "Padjust" : "1.000000e+00",
+        "size" : 1187.32434120666,
+        "NUCLEUS" : false,
+        "Tstatistic" : "-1.456050e+00",
+        "percentControl" : "0.9717976",
+        "name" : "Q9JIS5",
+        "takamori" : "yellow",
+        "CYTOSOL" : false,
+        "Module" : "M35",
+        "log2FC" : "-4.127226e-02",
+        "PM" : false,
+        "Entrez" : "    64051",
+        "S2" : "0.0084363248"
+      },
+      "position" : {
+        "x" : -59.258164183062036,
+        "y" : 52.79656362722744
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43130",
+        "sigprot" : "0",
+        "DF" : "26.00000",
+        "isSingular" : "FALSE",
+        "PROTO" : false,
+        "Symbol" : "Sphk2",
+        "shared_name" : "Q9JIA7",
+        "UniProt_Cyto" : false,
+        "Pvalue" : "2.162871e-02",
+        "SE" : "0.026083557",
+        "PEROXI" : false,
+        "FDR" : "1.101545e-01",
+        "SUID" : 43130,
+        "id_original" : "Sphk2|Q9JIA7",
+        "selected" : false,
+        "RIBOSOME" : false,
+        "isWASH" : "0",
+        "Color" : "gray",
+        "label" : "55",
+        "ER" : false,
+        "Contrast" : "Mutant-Control",
+        "Protein" : "SPHK2",
+        "log2FoldChange" : -0.06652693,
+        "MITO" : false,
+        "Padjust" : "1.000000e+00",
+        "size" : 1193.2504690872,
+        "NUCLEUS" : false,
+        "Tstatistic" : "-2.443802e+00",
+        "percentControl" : "0.9567785",
+        "name" : "Q9JIA7",
+        "takamori" : "black",
+        "CYTOSOL" : false,
+        "Module" : "M35",
+        "log2FC" : "-6.374306e-02",
+        "PM" : false,
+        "Entrez" : "    56632",
+        "S2" : "0.0071436956"
+      },
+      "position" : {
+        "x" : 123.548075853294,
+        "y" : 147.47499992606754
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43129",
+        "sigprot" : "0",
+        "DF" : "26.00000",
+        "isSingular" : "FALSE",
+        "PROTO" : false,
+        "Symbol" : "Snap29",
+        "shared_name" : "Q9ERB0",
+        "UniProt_Cyto" : false,
+        "Pvalue" : "2.651295e-01",
+        "SE" : "0.035083869",
+        "PEROXI" : false,
+        "FDR" : "5.348850e-01",
+        "SUID" : 43129,
+        "id_original" : "Snap29|Q9ERB0",
+        "selected" : false,
+        "RIBOSOME" : false,
+        "isWASH" : "0",
+        "Color" : "gray",
+        "label" : "54",
+        "ER" : false,
+        "Contrast" : "Mutant-Control",
+        "Protein" : "SNAP29",
+        "log2FoldChange" : -0.03659607,
+        "MITO" : false,
+        "Padjust" : "1.000000e+00",
+        "size" : 458.89462393929,
+        "NUCLEUS" : false,
+        "Tstatistic" : "-1.138901e+00",
+        "percentControl" : "0.9726839",
+        "name" : "Q9ERB0",
+        "takamori" : "yellow",
+        "CYTOSOL" : false,
+        "Module" : "M35",
+        "log2FC" : "-3.995706e-02",
+        "PM" : false,
+        "Entrez" : "    67474",
+        "S2" : "0.0129242179"
+      },
+      "position" : {
+        "x" : 99.30698630712585,
+        "y" : -136.9328350074557
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43128",
+        "sigprot" : "1",
+        "DF" : "26.00000",
+        "isSingular" : "FALSE",
+        "PROTO" : false,
+        "Symbol" : "Mvp",
+        "shared_name" : "Q9EQK5",
+        "UniProt_Cyto" : false,
+        "Pvalue" : "4.042370e-04",
+        "SE" : "0.024740650",
+        "PEROXI" : false,
+        "FDR" : "6.530919e-03",
+        "SUID" : 43128,
+        "id_original" : "Mvp|Q9EQK5",
+        "selected" : false,
+        "RIBOSOME" : false,
+        "isWASH" : "0",
+        "Color" : "gray",
+        "label" : "53",
+        "ER" : false,
+        "Contrast" : "Mutant-Control",
+        "Protein" : "MVP",
+        "log2FoldChange" : -0.07610132,
+        "MITO" : false,
+        "Padjust" : "1.000000e+00",
+        "size" : 589.977136199847,
+        "NUCLEUS" : false,
+        "Tstatistic" : "-4.055707e+00",
+        "percentControl" : "0.9328126",
+        "name" : "Q9EQK5",
+        "takamori" : "black",
+        "CYTOSOL" : false,
+        "Module" : "M35",
+        "log2FC" : "-1.003408e-01",
+        "PM" : false,
+        "Entrez" : "    78388",
+        "S2" : "0.0064270477"
+      },
+      "position" : {
+        "x" : 308.3831110540559,
+        "y" : 147.37259051213914
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43127",
+        "sigprot" : "0",
+        "DF" : "26.00000",
+        "isSingular" : "FALSE",
+        "PROTO" : false,
+        "Symbol" : "Tprgl",
+        "shared_name" : "Q9DBS2",
+        "UniProt_Cyto" : false,
+        "Pvalue" : "5.129014e-02",
+        "SE" : "0.034868375",
+        "PEROXI" : false,
+        "FDR" : "1.985935e-01",
+        "SUID" : 43127,
+        "id_original" : "Tprgl|Q9DBS2",
+        "selected" : false,
+        "RIBOSOME" : false,
+        "isWASH" : "0",
+        "Color" : "gray",
+        "label" : "52",
+        "ER" : false,
+        "Contrast" : "Mutant-Control",
+        "Protein" : "TPRGL",
+        "log2FoldChange" : -0.06252173,
+        "MITO" : false,
+        "Padjust" : "1.000000e+00",
+        "size" : 1257.30319702975,
+        "NUCLEUS" : false,
+        "Tstatistic" : "-2.043204e+00",
+        "percentControl" : "0.9518174",
+        "name" : "Q9DBS2",
+        "takamori" : "black",
+        "CYTOSOL" : false,
+        "Module" : "M35",
+        "log2FC" : "-7.124321e-02",
+        "PM" : false,
+        "Entrez" : "    67808",
+        "S2" : "0.0127659375"
+      },
+      "position" : {
+        "x" : -160.127365571243,
+        "y" : -15.64846203563502
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43126",
+        "sigprot" : "0",
+        "DF" : "26.00000",
+        "isSingular" : "FALSE",
+        "PROTO" : false,
+        "Symbol" : "Clvs1",
+        "shared_name" : "Q9D4C9",
+        "UniProt_Cyto" : false,
+        "Pvalue" : "1.799263e-02",
+        "SE" : "0.032157122",
+        "PEROXI" : false,
+        "FDR" : "9.725254e-02",
+        "SUID" : 43126,
+        "id_original" : "Clvs1|Q9D4C9",
+        "selected" : false,
+        "RIBOSOME" : false,
+        "isWASH" : "0",
+        "Color" : "gray",
+        "label" : "51",
+        "ER" : false,
+        "Contrast" : "Mutant-Control",
+        "Protein" : "CLVS1",
+        "log2FoldChange" : -0.06309263,
+        "MITO" : false,
+        "Padjust" : "1.000000e+00",
+        "size" : 853.785952879235,
+        "NUCLEUS" : false,
+        "Tstatistic" : "-2.525353e+00",
+        "percentControl" : "0.9452658",
+        "name" : "Q9D4C9",
+        "takamori" : "black",
+        "CYTOSOL" : false,
+        "Module" : "M35",
+        "log2FC" : "-8.120808e-02",
+        "PM" : false,
+        "Entrez" : "    74438",
+        "S2" : "0.0108578449"
+      },
+      "position" : {
+        "x" : 87.00175647033029,
+        "y" : 151.3209877004556
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43125",
+        "sigprot" : "0",
+        "DF" : "26.00000",
+        "isSingular" : "FALSE",
+        "PROTO" : false,
+        "Symbol" : "Atp6v1f",
+        "shared_name" : "Q9D1K2",
+        "UniProt_Cyto" : false,
+        "Pvalue" : "9.720396e-02",
+        "SE" : "0.060425917",
+        "PEROXI" : false,
+        "FDR" : "2.950138e-01",
+        "SUID" : 43125,
+        "id_original" : "Atp6v1f|Q9D1K2",
+        "selected" : false,
+        "RIBOSOME" : false,
+        "isWASH" : "0",
+        "Color" : "gray",
+        "label" : "50",
+        "ER" : false,
+        "Contrast" : "Mutant-Control",
+        "Protein" : "ATP6V1F",
+        "log2FoldChange" : 0.08311241,
+        "MITO" : false,
+        "Padjust" : "1.000000e+00",
+        "size" : 634.740543720705,
+        "NUCLEUS" : false,
+        "Tstatistic" : " 1.720608e+00",
+        "percentControl" : "1.0747263",
+        "name" : "Q9D1K2",
+        "takamori" : "yellow",
+        "CYTOSOL" : false,
+        "Module" : "M35",
+        "log2FC" : " 1.039693e-01",
+        "PM" : false,
+        "Entrez" : "    66144",
+        "S2" : "0.0383385607"
+      },
+      "position" : {
+        "x" : 5.511738978366198,
+        "y" : -196.7847446079299
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43124",
+        "sigprot" : "0",
+        "DF" : "26.00000",
+        "isSingular" : "FALSE",
+        "PROTO" : false,
+        "Symbol" : "Sesn3",
+        "shared_name" : "Q9CYP7",
+        "UniProt_Cyto" : false,
+        "Pvalue" : "9.213810e-01",
+        "SE" : "0.029479417",
+        "PEROXI" : false,
+        "FDR" : "9.683864e-01",
+        "SUID" : 43124,
+        "id_original" : "Sesn3|Q9CYP7",
+        "selected" : false,
+        "RIBOSOME" : false,
+        "isWASH" : "0",
+        "Color" : "gray",
+        "label" : "49",
+        "ER" : false,
+        "Contrast" : "Mutant-Control",
+        "Protein" : "SESN3",
+        "log2FoldChange" : -0.002373917,
+        "MITO" : false,
+        "Padjust" : "1.000000e+00",
+        "size" : 1040.51633741153,
+        "NUCLEUS" : false,
+        "Tstatistic" : "-9.965715e-02",
+        "percentControl" : "0.9979657",
+        "name" : "Q9CYP7",
+        "takamori" : "black",
+        "CYTOSOL" : false,
+        "Module" : "M35",
+        "log2FC" : "-2.937835e-03",
+        "PM" : false,
+        "Entrez" : "    75747",
+        "S2" : "0.0091248784"
+      },
+      "position" : {
+        "x" : 53.05210745887598,
+        "y" : 36.07576346735732
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43123",
+        "sigprot" : "0",
+        "DF" : "26.00000",
+        "isSingular" : "FALSE",
+        "PROTO" : false,
+        "Symbol" : "Snx7",
+        "shared_name" : "Q9CY18",
+        "UniProt_Cyto" : false,
+        "Pvalue" : "6.174705e-01",
+        "SE" : "0.070167891",
+        "PEROXI" : false,
+        "FDR" : "8.149780e-01",
+        "SUID" : 43123,
+        "id_original" : "Snx7|Q9CY18",
+        "selected" : false,
+        "RIBOSOME" : false,
+        "isWASH" : "0",
+        "Color" : "gray",
+        "label" : "48",
+        "ER" : false,
+        "Contrast" : "Mutant-Control",
+        "Protein" : "SNX7",
+        "log2FoldChange" : -0.108746,
+        "MITO" : false,
+        "Padjust" : "1.000000e+00",
+        "size" : 804.708196816277,
+        "NUCLEUS" : false,
+        "Tstatistic" : "-5.054942e-01",
+        "percentControl" : "0.9757142",
+        "name" : "Q9CY18",
+        "takamori" : "black",
+        "CYTOSOL" : false,
+        "Module" : "M35",
+        "log2FC" : "-3.546946e-02",
+        "PM" : false,
+        "Entrez" : "    76561",
+        "S2" : "0.0516970963"
+      },
+      "position" : {
+        "x" : -313.900537023721,
+        "y" : -86.2124587827202
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43122",
+        "sigprot" : "0",
+        "DF" : "26.00000",
+        "isSingular" : "FALSE",
+        "PROTO" : false,
+        "Symbol" : "Wdr7",
+        "shared_name" : "Q920I9",
+        "UniProt_Cyto" : false,
+        "Pvalue" : "5.094949e-01",
+        "SE" : "0.029523618",
+        "PEROXI" : false,
+        "FDR" : "7.442387e-01",
+        "SUID" : 43122,
+        "id_original" : "Wdr7|Q920I9",
+        "selected" : false,
+        "RIBOSOME" : false,
+        "isWASH" : "0",
+        "Color" : "#A602CC",
+        "label" : "47",
+        "ER" : false,
+        "Contrast" : "Mutant-Control",
+        "Protein" : "WDR7",
+        "log2FoldChange" : -0.01121996,
+        "MITO" : false,
+        "Padjust" : "1.000000e+00",
+        "size" : 720.55583003944,
+        "NUCLEUS" : false,
+        "Tstatistic" : "-6.688371e-01",
+        "percentControl" : "0.9864060",
+        "name" : "Q920I9",
+        "takamori" : "yellow",
+        "CYTOSOL" : false,
+        "Module" : "M35",
+        "log2FC" : "-1.974649e-02",
+        "PM" : false,
+        "Entrez" : "   104082",
+        "S2" : "0.0091522622"
+      },
+      "position" : {
+        "x" : 67.78218883025693,
+        "y" : -54.58195700444048
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43121",
+        "sigprot" : "0",
+        "DF" : "26.00000",
+        "isSingular" : "FALSE",
+        "PROTO" : false,
+        "Symbol" : "Itfg2",
+        "shared_name" : "Q91WI7",
+        "UniProt_Cyto" : false,
+        "Pvalue" : "3.461565e-01",
+        "SE" : "0.031507510",
+        "PEROXI" : false,
+        "FDR" : "6.120794e-01",
+        "SUID" : 43121,
+        "id_original" : "Itfg2|Q91WI7",
+        "selected" : false,
+        "RIBOSOME" : false,
+        "isWASH" : "0",
+        "Color" : "gray",
+        "label" : "46",
+        "ER" : false,
+        "Contrast" : "Mutant-Control",
+        "Protein" : "ITFG2",
+        "log2FoldChange" : -0.0461807,
+        "MITO" : false,
+        "Padjust" : "1.000000e+00",
+        "size" : 501.431603147077,
+        "NUCLEUS" : false,
+        "Tstatistic" : "-9.594775e-01",
+        "percentControl" : "0.9792637",
+        "name" : "Q91WI7",
+        "takamori" : "black",
+        "CYTOSOL" : false,
+        "Module" : "M35",
+        "log2FC" : "-3.023075e-02",
+        "PM" : false,
+        "Entrez" : "   101142",
+        "S2" : "0.0104235937"
+      },
+      "position" : {
+        "x" : 141.93624868671031,
+        "y" : -13.755977314380289
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43120",
+        "sigprot" : "0",
+        "DF" : "26.00000",
+        "isSingular" : "FALSE",
+        "PROTO" : false,
+        "Symbol" : "Mtmr6",
+        "shared_name" : "Q8VE11",
+        "UniProt_Cyto" : false,
+        "Pvalue" : "7.491305e-01",
+        "SE" : "0.038860877",
+        "PEROXI" : false,
+        "FDR" : "8.924490e-01",
+        "SUID" : 43120,
+        "id_original" : "Mtmr6|Q8VE11",
+        "selected" : false,
+        "RIBOSOME" : true,
+        "isWASH" : "0",
+        "Color" : "gray",
+        "label" : "45",
+        "ER" : false,
+        "Contrast" : "Mutant-Control",
+        "Protein" : "MTMR6",
+        "log2FoldChange" : -0.02870247,
+        "MITO" : false,
+        "Padjust" : "1.000000e+00",
+        "size" : 1299.88782164443,
+        "NUCLEUS" : false,
+        "Tstatistic" : "-3.231978e-01",
+        "percentControl" : "0.9913320",
+        "name" : "Q8VE11",
+        "takamori" : "black",
+        "CYTOSOL" : false,
+        "Module" : "M35",
+        "log2FC" : "-1.255975e-02",
+        "PM" : false,
+        "Entrez" : "   219135",
+        "S2" : "0.0158567617"
+      },
+      "position" : {
+        "x" : 36.961528355721384,
+        "y" : 103.22665922258602
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43119",
+        "sigprot" : "0",
+        "DF" : "26.00000",
+        "isSingular" : "FALSE",
+        "PROTO" : false,
+        "Symbol" : "Mib2",
+        "shared_name" : "Q8R516",
+        "UniProt_Cyto" : false,
+        "Pvalue" : "1.019868e-02",
+        "SE" : "0.025161813",
+        "PEROXI" : false,
+        "FDR" : "6.515884e-02",
+        "SUID" : 43119,
+        "id_original" : "Mib2|Q8R516",
+        "selected" : false,
+        "RIBOSOME" : false,
+        "isWASH" : "0",
+        "Color" : "gray",
+        "label" : "44",
+        "ER" : false,
+        "Contrast" : "Mutant-Control",
+        "Protein" : "MIB2",
+        "log2FoldChange" : -0.03382611,
+        "MITO" : false,
+        "Padjust" : "1.000000e+00",
+        "size" : 1078.15778812942,
+        "NUCLEUS" : false,
+        "Tstatistic" : "-2.770379e+00",
+        "percentControl" : "0.9528310",
+        "name" : "Q8R516",
+        "takamori" : "black",
+        "CYTOSOL" : false,
+        "Module" : "M35",
+        "log2FC" : "-6.970777e-02",
+        "PM" : false,
+        "Entrez" : "    76580",
+        "S2" : "0.0066477269"
+      },
+      "position" : {
+        "x" : 199.14926746961282,
+        "y" : 92.79565480071324
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43118",
+        "sigprot" : "1",
+        "DF" : "26.00000",
+        "isSingular" : "FALSE",
+        "PROTO" : false,
+        "Symbol" : "Sh3glb2",
+        "shared_name" : "Q8R3V5",
+        "UniProt_Cyto" : false,
+        "Pvalue" : "1.735063e-03",
+        "SE" : "0.035890934",
+        "PEROXI" : false,
+        "FDR" : "1.870506e-02",
+        "SUID" : 43118,
+        "id_original" : "Sh3glb2|Q8R3V5",
+        "selected" : false,
+        "RIBOSOME" : false,
+        "isWASH" : "0",
+        "Color" : "gray",
+        "label" : "43",
+        "ER" : false,
+        "Contrast" : "Mutant-Control",
+        "Protein" : "SH3GLB2",
+        "log2FoldChange" : -0.1263777,
+        "MITO" : false,
+        "Padjust" : "1.000000e+00",
+        "size" : 1318.63564760658,
+        "NUCLEUS" : false,
+        "Tstatistic" : "-3.491083e+00",
+        "percentControl" : "0.9168145",
+        "name" : "Q8R3V5",
+        "takamori" : "black",
+        "CYTOSOL" : false,
+        "Module" : "M35",
+        "log2FC" : "-1.252982e-01",
+        "PM" : false,
+        "Entrez" : "   227700",
+        "S2" : "0.0135256707"
+      },
+      "position" : {
+        "x" : -40.382637436458026,
+        "y" : 168.71812543925626
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43117",
+        "sigprot" : "0",
+        "DF" : "26.00000",
+        "isSingular" : "FALSE",
+        "PROTO" : false,
+        "Symbol" : "Syngr3",
+        "shared_name" : "Q8R191",
+        "UniProt_Cyto" : false,
+        "Pvalue" : "4.588846e-01",
+        "SE" : "0.038492686",
+        "PEROXI" : false,
+        "FDR" : "7.048821e-01",
+        "SUID" : 43117,
+        "id_original" : "Syngr3|Q8R191",
+        "selected" : false,
+        "RIBOSOME" : false,
+        "isWASH" : "0",
+        "Color" : "gray",
+        "label" : "42",
+        "ER" : false,
+        "Contrast" : "Mutant-Control",
+        "Protein" : "SYNGR3",
+        "log2FoldChange" : -0.02823724,
+        "MITO" : false,
+        "Padjust" : "1.000000e+00",
+        "size" : 662.903490935687,
+        "NUCLEUS" : false,
+        "Tstatistic" : "-7.518656e-01",
+        "percentControl" : "0.9801393",
+        "name" : "Q8R191",
+        "takamori" : "black",
+        "CYTOSOL" : false,
+        "Module" : "M35",
+        "log2FC" : "-2.894133e-02",
+        "PM" : false,
+        "Entrez" : "    20974",
+        "S2" : "0.0155577124"
+      },
+      "position" : {
+        "x" : -156.08543226223264,
+        "y" : 77.35071917407913
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43116",
+        "sigprot" : "1",
+        "DF" : "26.00000",
+        "isSingular" : "FALSE",
+        "PROTO" : false,
+        "Symbol" : "Lgi3",
+        "shared_name" : "Q8K406",
+        "UniProt_Cyto" : false,
+        "Pvalue" : "1.322492e-05",
+        "SE" : "0.028911940",
+        "PEROXI" : false,
+        "FDR" : "4.170446e-04",
+        "SUID" : 43116,
+        "id_original" : "Lgi3|Q8K406",
+        "selected" : false,
+        "RIBOSOME" : false,
+        "isWASH" : "0",
+        "Color" : "gray",
+        "label" : "41",
+        "ER" : false,
+        "Contrast" : "Mutant-Control",
+        "Protein" : "LGI3",
+        "log2FoldChange" : -0.1497981,
+        "MITO" : false,
+        "Padjust" : "7.798734e-02",
+        "size" : 459.719434518644,
+        "NUCLEUS" : false,
+        "Tstatistic" : "-5.354281e+00",
+        "percentControl" : "0.8982552",
+        "name" : "Q8K406",
+        "takamori" : "black",
+        "CYTOSOL" : false,
+        "Module" : "M35",
+        "log2FC" : "-1.548026e-01",
+        "PM" : false,
+        "Entrez" : "   213469",
+        "S2" : "0.0087769528"
+      },
+      "position" : {
+        "x" : 332.459753759038,
+        "y" : -62.55833690374129
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43115",
+        "sigprot" : "0",
+        "DF" : "26.00000",
+        "isSingular" : "FALSE",
+        "PROTO" : false,
+        "Symbol" : "Arfip2",
+        "shared_name" : "Q8K221",
+        "UniProt_Cyto" : false,
+        "Pvalue" : "9.600125e-01",
+        "SE" : "0.035921489",
+        "PEROXI" : false,
+        "FDR" : "9.823345e-01",
+        "SUID" : 43115,
+        "id_original" : "Arfip2|Q8K221",
+        "selected" : false,
+        "RIBOSOME" : false,
+        "isWASH" : "1",
+        "Color" : "gray",
+        "label" : "40",
+        "ER" : false,
+        "Contrast" : "Mutant-Control",
+        "Protein" : "ARFIP2",
+        "log2FoldChange" : -0.0423411,
+        "MITO" : false,
+        "Padjust" : "1.000000e+00",
+        "size" : 1420.9638726047,
+        "NUCLEUS" : false,
+        "Tstatistic" : " 5.062344e-02",
+        "percentControl" : "1.0012613",
+        "name" : "Q8K221",
+        "takamori" : "yellow",
+        "CYTOSOL" : false,
+        "Module" : "M35",
+        "log2FC" : " 1.818469e-03",
+        "PM" : false,
+        "Entrez" : "    76932",
+        "S2" : "0.0135487106"
+      },
+      "position" : {
+        "x" : 37.43783579044975,
+        "y" : 147.76962035395263
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43113",
+        "sigprot" : "1",
+        "DF" : "26.00000",
+        "isSingular" : "FALSE",
+        "PROTO" : false,
+        "Symbol" : "Bag5",
+        "shared_name" : "Q8CI32",
+        "UniProt_Cyto" : false,
+        "Pvalue" : "1.132807e-04",
+        "SE" : "0.029951045",
+        "PEROXI" : false,
+        "FDR" : "2.396763e-03",
+        "SUID" : 43113,
+        "id_original" : "Bag5|Q8CI32",
+        "selected" : false,
+        "RIBOSOME" : false,
+        "isWASH" : "0",
+        "Color" : "gray",
+        "label" : "38",
+        "ER" : false,
+        "Contrast" : "Mutant-Control",
+        "Protein" : "BAG5",
+        "log2FoldChange" : -0.1436696,
+        "MITO" : false,
+        "Padjust" : "6.680163e-01",
+        "size" : 504.275407427981,
+        "NUCLEUS" : false,
+        "Tstatistic" : "-4.539735e+00",
+        "percentControl" : "0.9100579",
+        "name" : "Q8CI32",
+        "takamori" : "black",
+        "CYTOSOL" : false,
+        "Module" : "M35",
+        "log2FC" : "-1.359698e-01",
+        "PM" : false,
+        "Entrez" : "    70369",
+        "S2" : "0.0094191832"
+      },
+      "position" : {
+        "x" : 400.4251869457512,
+        "y" : -52.13348972926906
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43112",
+        "sigprot" : "0",
+        "DF" : "26.00000",
+        "isSingular" : "FALSE",
+        "PROTO" : false,
+        "Symbol" : "Sphk1",
+        "shared_name" : "Q8CI15",
+        "UniProt_Cyto" : false,
+        "Pvalue" : "1.997067e-01",
+        "SE" : "0.054805719",
+        "PEROXI" : false,
+        "FDR" : "4.577032e-01",
+        "SUID" : 43112,
+        "id_original" : "Sphk1|Q8CI15",
+        "selected" : false,
+        "RIBOSOME" : false,
+        "isWASH" : "0",
+        "Color" : "gray",
+        "label" : "37",
+        "ER" : false,
+        "Contrast" : "Mutant-Control",
+        "Protein" : "SPHK1",
+        "log2FoldChange" : 0.09668396,
+        "MITO" : false,
+        "Padjust" : "1.000000e+00",
+        "size" : 472.032662116214,
+        "NUCLEUS" : false,
+        "Tstatistic" : " 1.315858e+00",
+        "percentControl" : "1.0512578",
+        "name" : "Q8CI15",
+        "takamori" : "black",
+        "CYTOSOL" : false,
+        "Module" : "M35",
+        "log2FC" : " 7.211653e-02",
+        "PM" : false,
+        "Entrez" : "    20698",
+        "S2" : "0.0315385013"
+      },
+      "position" : {
+        "x" : -143.5011984643861,
+        "y" : 149.11404782626778
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43110",
+        "sigprot" : "0",
+        "DF" : "26.00000",
+        "isSingular" : "FALSE",
+        "PROTO" : false,
+        "Symbol" : "Slc7a14",
+        "shared_name" : "Q8BXR1",
+        "UniProt_Cyto" : false,
+        "Pvalue" : "2.840699e-01",
+        "SE" : "0.058733283",
+        "PEROXI" : false,
+        "FDR" : "5.523924e-01",
+        "SUID" : 43110,
+        "id_original" : "Slc7a14|Q8BXR1",
+        "selected" : false,
+        "RIBOSOME" : false,
+        "isWASH" : "0",
+        "Color" : "gray",
+        "label" : "35",
+        "ER" : false,
+        "Contrast" : "Mutant-Control",
+        "Protein" : "SLC7A14",
+        "log2FoldChange" : 0.08888499,
+        "MITO" : false,
+        "Padjust" : "1.000000e+00",
+        "size" : 1082.62303800206,
+        "NUCLEUS" : false,
+        "Tstatistic" : " 1.093808e+00",
+        "percentControl" : "1.0455361",
+        "name" : "Q8BXR1",
+        "takamori" : "black",
+        "CYTOSOL" : false,
+        "Module" : "M35",
+        "log2FC" : " 6.424293e-02",
+        "PM" : false,
+        "Entrez" : "   241919",
+        "S2" : "0.0362207844"
+      },
+      "position" : {
+        "x" : -9.47765357447497,
+        "y" : -22.010276172542945
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43109",
+        "sigprot" : "0",
+        "DF" : "26.00000",
+        "isSingular" : "FALSE",
+        "PROTO" : false,
+        "Symbol" : "Atp6v1h",
+        "shared_name" : "Q8BVE3",
+        "UniProt_Cyto" : false,
+        "Pvalue" : "2.927997e-01",
+        "SE" : "0.034548133",
+        "PEROXI" : false,
+        "FDR" : "5.596888e-01",
+        "SUID" : 43109,
+        "id_original" : "Atp6v1h|Q8BVE3",
+        "selected" : false,
+        "RIBOSOME" : false,
+        "isWASH" : "0",
+        "Color" : "gray",
+        "label" : "34",
+        "ER" : false,
+        "Contrast" : "Mutant-Control",
+        "Protein" : "ATP6V1H",
+        "log2FoldChange" : 0.04903597,
+        "MITO" : false,
+        "Padjust" : "1.000000e+00",
+        "size" : 1382.89046080156,
+        "NUCLEUS" : false,
+        "Tstatistic" : " 1.073750e+00",
+        "percentControl" : "1.0260464",
+        "name" : "Q8BVE3",
+        "takamori" : "yellow",
+        "CYTOSOL" : false,
+        "Module" : "M35",
+        "log2FC" : " 3.709604e-02",
+        "PM" : false,
+        "Entrez" : "   108664",
+        "S2" : "0.0125325214"
+      },
+      "position" : {
+        "x" : -92.6909897187652,
+        "y" : -69.48478420585889
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43108",
+        "sigprot" : "1",
+        "DF" : "28.00000",
+        "isSingular" : " TRUE",
+        "PROTO" : false,
+        "Symbol" : "Lsm11",
+        "shared_name" : "Q8BUV6",
+        "UniProt_Cyto" : false,
+        "Pvalue" : "3.333525e-04",
+        "SE" : "0.037234894",
+        "PEROXI" : false,
+        "FDR" : "5.553051e-03",
+        "SUID" : 43108,
+        "id_original" : "Lsm11|Q8BUV6",
+        "selected" : false,
+        "RIBOSOME" : false,
+        "isWASH" : "0",
+        "Color" : "gray",
+        "label" : "33",
+        "ER" : false,
+        "Contrast" : "Mutant-Control",
+        "Protein" : "LSM11",
+        "log2FoldChange" : -0.1275386,
+        "MITO" : false,
+        "Padjust" : "1.000000e+00",
+        "size" : 262.478313687306,
+        "NUCLEUS" : false,
+        "Tstatistic" : "-4.086199e+00",
+        "percentControl" : "0.8999089",
+        "name" : "Q8BUV6",
+        "takamori" : "black",
+        "CYTOSOL" : false,
+        "Module" : "M35",
+        "log2FC" : "-1.521492e-01",
+        "PM" : false,
+        "Entrez" : "    72290",
+        "S2" : "0.0145575919"
+      },
+      "position" : {
+        "x" : 128.08384800689237,
+        "y" : 200.3691990012594
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43107",
+        "sigprot" : "0",
+        "DF" : "26.00000",
+        "isSingular" : "FALSE",
+        "PROTO" : false,
+        "Symbol" : "2900026A02Rik",
+        "shared_name" : "Q8BRV5",
+        "UniProt_Cyto" : false,
+        "Pvalue" : "2.458913e-01",
+        "SE" : "0.062958263",
+        "PEROXI" : false,
+        "FDR" : "5.149222e-01",
+        "SUID" : 43107,
+        "id_original" : "2900026A02Rik|Q8BRV5",
+        "selected" : false,
+        "RIBOSOME" : false,
+        "isWASH" : "0",
+        "Color" : "gray",
+        "label" : "32",
+        "ER" : false,
+        "Contrast" : "Mutant-Control",
+        "Protein" : "2900026A02RIK",
+        "log2FoldChange" : -0.119435,
+        "MITO" : false,
+        "Padjust" : "1.000000e+00",
+        "size" : 350.948452794695,
+        "NUCLEUS" : false,
+        "Tstatistic" : "-1.187178e+00",
+        "percentControl" : "0.9495115",
+        "name" : "Q8BRV5",
+        "takamori" : "black",
+        "CYTOSOL" : false,
+        "Module" : "M35",
+        "log2FC" : "-7.474265e-02",
+        "PM" : false,
+        "Entrez" : "   243219",
+        "S2" : "0.0416193007"
+      },
+      "position" : {
+        "x" : 242.08661477100395,
+        "y" : 172.35437623012695
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43106",
+        "sigprot" : "0",
+        "DF" : "26.00000",
+        "isSingular" : "FALSE",
+        "PROTO" : false,
+        "Symbol" : "Dmxl2",
+        "shared_name" : "Q8BPN8",
+        "UniProt_Cyto" : false,
+        "Pvalue" : "3.527420e-01",
+        "SE" : "0.031096062",
+        "PEROXI" : false,
+        "FDR" : "6.177108e-01",
+        "SUID" : 43106,
+        "id_original" : "Dmxl2|Q8BPN8",
+        "selected" : false,
+        "RIBOSOME" : false,
+        "isWASH" : "0",
+        "Color" : "#A602CC",
+        "label" : "31",
+        "ER" : false,
+        "Contrast" : "Mutant-Control",
+        "Protein" : "DMXL2",
+        "log2FoldChange" : -0.0274341,
+        "MITO" : false,
+        "Padjust" : "1.000000e+00",
+        "size" : 733.324119444731,
+        "NUCLEUS" : false,
+        "Tstatistic" : "-9.462320e-01",
+        "percentControl" : "0.9798114",
+        "name" : "Q8BPN8",
+        "takamori" : "black",
+        "CYTOSOL" : false,
+        "Module" : "M35",
+        "log2FC" : "-2.942409e-02",
+        "PM" : false,
+        "Entrez" : "   235380",
+        "S2" : "0.0101531335"
+      },
+      "position" : {
+        "x" : -221.57349582716415,
+        "y" : -81.05579692400352
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43105",
+        "sigprot" : "1",
+        "DF" : "26.00000",
+        "isSingular" : "FALSE",
+        "PROTO" : false,
+        "Symbol" : "Slc17a6",
+        "shared_name" : "Q8BLE7",
+        "UniProt_Cyto" : false,
+        "Pvalue" : "9.730591e-06",
+        "SE" : "0.032095083",
+        "PEROXI" : false,
+        "FDR" : "3.395343e-04",
+        "SUID" : 43105,
+        "id_original" : "Slc17a6|Q8BLE7",
+        "selected" : false,
+        "RIBOSOME" : false,
+        "isWASH" : "0",
+        "Color" : "gray",
+        "label" : "30",
+        "ER" : false,
+        "Contrast" : "Mutant-Control",
+        "Protein" : "SLC17A6",
+        "log2FoldChange" : -0.2646806,
+        "MITO" : false,
+        "Padjust" : "5.738130e-02",
+        "size" : 963.801639626385,
+        "NUCLEUS" : false,
+        "Tstatistic" : "-5.471323e+00",
+        "percentControl" : "0.8853976",
+        "name" : "Q8BLE7",
+        "takamori" : "yellow",
+        "CYTOSOL" : false,
+        "Module" : "M35",
+        "log2FC" : "-1.756026e-01",
+        "PM" : false,
+        "Entrez" : "   140919",
+        "S2" : "0.0108159909"
+      },
+      "position" : {
+        "x" : 114.40551083038008,
+        "y" : 78.63934299070388
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43104",
+        "sigprot" : "0",
+        "DF" : "26.00000",
+        "isSingular" : "FALSE",
+        "PROTO" : false,
+        "Symbol" : "Napepld",
+        "shared_name" : "Q8BH82",
+        "UniProt_Cyto" : false,
+        "Pvalue" : "9.850731e-01",
+        "SE" : "0.038390364",
+        "PEROXI" : false,
+        "FDR" : "9.931717e-01",
+        "SUID" : 43104,
+        "id_original" : "Napepld|Q8BH82",
+        "selected" : false,
+        "RIBOSOME" : false,
+        "isWASH" : "0",
+        "Color" : "gray",
+        "label" : "29",
+        "ER" : false,
+        "Contrast" : "Mutant-Control",
+        "Protein" : "NAPEPLD",
+        "log2FoldChange" : -5.217229E-5,
+        "MITO" : false,
+        "Padjust" : "1.000000e+00",
+        "size" : 417.166696939005,
+        "NUCLEUS" : false,
+        "Tstatistic" : "-1.888992e-02",
+        "percentControl" : "0.9994975",
+        "name" : "Q8BH82",
+        "takamori" : "black",
+        "CYTOSOL" : false,
+        "Module" : "M35",
+        "log2FC" : "-7.251909e-04",
+        "PM" : false,
+        "Entrez" : "   242864",
+        "S2" : "0.0154751102"
+      },
+      "position" : {
+        "x" : -23.006146504609205,
+        "y" : 214.63895213523938
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43103",
+        "sigprot" : "0",
+        "DF" : "26.00000",
+        "isSingular" : "FALSE",
+        "PROTO" : false,
+        "Symbol" : "Synpr",
+        "shared_name" : "Q8BGN8",
+        "UniProt_Cyto" : false,
+        "Pvalue" : "7.084171e-01",
+        "SE" : "0.044777679",
+        "PEROXI" : false,
+        "FDR" : "8.697763e-01",
+        "SUID" : 43103,
+        "id_original" : "Synpr|Q8BGN8",
+        "selected" : false,
+        "RIBOSOME" : false,
+        "isWASH" : "0",
+        "Color" : "gray",
+        "label" : "28",
+        "ER" : false,
+        "Contrast" : "Mutant-Control",
+        "Protein" : "SYNPR",
+        "log2FoldChange" : 0.02394928,
+        "MITO" : false,
+        "Padjust" : "1.000000e+00",
+        "size" : 1202.94385132636,
+        "NUCLEUS" : false,
+        "Tstatistic" : " 3.781118e-01",
+        "percentControl" : "1.0118048",
+        "name" : "Q8BGN8",
+        "takamori" : "yellow",
+        "CYTOSOL" : false,
+        "Module" : "M35",
+        "log2FC" : " 1.693097e-02",
+        "PM" : false,
+        "Entrez" : "    72003",
+        "S2" : "0.0210529260"
+      },
+      "position" : {
+        "x" : -73.1913863198788,
+        "y" : 21.995898933550052
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43102",
+        "sigprot" : "0",
+        "DF" : "26.00001",
+        "isSingular" : "FALSE",
+        "PROTO" : false,
+        "Symbol" : "Ap4e1",
+        "shared_name" : "Q80V94",
+        "UniProt_Cyto" : false,
+        "Pvalue" : "3.202706e-01",
+        "SE" : "0.057494623",
+        "PEROXI" : false,
+        "FDR" : "5.886722e-01",
+        "SUID" : 43102,
+        "id_original" : "Ap4e1|Q80V94",
+        "selected" : false,
+        "RIBOSOME" : false,
+        "isWASH" : "0",
+        "Color" : "gray",
+        "label" : "27",
+        "ER" : false,
+        "Contrast" : "Mutant-Control",
+        "Protein" : "AP4E1",
+        "log2FoldChange" : -0.06197803,
+        "MITO" : false,
+        "Padjust" : "1.000000e+00",
+        "size" : 227.291554457798,
+        "NUCLEUS" : false,
+        "Tstatistic" : "-1.013265e+00",
+        "percentControl" : "0.9604236",
+        "name" : "Q80V94",
+        "takamori" : "black",
+        "CYTOSOL" : false,
+        "Module" : "M35",
+        "log2FC" : "-5.825731e-02",
+        "PM" : false,
+        "Entrez" : "   108011",
+        "S2" : "0.0347091321"
+      },
+      "position" : {
+        "x" : 222.5723336653391,
+        "y" : -144.8249965517607
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43101",
+        "sigprot" : "0",
+        "DF" : "26.00000",
+        "isSingular" : "FALSE",
+        "PROTO" : false,
+        "Symbol" : "Avl9",
+        "shared_name" : "Q80U56",
+        "UniProt_Cyto" : false,
+        "Pvalue" : "3.072933e-01",
+        "SE" : "0.043519508",
+        "PEROXI" : false,
+        "FDR" : "5.753641e-01",
+        "SUID" : 43101,
+        "id_original" : "Avl9|Q80U56",
+        "selected" : false,
+        "RIBOSOME" : false,
+        "isWASH" : "0",
+        "Color" : "gray",
+        "label" : "26",
+        "ER" : false,
+        "Contrast" : "Mutant-Control",
+        "Protein" : "AVL9",
+        "log2FoldChange" : 0.007946569,
+        "MITO" : false,
+        "Padjust" : "1.000000e+00",
+        "size" : 1192.40004447321,
+        "NUCLEUS" : false,
+        "Tstatistic" : "-1.041365e+00",
+        "percentControl" : "0.9690751",
+        "name" : "Q80U56",
+        "takamori" : "black",
+        "CYTOSOL" : false,
+        "Module" : "M35",
+        "log2FC" : "-4.531969e-02",
+        "PM" : false,
+        "Entrez" : "    78937",
+        "S2" : "0.0198864496"
+      },
+      "position" : {
+        "x" : -29.33489333599573,
+        "y" : 40.071590624400415
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43100",
+        "sigprot" : "0",
+        "DF" : "26.00000",
+        "isSingular" : "FALSE",
+        "PROTO" : false,
+        "Symbol" : "Rusc2",
+        "shared_name" : "Q80U22",
+        "UniProt_Cyto" : false,
+        "Pvalue" : "3.994850e-01",
+        "SE" : "0.076617996",
+        "PEROXI" : false,
+        "FDR" : "6.571167e-01",
+        "SUID" : 43100,
+        "id_original" : "Rusc2|Q80U22",
+        "selected" : false,
+        "RIBOSOME" : false,
+        "isWASH" : "0",
+        "Color" : "gray",
+        "label" : "25",
+        "ER" : false,
+        "Contrast" : "Mutant-Control",
+        "Protein" : "RUSC2",
+        "log2FoldChange" : -0.06510729,
+        "MITO" : false,
+        "Padjust" : "1.000000e+00",
+        "size" : 581.296387330129,
+        "NUCLEUS" : false,
+        "Tstatistic" : "-8.566137e-01",
+        "percentControl" : "0.9555266",
+        "name" : "Q80U22",
+        "takamori" : "black",
+        "CYTOSOL" : false,
+        "Module" : "M35",
+        "log2FC" : "-6.563202e-02",
+        "PM" : false,
+        "Entrez" : "   100213",
+        "S2" : "0.0616383319"
+      },
+      "position" : {
+        "x" : 82.73995518511947,
+        "y" : 233.99048249724729
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43099",
+        "sigprot" : "0",
+        "DF" : "26.00000",
+        "isSingular" : "FALSE",
+        "PROTO" : false,
+        "Symbol" : "Tnks",
+        "shared_name" : "Q6PFX9",
+        "UniProt_Cyto" : false,
+        "Pvalue" : "4.982893e-02",
+        "SE" : "0.029634772",
+        "PEROXI" : false,
+        "FDR" : "1.955031e-01",
+        "SUID" : 43099,
+        "id_original" : "Tnks|Q6PFX9",
+        "selected" : false,
+        "RIBOSOME" : false,
+        "isWASH" : "0",
+        "Color" : "gray",
+        "label" : "24",
+        "ER" : false,
+        "Contrast" : "Mutant-Control",
+        "Protein" : "TNKS",
+        "log2FoldChange" : -0.06505088,
+        "MITO" : false,
+        "Padjust" : "1.000000e+00",
+        "size" : 757.956245595606,
+        "NUCLEUS" : false,
+        "Tstatistic" : "-2.057185e+00",
+        "percentControl" : "0.9586232",
+        "name" : "Q6PFX9",
+        "takamori" : "black",
+        "CYTOSOL" : false,
+        "Module" : "M35",
+        "log2FC" : "-6.096421e-02",
+        "PM" : false,
+        "Entrez" : "    21951",
+        "S2" : "0.0092213072"
+      },
+      "position" : {
+        "x" : 224.6403784365175,
+        "y" : 41.35011879495869
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43098",
+        "sigprot" : "0",
+        "DF" : "26.00000",
+        "isSingular" : "FALSE",
+        "PROTO" : false,
+        "Symbol" : "Dgkq",
+        "shared_name" : "Q6P5E8",
+        "UniProt_Cyto" : true,
+        "Pvalue" : "9.631382e-01",
+        "SE" : "0.030863514",
+        "PEROXI" : false,
+        "FDR" : "9.840446e-01",
+        "SUID" : 43098,
+        "id_original" : "Dgkq|Q6P5E8",
+        "selected" : false,
+        "RIBOSOME" : false,
+        "isWASH" : "0",
+        "Color" : "gray",
+        "label" : "23",
+        "ER" : false,
+        "Contrast" : "Mutant-Control",
+        "Protein" : "DGKQ",
+        "log2FoldChange" : -0.009081122,
+        "MITO" : false,
+        "Padjust" : "1.000000e+00",
+        "size" : 948.426862932196,
+        "NUCLEUS" : false,
+        "Tstatistic" : "-4.666322e-02",
+        "percentControl" : "0.9990022",
+        "name" : "Q6P5E8",
+        "takamori" : "black",
+        "CYTOSOL" : false,
+        "Module" : "M35",
+        "log2FC" : "-1.440191e-03",
+        "PM" : false,
+        "Entrez" : "   110524",
+        "S2" : "0.0100018430"
+      },
+      "position" : {
+        "x" : 0.11987158706324408,
+        "y" : 21.352003134154074
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43097",
+        "sigprot" : "0",
+        "DF" : "26.00000",
+        "isSingular" : "FALSE",
+        "PROTO" : false,
+        "Symbol" : "Sv2c",
+        "shared_name" : "Q69ZS6",
+        "UniProt_Cyto" : false,
+        "Pvalue" : "1.688718e-01",
+        "SE" : "0.046266768",
+        "PEROXI" : false,
+        "FDR" : "4.185947e-01",
+        "SUID" : 43097,
+        "id_original" : "Sv2c|Q69ZS6",
+        "selected" : false,
+        "RIBOSOME" : false,
+        "isWASH" : "0",
+        "Color" : "gray",
+        "label" : "22",
+        "ER" : false,
+        "Contrast" : "Mutant-Control",
+        "Protein" : "SV2C",
+        "log2FoldChange" : -0.06207091,
+        "MITO" : false,
+        "Padjust" : "1.000000e+00",
+        "size" : 991.683063121175,
+        "NUCLEUS" : false,
+        "Tstatistic" : "-1.415217e+00",
+        "percentControl" : "0.9556290",
+        "name" : "Q69ZS6",
+        "takamori" : "yellow",
+        "CYTOSOL" : false,
+        "Module" : "M35",
+        "log2FC" : "-6.547750e-02",
+        "PM" : false,
+        "Entrez" : "    75209",
+        "S2" : "0.0224764451"
+      },
+      "position" : {
+        "x" : 43.309264749492286,
+        "y" : -6.084546120589948
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43096",
+        "sigprot" : "0",
+        "DF" : "26.00000",
+        "isSingular" : "FALSE",
+        "PROTO" : false,
+        "Symbol" : "Gdpd5",
+        "shared_name" : "Q640M6",
+        "UniProt_Cyto" : false,
+        "Pvalue" : "5.248021e-01",
+        "SE" : "0.066242443",
+        "PEROXI" : false,
+        "FDR" : "7.556298e-01",
+        "SUID" : 43096,
+        "id_original" : "Gdpd5|Q640M6",
+        "selected" : false,
+        "RIBOSOME" : false,
+        "isWASH" : "0",
+        "Color" : "gray",
+        "label" : "21",
+        "ER" : false,
+        "Contrast" : "Mutant-Control",
+        "Protein" : "GDPD5",
+        "log2FoldChange" : -0.001122394,
+        "MITO" : false,
+        "Padjust" : "1.000000e+00",
+        "size" : 896.480923965903,
+        "NUCLEUS" : false,
+        "Tstatistic" : "-6.446492e-01",
+        "percentControl" : "0.9708342",
+        "name" : "Q640M6",
+        "takamori" : "black",
+        "CYTOSOL" : false,
+        "Module" : "M35",
+        "log2FC" : "-4.270314e-02",
+        "PM" : false,
+        "Entrez" : "   233552",
+        "S2" : "0.0460746430"
+      },
+      "position" : {
+        "x" : -140.07690812473447,
+        "y" : 16.91965513939067
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43095",
+        "sigprot" : "1",
+        "DF" : "28.00000",
+        "isSingular" : " TRUE",
+        "PROTO" : false,
+        "Symbol" : "Vamp1",
+        "shared_name" : "Q62442",
+        "UniProt_Cyto" : false,
+        "Pvalue" : "7.039563e-05",
+        "SE" : "0.026977156",
+        "PEROXI" : false,
+        "FDR" : "1.642293e-03",
+        "SUID" : 43095,
+        "id_original" : "Vamp1|Q62442",
+        "selected" : false,
+        "RIBOSOME" : false,
+        "isWASH" : "0",
+        "Color" : "gray",
+        "label" : "20",
+        "ER" : false,
+        "Contrast" : "Mutant-Control",
+        "Protein" : "VAMP1",
+        "log2FoldChange" : -0.1350402,
+        "MITO" : false,
+        "Padjust" : "4.151230e-01",
+        "size" : 659.587281558482,
+        "NUCLEUS" : false,
+        "Tstatistic" : "-4.659180e+00",
+        "percentControl" : "0.9165647",
+        "name" : "Q62442",
+        "takamori" : "black",
+        "CYTOSOL" : false,
+        "Module" : "M35",
+        "log2FC" : "-1.256914e-01",
+        "PM" : false,
+        "Entrez" : "    22317",
+        "S2" : "0.0076415531"
+      },
+      "position" : {
+        "x" : 412.02233990834065,
+        "y" : 55.62117506487266
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43094",
+        "sigprot" : "0",
+        "DF" : "26.00000",
+        "isSingular" : "FALSE",
+        "PROTO" : false,
+        "Symbol" : "Sh3gl1",
+        "shared_name" : "Q62419",
+        "UniProt_Cyto" : false,
+        "Pvalue" : "4.955216e-01",
+        "SE" : "0.044156886",
+        "PEROXI" : false,
+        "FDR" : "7.356839e-01",
+        "SUID" : 43094,
+        "id_original" : "Sh3gl1|Q62419",
+        "selected" : false,
+        "RIBOSOME" : false,
+        "isWASH" : "0",
+        "Color" : "gray",
+        "label" : "19",
+        "ER" : false,
+        "Contrast" : "Mutant-Control",
+        "Protein" : "SH3GL1",
+        "log2FoldChange" : -0.004396518,
+        "MITO" : false,
+        "Padjust" : "1.000000e+00",
+        "size" : 1280.73092597133,
+        "NUCLEUS" : false,
+        "Tstatistic" : "-6.912713e-01",
+        "percentControl" : "0.9790644",
+        "name" : "Q62419",
+        "takamori" : "black",
+        "CYTOSOL" : false,
+        "Module" : "M35",
+        "log2FC" : "-3.052439e-02",
+        "PM" : false,
+        "Entrez" : "    20405",
+        "S2" : "0.0204732209"
+      },
+      "position" : {
+        "x" : -53.37990036072006,
+        "y" : -22.775293434460764
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43093",
+        "sigprot" : "0",
+        "DF" : "26.00000",
+        "isSingular" : "FALSE",
+        "PROTO" : false,
+        "Symbol" : "Syp",
+        "shared_name" : "Q62277",
+        "UniProt_Cyto" : false,
+        "Pvalue" : "4.002897e-01",
+        "SE" : "0.038446816",
+        "PEROXI" : false,
+        "FDR" : "6.580626e-01",
+        "SUID" : 43093,
+        "id_original" : "Syp|Q62277",
+        "selected" : false,
+        "RIBOSOME" : false,
+        "isWASH" : "0",
+        "Color" : "gray",
+        "label" : "18",
+        "ER" : false,
+        "Contrast" : "Mutant-Control",
+        "Protein" : "SYP",
+        "log2FoldChange" : -0.05381204,
+        "MITO" : false,
+        "Padjust" : "1.000000e+00",
+        "size" : 644.047335482688,
+        "NUCLEUS" : false,
+        "Tstatistic" : "-8.551320e-01",
+        "percentControl" : "0.9774690",
+        "name" : "Q62277",
+        "takamori" : "yellow",
+        "CYTOSOL" : false,
+        "Module" : "M35",
+        "log2FC" : "-3.287710e-02",
+        "PM" : false,
+        "Entrez" : "    20977",
+        "S2" : "0.0155206555"
+      },
+      "position" : {
+        "x" : -398.90167314830137,
+        "y" : 91.9973008457552
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43092",
+        "sigprot" : "0",
+        "DF" : "26.00000",
+        "isSingular" : "FALSE",
+        "PROTO" : false,
+        "Symbol" : "Jakmip3",
+        "shared_name" : "Q5DTN8",
+        "UniProt_Cyto" : false,
+        "Pvalue" : "1.170981e-01",
+        "SE" : "0.028317237",
+        "PEROXI" : false,
+        "FDR" : "3.315064e-01",
+        "SUID" : 43092,
+        "id_original" : "Jakmip3|Q5DTN8",
+        "selected" : false,
+        "RIBOSOME" : false,
+        "isWASH" : "0",
+        "Color" : "gray",
+        "label" : "17",
+        "ER" : false,
+        "Contrast" : "Mutant-Control",
+        "Protein" : "JAKMIP3",
+        "log2FoldChange" : -0.06514852,
+        "MITO" : false,
+        "Padjust" : "1.000000e+00",
+        "size" : 422.805962623041,
+        "NUCLEUS" : false,
+        "Tstatistic" : "-1.620935e+00",
+        "percentControl" : "0.9686851",
+        "name" : "Q5DTN8",
+        "takamori" : "black",
+        "CYTOSOL" : false,
+        "Module" : "M35",
+        "log2FC" : "-4.590039e-02",
+        "PM" : false,
+        "Entrez" : "    74004",
+        "S2" : "0.0084195919"
+      },
+      "position" : {
+        "x" : 183.52519239248068,
+        "y" : 43.22458252017532
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43091",
+        "sigprot" : "0",
+        "DF" : "25.99986",
+        "isSingular" : "FALSE",
+        "PROTO" : false,
+        "Symbol" : "Rogdi",
+        "shared_name" : "Q3TDK6",
+        "UniProt_Cyto" : false,
+        "Pvalue" : "1.205828e-01",
+        "SE" : "0.034851170",
+        "PEROXI" : false,
+        "FDR" : "3.381249e-01",
+        "SUID" : 43091,
+        "id_original" : "Rogdi|Q3TDK6",
+        "selected" : false,
+        "RIBOSOME" : false,
+        "isWASH" : "0",
+        "Color" : "#A602CC",
+        "label" : "16",
+        "ER" : false,
+        "Contrast" : "Mutant-Control",
+        "Protein" : "ROGDI",
+        "log2FoldChange" : -0.01900885,
+        "MITO" : false,
+        "Padjust" : "1.000000e+00",
+        "size" : 632.544214440645,
+        "NUCLEUS" : false,
+        "Tstatistic" : "-1.604957e+00",
+        "percentControl" : "0.9619710",
+        "name" : "Q3TDK6",
+        "takamori" : "yellow",
+        "CYTOSOL" : false,
+        "Module" : "M35",
+        "log2FC" : "-5.593463e-02",
+        "PM" : false,
+        "Entrez" : "    66049",
+        "S2" : "0.0127533427"
+      },
+      "position" : {
+        "x" : -107.04192552992026,
+        "y" : 213.18899114804663
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43090",
+        "sigprot" : "0",
+        "DF" : "26.00000",
+        "isSingular" : "FALSE",
+        "PROTO" : false,
+        "Symbol" : "Slc30a3",
+        "shared_name" : "P97441",
+        "UniProt_Cyto" : false,
+        "Pvalue" : "4.792296e-02",
+        "SE" : "0.048848433",
+        "PEROXI" : false,
+        "FDR" : "1.901761e-01",
+        "SUID" : 43090,
+        "id_original" : "Slc30a3|P97441",
+        "selected" : false,
+        "RIBOSOME" : false,
+        "isWASH" : "0",
+        "Color" : "gray",
+        "label" : "15",
+        "ER" : false,
+        "Contrast" : "Mutant-Control",
+        "Protein" : "SLC30A3",
+        "log2FoldChange" : -0.07658888,
+        "MITO" : false,
+        "Padjust" : "1.000000e+00",
+        "size" : 841.91201769767,
+        "NUCLEUS" : false,
+        "Tstatistic" : "-2.075978e+00",
+        "percentControl" : "0.9321227",
+        "name" : "P97441",
+        "takamori" : "yellow",
+        "CYTOSOL" : false,
+        "Module" : "M35",
+        "log2FC" : "-1.014083e-01",
+        "PM" : false,
+        "Entrez" : "    22784",
+        "S2" : "0.0250547783"
+      },
+      "position" : {
+        "x" : -310.92588047006575,
+        "y" : 4.780200438879547
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43089",
+        "sigprot" : "0",
+        "DF" : "26.00000",
+        "isSingular" : "FALSE",
+        "PROTO" : false,
+        "Symbol" : "Atp6v0c",
+        "shared_name" : "P63082",
+        "UniProt_Cyto" : false,
+        "Pvalue" : "2.063645e-01",
+        "SE" : "0.041714130",
+        "PEROXI" : false,
+        "FDR" : "4.673068e-01",
+        "SUID" : 43089,
+        "id_original" : "Atp6v0c|P63082",
+        "selected" : false,
+        "RIBOSOME" : false,
+        "isWASH" : "0",
+        "Color" : "gray",
+        "label" : "14",
+        "ER" : false,
+        "Contrast" : "Mutant-Control",
+        "Protein" : "ATP6V0C",
+        "log2FoldChange" : 0.04238631,
+        "MITO" : false,
+        "Padjust" : "1.000000e+00",
+        "size" : 867.284260059253,
+        "NUCLEUS" : false,
+        "Tstatistic" : " 1.295994e+00",
+        "percentControl" : "1.0381834",
+        "name" : "P63082",
+        "takamori" : "yellow",
+        "CYTOSOL" : false,
+        "Module" : "M35",
+        "log2FC" : " 5.406127e-02",
+        "PM" : false,
+        "Entrez" : "    11984",
+        "S2" : "0.0182707205"
+      },
+      "position" : {
+        "x" : -225.36234169556064,
+        "y" : -171.1787722176972
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43088",
+        "sigprot" : "0",
+        "DF" : "26.00000",
+        "isSingular" : "FALSE",
+        "PROTO" : false,
+        "Symbol" : "Atp6v1b2",
+        "shared_name" : "P62814",
+        "UniProt_Cyto" : false,
+        "Pvalue" : "7.874347e-01",
+        "SE" : "0.030533075",
+        "PEROXI" : false,
+        "FDR" : "9.081757e-01",
+        "SUID" : 43088,
+        "id_original" : "Atp6v1b2|P62814",
+        "selected" : false,
+        "RIBOSOME" : false,
+        "isWASH" : "0",
+        "Color" : "gray",
+        "label" : "13",
+        "ER" : false,
+        "Contrast" : "Mutant-Control",
+        "Protein" : "ATP6V1B2",
+        "log2FoldChange" : 0.004078004,
+        "MITO" : false,
+        "Padjust" : "1.000000e+00",
+        "size" : 2075.07058153647,
+        "NUCLEUS" : false,
+        "Tstatistic" : "-2.724414e-01",
+        "percentControl" : "0.9942507",
+        "name" : "P62814",
+        "takamori" : "yellow",
+        "CYTOSOL" : false,
+        "Module" : "M35",
+        "log2FC" : "-8.318475e-03",
+        "PM" : false,
+        "Entrez" : "    11966",
+        "S2" : "0.0097888209"
+      },
+      "position" : {
+        "x" : -89.66346054975293,
+        "y" : 95.64475431027677
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43087",
+        "sigprot" : "0",
+        "DF" : "26.00000",
+        "isSingular" : "FALSE",
+        "PROTO" : false,
+        "Symbol" : "Atp6v1e1",
+        "shared_name" : "P50518",
+        "UniProt_Cyto" : false,
+        "Pvalue" : "9.355105e-01",
+        "SE" : "0.044561061",
+        "PEROXI" : false,
+        "FDR" : "9.735690e-01",
+        "SUID" : 43087,
+        "id_original" : "Atp6v1e1|P50518",
+        "selected" : false,
+        "RIBOSOME" : false,
+        "isWASH" : "0",
+        "Color" : "gray",
+        "label" : "12",
+        "ER" : false,
+        "Contrast" : "Mutant-Control",
+        "Protein" : "ATP6V1E1",
+        "log2FoldChange" : -0.001904395,
+        "MITO" : false,
+        "Padjust" : "1.000000e+00",
+        "size" : 1519.41934964779,
+        "NUCLEUS" : false,
+        "Tstatistic" : " 8.170056e-02",
+        "percentControl" : "1.0025267",
+        "name" : "P50518",
+        "takamori" : "yellow",
+        "CYTOSOL" : false,
+        "Module" : "M35",
+        "log2FC" : " 3.640664e-03",
+        "PM" : false,
+        "Entrez" : "    11973",
+        "S2" : "0.0208497252"
+      },
+      "position" : {
+        "x" : -84.29432489786268,
+        "y" : 141.57000547921052
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43086",
+        "sigprot" : "0",
+        "DF" : "26.00000",
+        "isSingular" : "FALSE",
+        "PROTO" : false,
+        "Symbol" : "Atp6v1a",
+        "shared_name" : "P50516",
+        "UniProt_Cyto" : false,
+        "Pvalue" : "7.482403e-01",
+        "SE" : "0.031657301",
+        "PEROXI" : false,
+        "FDR" : "8.916927e-01",
+        "SUID" : 43086,
+        "id_original" : "Atp6v1a|P50516",
+        "selected" : false,
+        "RIBOSOME" : false,
+        "isWASH" : "0",
+        "Color" : "gray",
+        "label" : "11",
+        "ER" : false,
+        "Contrast" : "Mutant-Control",
+        "Protein" : "ATP6V1A",
+        "log2FoldChange" : 0.02223489,
+        "MITO" : false,
+        "Padjust" : "1.000000e+00",
+        "size" : 1559.78990818806,
+        "NUCLEUS" : false,
+        "Tstatistic" : " 3.243872e-01",
+        "percentControl" : "1.0071435",
+        "name" : "P50516",
+        "takamori" : "black",
+        "CYTOSOL" : false,
+        "Module" : "M35",
+        "log2FC" : " 1.026922e-02",
+        "PM" : false,
+        "Entrez" : "    11964",
+        "S2" : "0.0105229394"
+      },
+      "position" : {
+        "x" : 93.37242706672987,
+        "y" : -11.074213420870365
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43085",
+        "sigprot" : "1",
+        "DF" : "26.00000",
+        "isSingular" : "FALSE",
+        "PROTO" : false,
+        "Symbol" : "Syt2",
+        "shared_name" : "P46097",
+        "UniProt_Cyto" : false,
+        "Pvalue" : "8.015969e-16",
+        "SE" : "0.016727011",
+        "PEROXI" : false,
+        "FDR" : "6.752882e-13",
+        "SUID" : 43085,
+        "id_original" : "Syt2|P46097",
+        "selected" : false,
+        "RIBOSOME" : false,
+        "isWASH" : "0",
+        "Color" : "gray",
+        "label" : "10",
+        "ER" : false,
+        "Contrast" : "Mutant-Control",
+        "Protein" : "SYT2",
+        "log2FoldChange" : -0.2845644,
+        "MITO" : false,
+        "Padjust" : "4.727017e-12",
+        "size" : 979.768798604743,
+        "NUCLEUS" : false,
+        "Tstatistic" : "-1.736353e+01",
+        "percentControl" : "0.8176527",
+        "name" : "P46097",
+        "takamori" : "yellow",
+        "CYTOSOL" : false,
+        "Module" : "M35",
+        "log2FC" : "-2.904399e-01",
+        "PM" : false,
+        "Entrez" : "    20980",
+        "S2" : "0.0029378255"
+      },
+      "position" : {
+        "x" : 320.732452132921,
+        "y" : 1.3448871904111002
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43084",
+        "sigprot" : "0",
+        "DF" : "26.00000",
+        "isSingular" : "FALSE",
+        "PROTO" : false,
+        "Symbol" : "Apoc3",
+        "shared_name" : "P33622",
+        "UniProt_Cyto" : false,
+        "Pvalue" : "7.463237e-01",
+        "SE" : "0.053792581",
+        "PEROXI" : false,
+        "FDR" : "8.907811e-01",
+        "SUID" : 43084,
+        "id_original" : "Apoc3|P33622",
+        "selected" : false,
+        "RIBOSOME" : false,
+        "isWASH" : "0",
+        "Color" : "gray",
+        "label" : "9",
+        "ER" : false,
+        "Contrast" : "Mutant-Control",
+        "Protein" : "APOC3",
+        "log2FoldChange" : 0.08973886,
+        "MITO" : false,
+        "Padjust" : "1.000000e+00",
+        "size" : 402.573992910403,
+        "NUCLEUS" : false,
+        "Tstatistic" : " 3.269495e-01",
+        "percentControl" : "1.0122653",
+        "name" : "P33622",
+        "takamori" : "black",
+        "CYTOSOL" : false,
+        "Module" : "M35",
+        "log2FC" : " 1.758746e-02",
+        "PM" : false,
+        "Entrez" : "    11814",
+        "S2" : "0.0303832388"
+      },
+      "position" : {
+        "x" : 205.05601060423214,
+        "y" : 0.6044069434647099
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43083",
+        "sigprot" : "0",
+        "DF" : "26.00000",
+        "isSingular" : "FALSE",
+        "PROTO" : false,
+        "Symbol" : "Krt1",
+        "shared_name" : "P04104",
+        "UniProt_Cyto" : false,
+        "Pvalue" : "3.864543e-02",
+        "SE" : "0.068078171",
+        "PEROXI" : false,
+        "FDR" : "1.625228e-01",
+        "SUID" : 43083,
+        "id_original" : "Krt1|P04104",
+        "selected" : false,
+        "RIBOSOME" : false,
+        "isWASH" : "0",
+        "Color" : "gray",
+        "label" : "8",
+        "ER" : false,
+        "Contrast" : "Mutant-Control",
+        "Protein" : "KRT1",
+        "log2FoldChange" : -0.1401479,
+        "MITO" : false,
+        "Padjust" : "1.000000e+00",
+        "size" : 443.337295706093,
+        "NUCLEUS" : true,
+        "Tstatistic" : "-2.178249e+00",
+        "percentControl" : "0.9023186",
+        "name" : "P04104",
+        "takamori" : "black",
+        "CYTOSOL" : false,
+        "Module" : "M35",
+        "log2FC" : "-1.482912e-01",
+        "PM" : false,
+        "Entrez" : "    16678",
+        "S2" : "0.0486636923"
+      },
+      "position" : {
+        "x" : 194.39075278796372,
+        "y" : 185.27880777571409
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43082",
+        "sigprot" : "0",
+        "DF" : "26.00000",
+        "isSingular" : "FALSE",
+        "PROTO" : false,
+        "Symbol" : "Syngr1",
+        "shared_name" : "O55100",
+        "UniProt_Cyto" : false,
+        "Pvalue" : "2.903196e-01",
+        "SE" : "0.041136659",
+        "PEROXI" : false,
+        "FDR" : "5.585692e-01",
+        "SUID" : 43082,
+        "id_original" : "Syngr1|O55100",
+        "selected" : false,
+        "RIBOSOME" : false,
+        "isWASH" : "0",
+        "Color" : "gray",
+        "label" : "7",
+        "ER" : false,
+        "Contrast" : "Mutant-Control",
+        "Protein" : "SYNGR1",
+        "log2FoldChange" : -0.04167424,
+        "MITO" : false,
+        "Padjust" : "1.000000e+00",
+        "size" : 477.917319594691,
+        "NUCLEUS" : false,
+        "Tstatistic" : "-1.079404e+00",
+        "percentControl" : "0.9696909",
+        "name" : "O55100",
+        "takamori" : "yellow",
+        "CYTOSOL" : false,
+        "Module" : "M35",
+        "log2FC" : "-4.440308e-02",
+        "PM" : false,
+        "Entrez" : "    20972",
+        "S2" : "0.0177683597"
+      },
+      "position" : {
+        "x" : -112.41247235995252,
+        "y" : 56.8495588150472
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43081",
+        "sigprot" : "0",
+        "DF" : "28.00000",
+        "isSingular" : " TRUE",
+        "PROTO" : false,
+        "Symbol" : "Slc32a1",
+        "shared_name" : "O35633",
+        "UniProt_Cyto" : false,
+        "Pvalue" : "8.881930e-02",
+        "SE" : "0.035733237",
+        "PEROXI" : false,
+        "FDR" : "2.787479e-01",
+        "SUID" : 43081,
+        "id_original" : "Slc32a1|O35633",
+        "selected" : false,
+        "RIBOSOME" : false,
+        "isWASH" : "0",
+        "Color" : "gray",
+        "label" : "6",
+        "ER" : false,
+        "Contrast" : "Mutant-Control",
+        "Protein" : "SLC32A1",
+        "log2FoldChange" : -0.07497574,
+        "MITO" : false,
+        "Padjust" : "1.000000e+00",
+        "size" : 942.863618416297,
+        "NUCLEUS" : false,
+        "Tstatistic" : "-1.762965e+00",
+        "percentControl" : "0.9572738",
+        "name" : "O35633",
+        "takamori" : "yellow",
+        "CYTOSOL" : false,
+        "Module" : "M35",
+        "log2FC" : "-6.299645e-02",
+        "PM" : false,
+        "Entrez" : "    22348",
+        "S2" : "0.0134070747"
+      },
+      "position" : {
+        "x" : 90.52950932348176,
+        "y" : 39.91009295755066
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43080",
+        "sigprot" : "0",
+        "DF" : "26.00000",
+        "isSingular" : "FALSE",
+        "PROTO" : false,
+        "Symbol" : "Scamp3",
+        "shared_name" : "O35609",
+        "UniProt_Cyto" : false,
+        "Pvalue" : "5.566134e-01",
+        "SE" : "0.035097884",
+        "PEROXI" : false,
+        "FDR" : "7.778608e-01",
+        "SUID" : 43080,
+        "id_original" : "Scamp3|O35609",
+        "selected" : false,
+        "RIBOSOME" : false,
+        "isWASH" : "0",
+        "Color" : "gray",
+        "label" : "5",
+        "ER" : false,
+        "Contrast" : "Mutant-Control",
+        "Protein" : "SCAMP3",
+        "log2FoldChange" : -0.0620517,
+        "MITO" : false,
+        "Padjust" : "1.000000e+00",
+        "size" : 597.765500484087,
+        "NUCLEUS" : false,
+        "Tstatistic" : "-5.955675e-01",
+        "percentControl" : "0.9856155",
+        "name" : "O35609",
+        "takamori" : "black",
+        "CYTOSOL" : false,
+        "Module" : "M35",
+        "log2FC" : "-2.090316e-02",
+        "PM" : false,
+        "Entrez" : "    24045",
+        "S2" : "0.0129345452"
+      },
+      "position" : {
+        "x" : 136.76285287292558,
+        "y" : -69.07413638878643
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43079",
+        "sigprot" : "0",
+        "DF" : "26.00000",
+        "isSingular" : "FALSE",
+        "PROTO" : false,
+        "Symbol" : "Ptpn9",
+        "shared_name" : "O35239",
+        "UniProt_Cyto" : false,
+        "Pvalue" : "3.899540e-02",
+        "SE" : "0.025348521",
+        "PEROXI" : false,
+        "FDR" : "1.634370e-01",
+        "SUID" : 43079,
+        "id_original" : "Ptpn9|O35239",
+        "selected" : false,
+        "RIBOSOME" : false,
+        "isWASH" : "0",
+        "Color" : "gray",
+        "label" : "4",
+        "ER" : false,
+        "Contrast" : "Mutant-Control",
+        "Protein" : "PTPN9",
+        "log2FoldChange" : -0.05136644,
+        "MITO" : false,
+        "Padjust" : "1.000000e+00",
+        "size" : 542.407488564387,
+        "NUCLEUS" : false,
+        "Tstatistic" : "-2.174010e+00",
+        "percentControl" : "0.9625224",
+        "name" : "O35239",
+        "takamori" : "yellow",
+        "CYTOSOL" : false,
+        "Module" : "M35",
+        "log2FC" : "-5.510794e-02",
+        "PM" : false,
+        "Entrez" : "    56294",
+        "S2" : "0.0067467487"
+      },
+      "position" : {
+        "x" : 28.406690127063484,
+        "y" : 189.26499873106513
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43078",
+        "sigprot" : "0",
+        "DF" : "26.00000",
+        "isSingular" : "FALSE",
+        "PROTO" : false,
+        "Symbol" : "Sh3yl1",
+        "shared_name" : "O08641",
+        "UniProt_Cyto" : false,
+        "Pvalue" : "8.228330e-01",
+        "SE" : "0.047194490",
+        "PEROXI" : false,
+        "FDR" : "9.251277e-01",
+        "SUID" : 43078,
+        "id_original" : "Sh3yl1|O08641",
+        "selected" : false,
+        "RIBOSOME" : false,
+        "isWASH" : "0",
+        "Color" : "gray",
+        "label" : "3",
+        "ER" : false,
+        "Contrast" : "Mutant-Control",
+        "Protein" : "SH3YL1",
+        "log2FoldChange" : 0.01199505,
+        "MITO" : false,
+        "Padjust" : "1.000000e+00",
+        "size" : 932.536088507702,
+        "NUCLEUS" : false,
+        "Tstatistic" : " 2.261763e-01",
+        "percentControl" : "1.0074263",
+        "name" : "O08641",
+        "takamori" : "black",
+        "CYTOSOL" : false,
+        "Module" : "M35",
+        "log2FC" : " 1.067427e-02",
+        "PM" : false,
+        "Entrez" : "    24057",
+        "S2" : "0.0233868587"
+      },
+      "position" : {
+        "x" : -7.937861579041055,
+        "y" : 137.19722498593183
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43077",
+        "sigprot" : "1",
+        "DF" : "26.00000",
+        "isSingular" : "FALSE",
+        "PROTO" : false,
+        "Symbol" : "Parp4",
+        "shared_name" : "E9PYK3",
+        "UniProt_Cyto" : false,
+        "Pvalue" : "7.816063e-04",
+        "SE" : "0.036847671",
+        "PEROXI" : false,
+        "FDR" : "1.050561e-02",
+        "SUID" : 43077,
+        "id_original" : "Parp4|E9PYK3",
+        "selected" : false,
+        "RIBOSOME" : false,
+        "isWASH" : "0",
+        "Color" : "gray",
+        "label" : "2",
+        "ER" : false,
+        "Contrast" : "Mutant-Control",
+        "Protein" : "PARP4",
+        "log2FoldChange" : -0.1031388,
+        "MITO" : false,
+        "Padjust" : "1.000000e+00",
+        "size" : 566.233119467292,
+        "NUCLEUS" : true,
+        "Tstatistic" : "-3.802127e+00",
+        "percentControl" : "0.9074565",
+        "name" : "E9PYK3",
+        "takamori" : "black",
+        "CYTOSOL" : false,
+        "Module" : "M35",
+        "log2FC" : "-1.400995e-01",
+        "PM" : false,
+        "Entrez" : "   328417",
+        "S2" : "0.0142563838"
+      },
+      "position" : {
+        "x" : 246.23093426701234,
+        "y" : -98.72758130402508
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43076",
+        "sigprot" : "1",
+        "DF" : "26.00000",
+        "isSingular" : "FALSE",
+        "PROTO" : false,
+        "Symbol" : "Sec14l1",
+        "shared_name" : "A8Y5H7",
+        "UniProt_Cyto" : false,
+        "Pvalue" : "4.373357e-04",
+        "SE" : "0.025481981",
+        "PEROXI" : false,
+        "FDR" : "6.970185e-03",
+        "SUID" : 43076,
+        "id_original" : "Sec14l1|A8Y5H7",
+        "selected" : false,
+        "RIBOSOME" : false,
+        "isWASH" : "0",
+        "Color" : "gray",
+        "label" : "1",
+        "ER" : false,
+        "Contrast" : "Mutant-Control",
+        "Protein" : "SEC14L1",
+        "log2FoldChange" : -0.08704545,
+        "MITO" : false,
+        "Padjust" : "1.000000e+00",
+        "size" : 702.318086352656,
+        "NUCLEUS" : false,
+        "Tstatistic" : "-4.025570e+00",
+        "percentControl" : "0.9313662",
+        "name" : "A8Y5H7",
+        "takamori" : "black",
+        "CYTOSOL" : false,
+        "Module" : "M35",
+        "log2FC" : "-1.025795e-01",
+        "PM" : false,
+        "Entrez" : "    74136",
+        "S2" : "0.0068179790"
+      },
+      "position" : {
+        "x" : 270.94229049098067,
+        "y" : 102.79736546205095
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43075",
+        "sigprot" : "0",
+        "DF" : "26.00000",
+        "isSingular" : "FALSE",
+        "PROTO" : false,
+        "Symbol" : "Ttc39a",
+        "shared_name" : "A2ACP1",
+        "UniProt_Cyto" : false,
+        "Pvalue" : "3.880918e-02",
+        "SE" : "0.043549678",
+        "PEROXI" : false,
+        "FDR" : "1.630041e-01",
+        "SUID" : 43075,
+        "id_original" : "Ttc39a|A2ACP1",
+        "selected" : false,
+        "RIBOSOME" : false,
+        "isWASH" : "0",
+        "Color" : "gray",
+        "label" : "0",
+        "ER" : false,
+        "Contrast" : "Mutant-Control",
+        "Protein" : "TTC39A",
+        "log2FoldChange" : -0.1146875,
+        "MITO" : false,
+        "Padjust" : "1.000000e+00",
+        "size" : 534.045012574158,
+        "NUCLEUS" : false,
+        "Tstatistic" : "-2.176262e+00",
+        "percentControl" : "0.9364180",
+        "name" : "A2ACP1",
+        "takamori" : "black",
+        "CYTOSOL" : false,
+        "Module" : "M35",
+        "log2FC" : "-9.477549e-02",
+        "PM" : false,
+        "Entrez" : "   230603",
+        "S2" : "0.0199140316"
+      },
+      "position" : {
+        "x" : 248.50220850310143,
+        "y" : -19.891505798070284
+      },
+      "selected" : false
+    } ],
+    "edges" : [ {
+      "data" : {
+        "id" : "43398",
+        "source" : "43139",
+        "target" : "43138",
+        "shared_name" : "64 (interacts with) 63",
+        "shared_interaction" : "interacts with",
+        "name" : "64 (interacts with) 63",
+        "interaction" : "interacts with",
+        "weight" : 99.8158956092251,
+        "SUID" : 43398,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43397",
+        "source" : "43139",
+        "target" : "43137",
+        "shared_name" : "64 (interacts with) 62",
+        "shared_interaction" : "interacts with",
+        "name" : "64 (interacts with) 62",
+        "interaction" : "interacts with",
+        "weight" : 100.358842793181,
+        "SUID" : 43397,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43396",
+        "source" : "43139",
+        "target" : "43132",
+        "shared_name" : "64 (interacts with) 57",
+        "shared_interaction" : "interacts with",
+        "name" : "64 (interacts with) 57",
+        "interaction" : "interacts with",
+        "weight" : 87.6797956709395,
+        "SUID" : 43396,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43395",
+        "source" : "43139",
+        "target" : "43126",
+        "shared_name" : "64 (interacts with) 51",
+        "shared_interaction" : "interacts with",
+        "name" : "64 (interacts with) 51",
+        "interaction" : "interacts with",
+        "weight" : 85.6679346403016,
+        "SUID" : 43395,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43394",
+        "source" : "43139",
+        "target" : "43124",
+        "shared_name" : "64 (interacts with) 49",
+        "shared_interaction" : "interacts with",
+        "name" : "64 (interacts with) 49",
+        "interaction" : "interacts with",
+        "weight" : 85.1075191335371,
+        "SUID" : 43394,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43393",
+        "source" : "43139",
+        "target" : "43120",
+        "shared_name" : "64 (interacts with) 45",
+        "shared_interaction" : "interacts with",
+        "name" : "64 (interacts with) 45",
+        "interaction" : "interacts with",
+        "weight" : 81.0233269246943,
+        "SUID" : 43393,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43392",
+        "source" : "43139",
+        "target" : "43118",
+        "shared_name" : "64 (interacts with) 43",
+        "shared_interaction" : "interacts with",
+        "name" : "64 (interacts with) 43",
+        "interaction" : "interacts with",
+        "weight" : 91.7619890019475,
+        "SUID" : 43392,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43391",
+        "source" : "43139",
+        "target" : "43115",
+        "shared_name" : "64 (interacts with) 40",
+        "shared_interaction" : "interacts with",
+        "name" : "64 (interacts with) 40",
+        "interaction" : "interacts with",
+        "weight" : 88.16203251537,
+        "SUID" : 43391,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43390",
+        "source" : "43139",
+        "target" : "43110",
+        "shared_name" : "64 (interacts with) 35",
+        "shared_interaction" : "interacts with",
+        "name" : "64 (interacts with) 35",
+        "interaction" : "interacts with",
+        "weight" : 59.3753900676446,
+        "SUID" : 43390,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43389",
+        "source" : "43139",
+        "target" : "43109",
+        "shared_name" : "64 (interacts with) 34",
+        "shared_interaction" : "interacts with",
+        "name" : "64 (interacts with) 34",
+        "interaction" : "interacts with",
+        "weight" : 86.4540909805886,
+        "SUID" : 43389,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43388",
+        "source" : "43139",
+        "target" : "43097",
+        "shared_name" : "64 (interacts with) 22",
+        "shared_interaction" : "interacts with",
+        "name" : "64 (interacts with) 22",
+        "interaction" : "interacts with",
+        "weight" : 63.236128776697,
+        "SUID" : 43388,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43387",
+        "source" : "43139",
+        "target" : "43096",
+        "shared_name" : "64 (interacts with) 21",
+        "shared_interaction" : "interacts with",
+        "name" : "64 (interacts with) 21",
+        "interaction" : "interacts with",
+        "weight" : 57.8191166634536,
+        "SUID" : 43387,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43386",
+        "source" : "43139",
+        "target" : "43088",
+        "shared_name" : "64 (interacts with) 13",
+        "shared_interaction" : "interacts with",
+        "name" : "64 (interacts with) 13",
+        "interaction" : "interacts with",
+        "weight" : 157.793419409563,
+        "SUID" : 43386,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43385",
+        "source" : "43139",
+        "target" : "43087",
+        "shared_name" : "64 (interacts with) 12",
+        "shared_interaction" : "interacts with",
+        "name" : "64 (interacts with) 12",
+        "interaction" : "interacts with",
+        "weight" : 153.145842847119,
+        "SUID" : 43385,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43384",
+        "source" : "43139",
+        "target" : "43086",
+        "shared_name" : "64 (interacts with) 11",
+        "shared_interaction" : "interacts with",
+        "name" : "64 (interacts with) 11",
+        "interaction" : "interacts with",
+        "weight" : 83.9171688527376,
+        "SUID" : 43384,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43383",
+        "source" : "43139",
+        "target" : "43078",
+        "shared_name" : "64 (interacts with) 3",
+        "shared_interaction" : "interacts with",
+        "name" : "64 (interacts with) 3",
+        "interaction" : "interacts with",
+        "weight" : 88.6866044248644,
+        "SUID" : 43383,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43382",
+        "source" : "43138",
+        "target" : "43140",
+        "shared_name" : "Q9WTT4 (interacts with) Q9Z1G4",
+        "shared_interaction" : "interacts with",
+        "name" : "Q9WTT4 (interacts with) Q9Z1G4",
+        "interaction" : "interacts with",
+        "SUID" : 43382,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43381",
+        "source" : "43138",
+        "target" : "43125",
+        "shared_name" : "63 (interacts with) 50",
+        "shared_interaction" : "interacts with",
+        "name" : "63 (interacts with) 50",
+        "interaction" : "interacts with",
+        "weight" : 152.627960225703,
+        "SUID" : 43381,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43380",
+        "source" : "43138",
+        "target" : "43124",
+        "shared_name" : "63 (interacts with) 49",
+        "shared_interaction" : "interacts with",
+        "name" : "63 (interacts with) 49",
+        "interaction" : "interacts with",
+        "weight" : 108.285618959758,
+        "SUID" : 43380,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43379",
+        "source" : "43138",
+        "target" : "43110",
+        "shared_name" : "63 (interacts with) 35",
+        "shared_interaction" : "interacts with",
+        "name" : "63 (interacts with) 35",
+        "interaction" : "interacts with",
+        "weight" : 77.1731431209541,
+        "SUID" : 43379,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43378",
+        "source" : "43138",
+        "target" : "43109",
+        "shared_name" : "63 (interacts with) 34",
+        "shared_interaction" : "interacts with",
+        "name" : "63 (interacts with) 34",
+        "interaction" : "interacts with",
+        "weight" : 104.608941282738,
+        "SUID" : 43378,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43377",
+        "source" : "43138",
+        "target" : "43103",
+        "shared_name" : "63 (interacts with) 28",
+        "shared_interaction" : "interacts with",
+        "name" : "63 (interacts with) 28",
+        "interaction" : "interacts with",
+        "weight" : 80.3525360272479,
+        "SUID" : 43377,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43376",
+        "source" : "43138",
+        "target" : "43097",
+        "shared_name" : "63 (interacts with) 22",
+        "shared_interaction" : "interacts with",
+        "name" : "63 (interacts with) 22",
+        "interaction" : "interacts with",
+        "weight" : 74.2812794074903,
+        "SUID" : 43376,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43375",
+        "source" : "43138",
+        "target" : "43096",
+        "shared_name" : "63 (interacts with) 21",
+        "shared_interaction" : "interacts with",
+        "name" : "63 (interacts with) 21",
+        "interaction" : "interacts with",
+        "weight" : 75.0818698424596,
+        "SUID" : 43375,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43374",
+        "source" : "43138",
+        "target" : "43088",
+        "shared_name" : "63 (interacts with) 13",
+        "shared_interaction" : "interacts with",
+        "name" : "63 (interacts with) 13",
+        "interaction" : "interacts with",
+        "weight" : 97.4714890929871,
+        "SUID" : 43374,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43373",
+        "source" : "43138",
+        "target" : "43087",
+        "shared_name" : "63 (interacts with) 12",
+        "shared_interaction" : "interacts with",
+        "name" : "63 (interacts with) 12",
+        "interaction" : "interacts with",
+        "weight" : 101.227922458716,
+        "SUID" : 43373,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43372",
+        "source" : "43138",
+        "target" : "43086",
+        "shared_name" : "63 (interacts with) 11",
+        "shared_interaction" : "interacts with",
+        "name" : "63 (interacts with) 11",
+        "interaction" : "interacts with",
+        "weight" : 97.5806367193948,
+        "SUID" : 43372,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43371",
+        "source" : "43138",
+        "target" : "43081",
+        "shared_name" : "63 (interacts with) 6",
+        "shared_interaction" : "interacts with",
+        "name" : "63 (interacts with) 6",
+        "interaction" : "interacts with",
+        "weight" : 95.4985776508675,
+        "SUID" : 43371,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43370",
+        "source" : "43137",
+        "target" : "43132",
+        "shared_name" : "62 (interacts with) 57",
+        "shared_interaction" : "interacts with",
+        "name" : "62 (interacts with) 57",
+        "interaction" : "interacts with",
+        "weight" : 120.613202789963,
+        "SUID" : 43370,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43369",
+        "source" : "43137",
+        "target" : "43126",
+        "shared_name" : "62 (interacts with) 51",
+        "shared_interaction" : "interacts with",
+        "name" : "62 (interacts with) 51",
+        "interaction" : "interacts with",
+        "weight" : 128.799006637149,
+        "SUID" : 43369,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43368",
+        "source" : "43137",
+        "target" : "43120",
+        "shared_name" : "62 (interacts with) 45",
+        "shared_interaction" : "interacts with",
+        "name" : "62 (interacts with) 45",
+        "interaction" : "interacts with",
+        "weight" : 114.536111571256,
+        "SUID" : 43368,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43367",
+        "source" : "43137",
+        "target" : "43118",
+        "shared_name" : "62 (interacts with) 43",
+        "shared_interaction" : "interacts with",
+        "name" : "62 (interacts with) 43",
+        "interaction" : "interacts with",
+        "weight" : 123.042509530336,
+        "SUID" : 43367,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43366",
+        "source" : "43137",
+        "target" : "43115",
+        "shared_name" : "62 (interacts with) 40",
+        "shared_interaction" : "interacts with",
+        "name" : "62 (interacts with) 40",
+        "interaction" : "interacts with",
+        "weight" : 118.602195371086,
+        "SUID" : 43366,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43365",
+        "source" : "43137",
+        "target" : "43078",
+        "shared_name" : "62 (interacts with) 3",
+        "shared_interaction" : "interacts with",
+        "name" : "62 (interacts with) 3",
+        "interaction" : "interacts with",
+        "weight" : 116.223090952398,
+        "SUID" : 43365,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43364",
+        "source" : "43136",
+        "target" : "43112",
+        "shared_name" : "61 (interacts with) 37",
+        "shared_interaction" : "interacts with",
+        "name" : "61 (interacts with) 37",
+        "interaction" : "interacts with",
+        "weight" : 61.1281590486379,
+        "SUID" : 43364,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43363",
+        "source" : "43135",
+        "target" : "43128",
+        "shared_name" : "60 (interacts with) 53",
+        "shared_interaction" : "interacts with",
+        "name" : "60 (interacts with) 53",
+        "interaction" : "interacts with",
+        "weight" : 60.6370736735423,
+        "SUID" : 43363,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43362",
+        "source" : "43135",
+        "target" : "43119",
+        "shared_name" : "60 (interacts with) 44",
+        "shared_interaction" : "interacts with",
+        "name" : "60 (interacts with) 44",
+        "interaction" : "interacts with",
+        "weight" : 62.807162068173,
+        "SUID" : 43362,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43361",
+        "source" : "43135",
+        "target" : "43116",
+        "shared_name" : "60 (interacts with) 41",
+        "shared_interaction" : "interacts with",
+        "name" : "60 (interacts with) 41",
+        "interaction" : "interacts with",
+        "weight" : 67.2735868333961,
+        "SUID" : 43361,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43360",
+        "source" : "43135",
+        "target" : "43113",
+        "shared_name" : "60 (interacts with) 38",
+        "shared_interaction" : "interacts with",
+        "name" : "60 (interacts with) 38",
+        "interaction" : "interacts with",
+        "weight" : 60.2132065660724,
+        "SUID" : 43360,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43359",
+        "source" : "43135",
+        "target" : "43099",
+        "shared_name" : "60 (interacts with) 24",
+        "shared_interaction" : "interacts with",
+        "name" : "60 (interacts with) 24",
+        "interaction" : "interacts with",
+        "weight" : 76.5058827490053,
+        "SUID" : 43359,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43358",
+        "source" : "43135",
+        "target" : "43095",
+        "shared_name" : "60 (interacts with) 20",
+        "shared_interaction" : "interacts with",
+        "name" : "60 (interacts with) 20",
+        "interaction" : "interacts with",
+        "weight" : 116.14058057268,
+        "SUID" : 43358,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43357",
+        "source" : "43135",
+        "target" : "43085",
+        "shared_name" : "60 (interacts with) 10",
+        "shared_interaction" : "interacts with",
+        "name" : "60 (interacts with) 10",
+        "interaction" : "interacts with",
+        "weight" : 74.739929790759,
+        "SUID" : 43357,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43356",
+        "source" : "43135",
+        "target" : "43076",
+        "shared_name" : "60 (interacts with) 1",
+        "shared_interaction" : "interacts with",
+        "name" : "60 (interacts with) 1",
+        "interaction" : "interacts with",
+        "weight" : 79.6996987240669,
+        "SUID" : 43356,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43355",
+        "source" : "43134",
+        "target" : "43118",
+        "shared_name" : "59 (interacts with) 43",
+        "shared_interaction" : "interacts with",
+        "name" : "59 (interacts with) 43",
+        "interaction" : "interacts with",
+        "weight" : 56.0142061091236,
+        "SUID" : 43355,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43354",
+        "source" : "43134",
+        "target" : "43112",
+        "shared_name" : "59 (interacts with) 37",
+        "shared_interaction" : "interacts with",
+        "name" : "59 (interacts with) 37",
+        "interaction" : "interacts with",
+        "weight" : 59.0938762423571,
+        "SUID" : 43354,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43353",
+        "source" : "43133",
+        "target" : "43128",
+        "shared_name" : "58 (interacts with) 53",
+        "shared_interaction" : "interacts with",
+        "name" : "58 (interacts with) 53",
+        "interaction" : "interacts with",
+        "weight" : 82.5226591242584,
+        "SUID" : 43353,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43352",
+        "source" : "43133",
+        "target" : "43119",
+        "shared_name" : "58 (interacts with) 44",
+        "shared_interaction" : "interacts with",
+        "name" : "58 (interacts with) 44",
+        "interaction" : "interacts with",
+        "weight" : 195.088685142184,
+        "SUID" : 43352,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43351",
+        "source" : "43133",
+        "target" : "43105",
+        "shared_name" : "58 (interacts with) 30",
+        "shared_interaction" : "interacts with",
+        "name" : "58 (interacts with) 30",
+        "interaction" : "interacts with",
+        "weight" : 90.4825091991555,
+        "SUID" : 43351,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43350",
+        "source" : "43133",
+        "target" : "43099",
+        "shared_name" : "58 (interacts with) 24",
+        "shared_interaction" : "interacts with",
+        "name" : "58 (interacts with) 24",
+        "interaction" : "interacts with",
+        "weight" : 108.237783275785,
+        "SUID" : 43350,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43349",
+        "source" : "43133",
+        "target" : "43092",
+        "shared_name" : "58 (interacts with) 17",
+        "shared_interaction" : "interacts with",
+        "name" : "58 (interacts with) 17",
+        "interaction" : "interacts with",
+        "weight" : 106.118328888974,
+        "SUID" : 43349,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43348",
+        "source" : "43133",
+        "target" : "43077",
+        "shared_name" : "58 (interacts with) 2",
+        "shared_interaction" : "interacts with",
+        "name" : "58 (interacts with) 2",
+        "interaction" : "interacts with",
+        "weight" : 72.0095217178022,
+        "SUID" : 43348,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43347",
+        "source" : "43132",
+        "target" : "43131",
+        "shared_name" : "57 (interacts with) 56",
+        "shared_interaction" : "interacts with",
+        "name" : "57 (interacts with) 56",
+        "interaction" : "interacts with",
+        "weight" : 63.6504569631133,
+        "SUID" : 43347,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43346",
+        "source" : "43132",
+        "target" : "43117",
+        "shared_name" : "57 (interacts with) 42",
+        "shared_interaction" : "interacts with",
+        "name" : "57 (interacts with) 42",
+        "interaction" : "interacts with",
+        "weight" : 67.0006502470798,
+        "SUID" : 43346,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43345",
+        "source" : "43132",
+        "target" : "43110",
+        "shared_name" : "57 (interacts with) 35",
+        "shared_interaction" : "interacts with",
+        "name" : "57 (interacts with) 35",
+        "interaction" : "interacts with",
+        "weight" : 58.7899532362828,
+        "SUID" : 43345,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43344",
+        "source" : "43132",
+        "target" : "43105",
+        "shared_name" : "57 (interacts with) 30",
+        "shared_interaction" : "interacts with",
+        "name" : "57 (interacts with) 30",
+        "interaction" : "interacts with",
+        "weight" : 91.9942414089771,
+        "SUID" : 43344,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43343",
+        "source" : "43132",
+        "target" : "43103",
+        "shared_name" : "57 (interacts with) 28",
+        "shared_interaction" : "interacts with",
+        "name" : "57 (interacts with) 28",
+        "interaction" : "interacts with",
+        "weight" : 73.7067831431538,
+        "SUID" : 43343,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43342",
+        "source" : "43132",
+        "target" : "43101",
+        "shared_name" : "57 (interacts with) 26",
+        "shared_interaction" : "interacts with",
+        "name" : "57 (interacts with) 26",
+        "interaction" : "interacts with",
+        "weight" : 70.6144534864815,
+        "SUID" : 43342,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43341",
+        "source" : "43132",
+        "target" : "43094",
+        "shared_name" : "57 (interacts with) 19",
+        "shared_interaction" : "interacts with",
+        "name" : "57 (interacts with) 19",
+        "interaction" : "interacts with",
+        "weight" : 83.8603138289061,
+        "SUID" : 43341,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43340",
+        "source" : "43132",
+        "target" : "43088",
+        "shared_name" : "57 (interacts with) 13",
+        "shared_interaction" : "interacts with",
+        "name" : "57 (interacts with) 13",
+        "interaction" : "interacts with",
+        "weight" : 85.2493608938916,
+        "SUID" : 43340,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43339",
+        "source" : "43132",
+        "target" : "43086",
+        "shared_name" : "57 (interacts with) 11",
+        "shared_interaction" : "interacts with",
+        "name" : "57 (interacts with) 11",
+        "interaction" : "interacts with",
+        "weight" : 85.3461678594504,
+        "SUID" : 43339,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43338",
+        "source" : "43132",
+        "target" : "43081",
+        "shared_name" : "57 (interacts with) 6",
+        "shared_interaction" : "interacts with",
+        "name" : "57 (interacts with) 6",
+        "interaction" : "interacts with",
+        "weight" : 89.4428910086637,
+        "SUID" : 43338,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43337",
+        "source" : "43131",
+        "target" : "43127",
+        "shared_name" : "56 (interacts with) 52",
+        "shared_interaction" : "interacts with",
+        "name" : "56 (interacts with) 52",
+        "interaction" : "interacts with",
+        "weight" : 78.5398634944368,
+        "SUID" : 43337,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43336",
+        "source" : "43131",
+        "target" : "43122",
+        "shared_name" : "56 (interacts with) 47",
+        "shared_interaction" : "interacts with",
+        "name" : "56 (interacts with) 47",
+        "interaction" : "interacts with",
+        "weight" : 66.2686883583463,
+        "SUID" : 43336,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43335",
+        "source" : "43131",
+        "target" : "43118",
+        "shared_name" : "56 (interacts with) 43",
+        "shared_interaction" : "interacts with",
+        "name" : "56 (interacts with) 43",
+        "interaction" : "interacts with",
+        "weight" : 67.9681542509791,
+        "SUID" : 43335,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43334",
+        "source" : "43131",
+        "target" : "43115",
+        "shared_name" : "56 (interacts with) 40",
+        "shared_interaction" : "interacts with",
+        "name" : "56 (interacts with) 40",
+        "interaction" : "interacts with",
+        "weight" : 60.479333995418,
+        "SUID" : 43334,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43333",
+        "source" : "43131",
+        "target" : "43106",
+        "shared_name" : "56 (interacts with) 31",
+        "shared_interaction" : "interacts with",
+        "name" : "56 (interacts with) 31",
+        "interaction" : "interacts with",
+        "weight" : 67.5398186908224,
+        "SUID" : 43333,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43332",
+        "source" : "43131",
+        "target" : "43105",
+        "shared_name" : "56 (interacts with) 30",
+        "shared_interaction" : "interacts with",
+        "name" : "56 (interacts with) 30",
+        "interaction" : "interacts with",
+        "weight" : 62.0499209316486,
+        "SUID" : 43332,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43331",
+        "source" : "43131",
+        "target" : "43091",
+        "shared_name" : "56 (interacts with) 16",
+        "shared_interaction" : "interacts with",
+        "name" : "56 (interacts with) 16",
+        "interaction" : "interacts with",
+        "weight" : 66.1665846571258,
+        "SUID" : 43331,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43330",
+        "source" : "43131",
+        "target" : "43081",
+        "shared_name" : "56 (interacts with) 6",
+        "shared_interaction" : "interacts with",
+        "name" : "56 (interacts with) 6",
+        "interaction" : "interacts with",
+        "weight" : 62.7516103642146,
+        "SUID" : 43330,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43329",
+        "source" : "43131",
+        "target" : "43079",
+        "shared_name" : "56 (interacts with) 4",
+        "shared_interaction" : "interacts with",
+        "name" : "56 (interacts with) 4",
+        "interaction" : "interacts with",
+        "weight" : 64.4332070476947,
+        "SUID" : 43329,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43328",
+        "source" : "43130",
+        "target" : "43124",
+        "shared_name" : "55 (interacts with) 49",
+        "shared_interaction" : "interacts with",
+        "name" : "55 (interacts with) 49",
+        "interaction" : "interacts with",
+        "weight" : 83.6176627709201,
+        "SUID" : 43328,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43327",
+        "source" : "43130",
+        "target" : "43121",
+        "shared_name" : "55 (interacts with) 46",
+        "shared_interaction" : "interacts with",
+        "name" : "55 (interacts with) 46",
+        "interaction" : "interacts with",
+        "weight" : 109.014740593485,
+        "SUID" : 43327,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43326",
+        "source" : "43130",
+        "target" : "43120",
+        "shared_name" : "55 (interacts with) 45",
+        "shared_interaction" : "interacts with",
+        "name" : "55 (interacts with) 45",
+        "interaction" : "interacts with",
+        "weight" : 82.2775830760119,
+        "SUID" : 43326,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43325",
+        "source" : "43130",
+        "target" : "43119",
+        "shared_name" : "55 (interacts with) 44",
+        "shared_interaction" : "interacts with",
+        "name" : "55 (interacts with) 44",
+        "interaction" : "interacts with",
+        "weight" : 171.592868285711,
+        "SUID" : 43325,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43324",
+        "source" : "43130",
+        "target" : "43104",
+        "shared_name" : "55 (interacts with) 29",
+        "shared_interaction" : "interacts with",
+        "name" : "55 (interacts with) 29",
+        "interaction" : "interacts with",
+        "weight" : 81.4498934689694,
+        "SUID" : 43324,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43323",
+        "source" : "43130",
+        "target" : "43101",
+        "shared_name" : "55 (interacts with) 26",
+        "shared_interaction" : "interacts with",
+        "name" : "55 (interacts with) 26",
+        "interaction" : "interacts with",
+        "weight" : 58.0028045877355,
+        "SUID" : 43323,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43322",
+        "source" : "43130",
+        "target" : "43100",
+        "shared_name" : "55 (interacts with) 25",
+        "shared_interaction" : "interacts with",
+        "name" : "55 (interacts with) 25",
+        "interaction" : "interacts with",
+        "weight" : 81.5741453289412,
+        "SUID" : 43322,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43321",
+        "source" : "43130",
+        "target" : "43098",
+        "shared_name" : "55 (interacts with) 23",
+        "shared_interaction" : "interacts with",
+        "name" : "55 (interacts with) 23",
+        "interaction" : "interacts with",
+        "weight" : 64.1026283568066,
+        "SUID" : 43321,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43320",
+        "source" : "43130",
+        "target" : "43094",
+        "shared_name" : "55 (interacts with) 19",
+        "shared_interaction" : "interacts with",
+        "name" : "55 (interacts with) 19",
+        "interaction" : "interacts with",
+        "weight" : 68.0176536628018,
+        "SUID" : 43320,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43319",
+        "source" : "43130",
+        "target" : "43083",
+        "shared_name" : "55 (interacts with) 8",
+        "shared_interaction" : "interacts with",
+        "name" : "55 (interacts with) 8",
+        "interaction" : "interacts with",
+        "weight" : 125.170549045248,
+        "SUID" : 43319,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43318",
+        "source" : "43130",
+        "target" : "43076",
+        "shared_name" : "55 (interacts with) 1",
+        "shared_interaction" : "interacts with",
+        "name" : "55 (interacts with) 1",
+        "interaction" : "interacts with",
+        "weight" : 105.691147239842,
+        "SUID" : 43318,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43317",
+        "source" : "43129",
+        "target" : "43125",
+        "shared_name" : "54 (interacts with) 50",
+        "shared_interaction" : "interacts with",
+        "name" : "54 (interacts with) 50",
+        "interaction" : "interacts with",
+        "weight" : 59.4545782543343,
+        "SUID" : 43317,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43316",
+        "source" : "43129",
+        "target" : "43121",
+        "shared_name" : "54 (interacts with) 46",
+        "shared_interaction" : "interacts with",
+        "name" : "54 (interacts with) 46",
+        "interaction" : "interacts with",
+        "weight" : 134.68442889633,
+        "SUID" : 43316,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43315",
+        "source" : "43129",
+        "target" : "43097",
+        "shared_name" : "54 (interacts with) 22",
+        "shared_interaction" : "interacts with",
+        "name" : "54 (interacts with) 22",
+        "interaction" : "interacts with",
+        "weight" : 85.1081525080356,
+        "SUID" : 43315,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43314",
+        "source" : "43129",
+        "target" : "43080",
+        "shared_name" : "54 (interacts with) 5",
+        "shared_interaction" : "interacts with",
+        "name" : "54 (interacts with) 5",
+        "interaction" : "interacts with",
+        "weight" : 103.527163437112,
+        "SUID" : 43314,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43313",
+        "source" : "43128",
+        "target" : "43119",
+        "shared_name" : "53 (interacts with) 44",
+        "shared_interaction" : "interacts with",
+        "name" : "53 (interacts with) 44",
+        "interaction" : "interacts with",
+        "weight" : 72.5296462240511,
+        "SUID" : 43313,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43312",
+        "source" : "43128",
+        "target" : "43095",
+        "shared_name" : "53 (interacts with) 20",
+        "shared_interaction" : "interacts with",
+        "name" : "53 (interacts with) 20",
+        "interaction" : "interacts with",
+        "weight" : 63.4329389051778,
+        "SUID" : 43312,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43311",
+        "source" : "43128",
+        "target" : "43085",
+        "shared_name" : "53 (interacts with) 10",
+        "shared_interaction" : "interacts with",
+        "name" : "53 (interacts with) 10",
+        "interaction" : "interacts with",
+        "weight" : 75.3238217026377,
+        "SUID" : 43311,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43310",
+        "source" : "43128",
+        "target" : "43084",
+        "shared_name" : "53 (interacts with) 9",
+        "shared_interaction" : "interacts with",
+        "name" : "53 (interacts with) 9",
+        "interaction" : "interacts with",
+        "weight" : 100.689059898197,
+        "SUID" : 43310,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43309",
+        "source" : "43128",
+        "target" : "43077",
+        "shared_name" : "53 (interacts with) 2",
+        "shared_interaction" : "interacts with",
+        "name" : "53 (interacts with) 2",
+        "interaction" : "interacts with",
+        "weight" : 68.6357260472555,
+        "SUID" : 43309,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43308",
+        "source" : "43127",
+        "target" : "43123",
+        "shared_name" : "52 (interacts with) 48",
+        "shared_interaction" : "interacts with",
+        "name" : "52 (interacts with) 48",
+        "interaction" : "interacts with",
+        "weight" : 55.2064252977868,
+        "SUID" : 43308,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43307",
+        "source" : "43127",
+        "target" : "43117",
+        "shared_name" : "52 (interacts with) 42",
+        "shared_interaction" : "interacts with",
+        "name" : "52 (interacts with) 42",
+        "interaction" : "interacts with",
+        "weight" : 82.9101733086304,
+        "SUID" : 43307,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43306",
+        "source" : "43127",
+        "target" : "43110",
+        "shared_name" : "52 (interacts with) 35",
+        "shared_interaction" : "interacts with",
+        "name" : "52 (interacts with) 35",
+        "interaction" : "interacts with",
+        "weight" : 73.1762326299611,
+        "SUID" : 43306,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43305",
+        "source" : "43127",
+        "target" : "43103",
+        "shared_name" : "52 (interacts with) 28",
+        "shared_interaction" : "interacts with",
+        "name" : "52 (interacts with) 28",
+        "interaction" : "interacts with",
+        "weight" : 89.9131996176844,
+        "SUID" : 43305,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43304",
+        "source" : "43127",
+        "target" : "43101",
+        "shared_name" : "52 (interacts with) 26",
+        "shared_interaction" : "interacts with",
+        "name" : "52 (interacts with) 26",
+        "interaction" : "interacts with",
+        "weight" : 90.4236919000698,
+        "SUID" : 43304,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43303",
+        "source" : "43127",
+        "target" : "43094",
+        "shared_name" : "52 (interacts with) 19",
+        "shared_interaction" : "interacts with",
+        "name" : "52 (interacts with) 19",
+        "interaction" : "interacts with",
+        "weight" : 98.0969956971576,
+        "SUID" : 43303,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43302",
+        "source" : "43127",
+        "target" : "43093",
+        "shared_name" : "52 (interacts with) 18",
+        "shared_interaction" : "interacts with",
+        "name" : "52 (interacts with) 18",
+        "interaction" : "interacts with",
+        "weight" : 61.0813981515718,
+        "SUID" : 43302,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43301",
+        "source" : "43127",
+        "target" : "43090",
+        "shared_name" : "52 (interacts with) 15",
+        "shared_interaction" : "interacts with",
+        "name" : "52 (interacts with) 15",
+        "interaction" : "interacts with",
+        "weight" : 65.1929281068169,
+        "SUID" : 43301,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43300",
+        "source" : "43127",
+        "target" : "43089",
+        "shared_name" : "52 (interacts with) 14",
+        "shared_interaction" : "interacts with",
+        "name" : "52 (interacts with) 14",
+        "interaction" : "interacts with",
+        "weight" : 64.6259219244015,
+        "SUID" : 43300,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43299",
+        "source" : "43127",
+        "target" : "43088",
+        "shared_name" : "52 (interacts with) 13",
+        "shared_interaction" : "interacts with",
+        "name" : "52 (interacts with) 13",
+        "interaction" : "interacts with",
+        "weight" : 101.397285242797,
+        "SUID" : 43299,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43298",
+        "source" : "43127",
+        "target" : "43087",
+        "shared_name" : "52 (interacts with) 12",
+        "shared_interaction" : "interacts with",
+        "name" : "52 (interacts with) 12",
+        "interaction" : "interacts with",
+        "weight" : 98.5976807652485,
+        "SUID" : 43298,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43297",
+        "source" : "43127",
+        "target" : "43086",
+        "shared_name" : "52 (interacts with) 11",
+        "shared_interaction" : "interacts with",
+        "name" : "52 (interacts with) 11",
+        "interaction" : "interacts with",
+        "weight" : 103.394738740448,
+        "SUID" : 43297,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43296",
+        "source" : "43127",
+        "target" : "43082",
+        "shared_name" : "52 (interacts with) 7",
+        "shared_interaction" : "interacts with",
+        "name" : "52 (interacts with) 7",
+        "interaction" : "interacts with",
+        "weight" : 77.8926074794727,
+        "SUID" : 43296,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43295",
+        "source" : "43126",
+        "target" : "43120",
+        "shared_name" : "51 (interacts with) 45",
+        "shared_interaction" : "interacts with",
+        "name" : "51 (interacts with) 45",
+        "interaction" : "interacts with",
+        "weight" : 101.666819873559,
+        "SUID" : 43295,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43294",
+        "source" : "43126",
+        "target" : "43118",
+        "shared_name" : "51 (interacts with) 43",
+        "shared_interaction" : "interacts with",
+        "name" : "51 (interacts with) 43",
+        "interaction" : "interacts with",
+        "weight" : 109.152042565482,
+        "SUID" : 43294,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43293",
+        "source" : "43126",
+        "target" : "43115",
+        "shared_name" : "51 (interacts with) 40",
+        "shared_interaction" : "interacts with",
+        "name" : "51 (interacts with) 40",
+        "interaction" : "interacts with",
+        "weight" : 105.055449941607,
+        "SUID" : 43293,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43292",
+        "source" : "43126",
+        "target" : "43100",
+        "shared_name" : "51 (interacts with) 25",
+        "shared_interaction" : "interacts with",
+        "name" : "51 (interacts with) 25",
+        "interaction" : "interacts with",
+        "weight" : 95.4304773664347,
+        "SUID" : 43292,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43291",
+        "source" : "43126",
+        "target" : "43098",
+        "shared_name" : "51 (interacts with) 23",
+        "shared_interaction" : "interacts with",
+        "name" : "51 (interacts with) 23",
+        "interaction" : "interacts with",
+        "weight" : 75.4571106446912,
+        "SUID" : 43291,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43290",
+        "source" : "43126",
+        "target" : "43092",
+        "shared_name" : "51 (interacts with) 17",
+        "shared_interaction" : "interacts with",
+        "name" : "51 (interacts with) 17",
+        "interaction" : "interacts with",
+        "weight" : 104.366576680189,
+        "SUID" : 43290,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43289",
+        "source" : "43124",
+        "target" : "43121",
+        "shared_name" : "49 (interacts with) 46",
+        "shared_interaction" : "interacts with",
+        "name" : "49 (interacts with) 46",
+        "interaction" : "interacts with",
+        "weight" : 123.537284884685,
+        "SUID" : 43289,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43288",
+        "source" : "43124",
+        "target" : "43120",
+        "shared_name" : "49 (interacts with) 45",
+        "shared_interaction" : "interacts with",
+        "name" : "49 (interacts with) 45",
+        "interaction" : "interacts with",
+        "weight" : 97.0761481461099,
+        "SUID" : 43288,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43287",
+        "source" : "43124",
+        "target" : "43110",
+        "shared_name" : "49 (interacts with) 35",
+        "shared_interaction" : "interacts with",
+        "name" : "49 (interacts with) 35",
+        "interaction" : "interacts with",
+        "weight" : 57.509958616512,
+        "SUID" : 43287,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43286",
+        "source" : "43124",
+        "target" : "43109",
+        "shared_name" : "49 (interacts with) 34",
+        "shared_interaction" : "interacts with",
+        "name" : "49 (interacts with) 34",
+        "interaction" : "interacts with",
+        "weight" : 87.5679230505236,
+        "SUID" : 43286,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43285",
+        "source" : "43124",
+        "target" : "43088",
+        "shared_name" : "49 (interacts with) 13",
+        "shared_interaction" : "interacts with",
+        "name" : "49 (interacts with) 13",
+        "interaction" : "interacts with",
+        "weight" : 84.6294698467604,
+        "SUID" : 43285,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43284",
+        "source" : "43124",
+        "target" : "43087",
+        "shared_name" : "49 (interacts with) 12",
+        "shared_interaction" : "interacts with",
+        "name" : "49 (interacts with) 12",
+        "interaction" : "interacts with",
+        "weight" : 79.8576317978733,
+        "SUID" : 43284,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43283",
+        "source" : "43124",
+        "target" : "43086",
+        "shared_name" : "49 (interacts with) 11",
+        "shared_interaction" : "interacts with",
+        "name" : "49 (interacts with) 11",
+        "interaction" : "interacts with",
+        "weight" : 82.5597936592504,
+        "SUID" : 43283,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43282",
+        "source" : "43124",
+        "target" : "43078",
+        "shared_name" : "49 (interacts with) 3",
+        "shared_interaction" : "interacts with",
+        "name" : "49 (interacts with) 3",
+        "interaction" : "interacts with",
+        "weight" : 101.333856589661,
+        "SUID" : 43282,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43281",
+        "source" : "43122",
+        "target" : "43117",
+        "shared_name" : "47 (interacts with) 42",
+        "shared_interaction" : "interacts with",
+        "name" : "47 (interacts with) 42",
+        "interaction" : "interacts with",
+        "weight" : 72.494378502059,
+        "SUID" : 43281,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43280",
+        "source" : "43122",
+        "target" : "43103",
+        "shared_name" : "47 (interacts with) 28",
+        "shared_interaction" : "interacts with",
+        "name" : "47 (interacts with) 28",
+        "interaction" : "interacts with",
+        "weight" : 76.4892018583771,
+        "SUID" : 43280,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43279",
+        "source" : "43122",
+        "target" : "43101",
+        "shared_name" : "47 (interacts with) 26",
+        "shared_interaction" : "interacts with",
+        "name" : "47 (interacts with) 26",
+        "interaction" : "interacts with",
+        "weight" : 75.9007746189093,
+        "SUID" : 43279,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43278",
+        "source" : "43122",
+        "target" : "43094",
+        "shared_name" : "47 (interacts with) 19",
+        "shared_interaction" : "interacts with",
+        "name" : "47 (interacts with) 19",
+        "interaction" : "interacts with",
+        "weight" : 85.7717699763612,
+        "SUID" : 43278,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43277",
+        "source" : "43122",
+        "target" : "43082",
+        "shared_name" : "47 (interacts with) 7",
+        "shared_interaction" : "interacts with",
+        "name" : "47 (interacts with) 7",
+        "interaction" : "interacts with",
+        "weight" : 66.582176207907,
+        "SUID" : 43277,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43276",
+        "source" : "43121",
+        "target" : "43119",
+        "shared_name" : "46 (interacts with) 44",
+        "shared_interaction" : "interacts with",
+        "name" : "46 (interacts with) 44",
+        "interaction" : "interacts with",
+        "weight" : 116.001715734713,
+        "SUID" : 43276,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43275",
+        "source" : "43120",
+        "target" : "43104",
+        "shared_name" : "45 (interacts with) 29",
+        "shared_interaction" : "interacts with",
+        "name" : "45 (interacts with) 29",
+        "interaction" : "interacts with",
+        "weight" : 80.6377881715601,
+        "SUID" : 43275,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43274",
+        "source" : "43120",
+        "target" : "43100",
+        "shared_name" : "45 (interacts with) 25",
+        "shared_interaction" : "interacts with",
+        "name" : "45 (interacts with) 25",
+        "interaction" : "interacts with",
+        "weight" : 88.9728006490211,
+        "SUID" : 43274,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43273",
+        "source" : "43120",
+        "target" : "43098",
+        "shared_name" : "45 (interacts with) 23",
+        "shared_interaction" : "interacts with",
+        "name" : "45 (interacts with) 23",
+        "interaction" : "interacts with",
+        "weight" : 72.8894746622961,
+        "SUID" : 43273,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43272",
+        "source" : "43120",
+        "target" : "43097",
+        "shared_name" : "45 (interacts with) 22",
+        "shared_interaction" : "interacts with",
+        "name" : "45 (interacts with) 22",
+        "interaction" : "interacts with",
+        "weight" : 63.344580218558,
+        "SUID" : 43272,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43271",
+        "source" : "43120",
+        "target" : "43096",
+        "shared_name" : "45 (interacts with) 21",
+        "shared_interaction" : "interacts with",
+        "name" : "45 (interacts with) 21",
+        "interaction" : "interacts with",
+        "weight" : 58.1124584945152,
+        "SUID" : 43271,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43270",
+        "source" : "43120",
+        "target" : "43094",
+        "shared_name" : "45 (interacts with) 19",
+        "shared_interaction" : "interacts with",
+        "name" : "45 (interacts with) 19",
+        "interaction" : "interacts with",
+        "weight" : 73.8980011353165,
+        "SUID" : 43270,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43269",
+        "source" : "43120",
+        "target" : "43088",
+        "shared_name" : "45 (interacts with) 13",
+        "shared_interaction" : "interacts with",
+        "name" : "45 (interacts with) 13",
+        "interaction" : "interacts with",
+        "weight" : 78.1833087205098,
+        "SUID" : 43269,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43268",
+        "source" : "43120",
+        "target" : "43080",
+        "shared_name" : "45 (interacts with) 5",
+        "shared_interaction" : "interacts with",
+        "name" : "45 (interacts with) 5",
+        "interaction" : "interacts with",
+        "weight" : 79.7761776678946,
+        "SUID" : 43268,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43267",
+        "source" : "43120",
+        "target" : "43078",
+        "shared_name" : "45 (interacts with) 3",
+        "shared_interaction" : "interacts with",
+        "name" : "45 (interacts with) 3",
+        "interaction" : "interacts with",
+        "weight" : 97.8269839666403,
+        "SUID" : 43267,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43266",
+        "source" : "43119",
+        "target" : "43085",
+        "shared_name" : "44 (interacts with) 10",
+        "shared_interaction" : "interacts with",
+        "name" : "44 (interacts with) 10",
+        "interaction" : "interacts with",
+        "weight" : 82.054203915157,
+        "SUID" : 43266,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43265",
+        "source" : "43119",
+        "target" : "43083",
+        "shared_name" : "44 (interacts with) 8",
+        "shared_interaction" : "interacts with",
+        "name" : "44 (interacts with) 8",
+        "interaction" : "interacts with",
+        "weight" : 128.682111117332,
+        "SUID" : 43265,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43264",
+        "source" : "43119",
+        "target" : "43076",
+        "shared_name" : "44 (interacts with) 1",
+        "shared_interaction" : "interacts with",
+        "name" : "44 (interacts with) 1",
+        "interaction" : "interacts with",
+        "weight" : 222.710745649354,
+        "SUID" : 43264,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43263",
+        "source" : "43118",
+        "target" : "43132",
+        "shared_name" : "Q8R3V5 (interacts with) Q9JK48",
+        "shared_interaction" : "interacts with",
+        "name" : "Q8R3V5 (interacts with) Q9JK48",
+        "interaction" : "interacts with",
+        "SUID" : 43263,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43262",
+        "source" : "43118",
+        "target" : "43117",
+        "shared_name" : "43 (interacts with) 42",
+        "shared_interaction" : "interacts with",
+        "name" : "43 (interacts with) 42",
+        "interaction" : "interacts with",
+        "weight" : 70.5477028322217,
+        "SUID" : 43262,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43261",
+        "source" : "43118",
+        "target" : "43105",
+        "shared_name" : "43 (interacts with) 30",
+        "shared_interaction" : "interacts with",
+        "name" : "43 (interacts with) 30",
+        "interaction" : "interacts with",
+        "weight" : 98.7294502870077,
+        "SUID" : 43261,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43260",
+        "source" : "43118",
+        "target" : "43103",
+        "shared_name" : "43 (interacts with) 28",
+        "shared_interaction" : "interacts with",
+        "name" : "43 (interacts with) 28",
+        "interaction" : "interacts with",
+        "weight" : 76.6718133716375,
+        "SUID" : 43260,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43259",
+        "source" : "43118",
+        "target" : "43101",
+        "shared_name" : "43 (interacts with) 26",
+        "shared_interaction" : "interacts with",
+        "name" : "43 (interacts with) 26",
+        "interaction" : "interacts with",
+        "weight" : 75.8582377750676,
+        "SUID" : 43259,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43258",
+        "source" : "43118",
+        "target" : "43094",
+        "shared_name" : "43 (interacts with) 19",
+        "shared_interaction" : "interacts with",
+        "name" : "43 (interacts with) 19",
+        "interaction" : "interacts with",
+        "weight" : 89.9789719067137,
+        "SUID" : 43258,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43257",
+        "source" : "43118",
+        "target" : "43088",
+        "shared_name" : "43 (interacts with) 13",
+        "shared_interaction" : "interacts with",
+        "name" : "43 (interacts with) 13",
+        "interaction" : "interacts with",
+        "weight" : 87.8817733598616,
+        "SUID" : 43257,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43256",
+        "source" : "43118",
+        "target" : "43081",
+        "shared_name" : "43 (interacts with) 6",
+        "shared_interaction" : "interacts with",
+        "name" : "43 (interacts with) 6",
+        "interaction" : "interacts with",
+        "weight" : 97.5670611456834,
+        "SUID" : 43256,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43255",
+        "source" : "43117",
+        "target" : "43132",
+        "shared_name" : "Q8R191 (interacts with) Q9JK48",
+        "shared_interaction" : "interacts with",
+        "name" : "Q8R191 (interacts with) Q9JK48",
+        "interaction" : "interacts with",
+        "SUID" : 43255,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43254",
+        "source" : "43117",
+        "target" : "43106",
+        "shared_name" : "42 (interacts with) 31",
+        "shared_interaction" : "interacts with",
+        "name" : "42 (interacts with) 31",
+        "interaction" : "interacts with",
+        "weight" : 73.5567432729039,
+        "SUID" : 43254,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43253",
+        "source" : "43117",
+        "target" : "43091",
+        "shared_name" : "42 (interacts with) 16",
+        "shared_interaction" : "interacts with",
+        "name" : "42 (interacts with) 16",
+        "interaction" : "interacts with",
+        "weight" : 72.1832869440665,
+        "SUID" : 43253,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43252",
+        "source" : "43116",
+        "target" : "43113",
+        "shared_name" : "41 (interacts with) 38",
+        "shared_interaction" : "interacts with",
+        "name" : "41 (interacts with) 38",
+        "interaction" : "interacts with",
+        "weight" : 84.0388598063168,
+        "SUID" : 43252,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43251",
+        "source" : "43116",
+        "target" : "43095",
+        "shared_name" : "41 (interacts with) 20",
+        "shared_interaction" : "interacts with",
+        "name" : "41 (interacts with) 20",
+        "interaction" : "interacts with",
+        "weight" : 64.6919458832392,
+        "SUID" : 43251,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43250",
+        "source" : "43116",
+        "target" : "43085",
+        "shared_name" : "41 (interacts with) 10",
+        "shared_interaction" : "interacts with",
+        "name" : "41 (interacts with) 10",
+        "interaction" : "interacts with",
+        "weight" : 184.613898756012,
+        "SUID" : 43250,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43249",
+        "source" : "43115",
+        "target" : "43134",
+        "shared_name" : "Q8K221 (interacts with) Q9JKD3",
+        "shared_interaction" : "interacts with",
+        "name" : "Q8K221 (interacts with) Q9JKD3",
+        "interaction" : "interacts with",
+        "SUID" : 43249,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43248",
+        "source" : "43115",
+        "target" : "43132",
+        "shared_name" : "Q8K221 (interacts with) Q9JK48",
+        "shared_interaction" : "interacts with",
+        "name" : "Q8K221 (interacts with) Q9JK48",
+        "interaction" : "interacts with",
+        "SUID" : 43248,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43247",
+        "source" : "43115",
+        "target" : "43110",
+        "shared_name" : "40 (interacts with) 35",
+        "shared_interaction" : "interacts with",
+        "name" : "40 (interacts with) 35",
+        "interaction" : "interacts with",
+        "weight" : 58.6908511292536,
+        "SUID" : 43247,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43246",
+        "source" : "43115",
+        "target" : "43103",
+        "shared_name" : "40 (interacts with) 28",
+        "shared_interaction" : "interacts with",
+        "name" : "40 (interacts with) 28",
+        "interaction" : "interacts with",
+        "weight" : 72.4781693296153,
+        "SUID" : 43246,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43245",
+        "source" : "43115",
+        "target" : "43101",
+        "shared_name" : "40 (interacts with) 26",
+        "shared_interaction" : "interacts with",
+        "name" : "40 (interacts with) 26",
+        "interaction" : "interacts with",
+        "weight" : 68.9060349917225,
+        "SUID" : 43245,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43244",
+        "source" : "43115",
+        "target" : "43100",
+        "shared_name" : "40 (interacts with) 25",
+        "shared_interaction" : "interacts with",
+        "name" : "40 (interacts with) 25",
+        "interaction" : "interacts with",
+        "weight" : 93.015932378422,
+        "SUID" : 43244,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43243",
+        "source" : "43115",
+        "target" : "43098",
+        "shared_name" : "40 (interacts with) 23",
+        "shared_interaction" : "interacts with",
+        "name" : "40 (interacts with) 23",
+        "interaction" : "interacts with",
+        "weight" : 74.0795702879483,
+        "SUID" : 43243,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43242",
+        "source" : "43115",
+        "target" : "43094",
+        "shared_name" : "40 (interacts with) 19",
+        "shared_interaction" : "interacts with",
+        "name" : "40 (interacts with) 19",
+        "interaction" : "interacts with",
+        "weight" : 80.655175114319,
+        "SUID" : 43242,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43241",
+        "source" : "43115",
+        "target" : "43088",
+        "shared_name" : "40 (interacts with) 13",
+        "shared_interaction" : "interacts with",
+        "name" : "40 (interacts with) 13",
+        "interaction" : "interacts with",
+        "weight" : 85.3324463928332,
+        "SUID" : 43241,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43240",
+        "source" : "43115",
+        "target" : "43087",
+        "shared_name" : "40 (interacts with) 12",
+        "shared_interaction" : "interacts with",
+        "name" : "40 (interacts with) 12",
+        "interaction" : "interacts with",
+        "weight" : 81.6495786350401,
+        "SUID" : 43240,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43239",
+        "source" : "43115",
+        "target" : "43086",
+        "shared_name" : "40 (interacts with) 11",
+        "shared_interaction" : "interacts with",
+        "name" : "40 (interacts with) 11",
+        "interaction" : "interacts with",
+        "weight" : 85.2297363770383,
+        "SUID" : 43239,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43238",
+        "source" : "43115",
+        "target" : "43081",
+        "shared_name" : "40 (interacts with) 6",
+        "shared_interaction" : "interacts with",
+        "name" : "40 (interacts with) 6",
+        "interaction" : "interacts with",
+        "weight" : 87.9264188713108,
+        "SUID" : 43238,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43237",
+        "source" : "43113",
+        "target" : "43095",
+        "shared_name" : "38 (interacts with) 20",
+        "shared_interaction" : "interacts with",
+        "name" : "38 (interacts with) 20",
+        "interaction" : "interacts with",
+        "weight" : 67.6217092598682,
+        "SUID" : 43237,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43236",
+        "source" : "43113",
+        "target" : "43085",
+        "shared_name" : "38 (interacts with) 10",
+        "shared_interaction" : "interacts with",
+        "name" : "38 (interacts with) 10",
+        "interaction" : "interacts with",
+        "weight" : 159.430541323034,
+        "SUID" : 43236,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43235",
+        "source" : "43113",
+        "target" : "43075",
+        "shared_name" : "38 (interacts with) 0",
+        "shared_interaction" : "interacts with",
+        "name" : "38 (interacts with) 0",
+        "interaction" : "interacts with",
+        "weight" : 86.7238700303496,
+        "SUID" : 43235,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43234",
+        "source" : "43112",
+        "target" : "43104",
+        "shared_name" : "37 (interacts with) 29",
+        "shared_interaction" : "interacts with",
+        "name" : "37 (interacts with) 29",
+        "interaction" : "interacts with",
+        "weight" : 103.19289475116,
+        "SUID" : 43234,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43233",
+        "source" : "43112",
+        "target" : "43097",
+        "shared_name" : "37 (interacts with) 22",
+        "shared_interaction" : "interacts with",
+        "name" : "37 (interacts with) 22",
+        "interaction" : "interacts with",
+        "weight" : 83.3820546854479,
+        "SUID" : 43233,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43232",
+        "source" : "43112",
+        "target" : "43096",
+        "shared_name" : "37 (interacts with) 21",
+        "shared_interaction" : "interacts with",
+        "name" : "37 (interacts with) 21",
+        "interaction" : "interacts with",
+        "weight" : 75.5774626151506,
+        "SUID" : 43232,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43231",
+        "source" : "43110",
+        "target" : "43109",
+        "shared_name" : "35 (interacts with) 34",
+        "shared_interaction" : "interacts with",
+        "name" : "35 (interacts with) 34",
+        "interaction" : "interacts with",
+        "weight" : 64.768191815223,
+        "SUID" : 43231,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43230",
+        "source" : "43110",
+        "target" : "43096",
+        "shared_name" : "35 (interacts with) 21",
+        "shared_interaction" : "interacts with",
+        "name" : "35 (interacts with) 21",
+        "interaction" : "interacts with",
+        "weight" : 67.8423397380654,
+        "SUID" : 43230,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43229",
+        "source" : "43110",
+        "target" : "43088",
+        "shared_name" : "35 (interacts with) 13",
+        "shared_interaction" : "interacts with",
+        "name" : "35 (interacts with) 13",
+        "interaction" : "interacts with",
+        "weight" : 57.9984612426009,
+        "SUID" : 43229,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43228",
+        "source" : "43110",
+        "target" : "43087",
+        "shared_name" : "35 (interacts with) 12",
+        "shared_interaction" : "interacts with",
+        "name" : "35 (interacts with) 12",
+        "interaction" : "interacts with",
+        "weight" : 59.7637961499086,
+        "SUID" : 43228,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43227",
+        "source" : "43110",
+        "target" : "43086",
+        "shared_name" : "35 (interacts with) 11",
+        "shared_interaction" : "interacts with",
+        "name" : "35 (interacts with) 11",
+        "interaction" : "interacts with",
+        "weight" : 59.7469502931025,
+        "SUID" : 43227,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43226",
+        "source" : "43110",
+        "target" : "43078",
+        "shared_name" : "35 (interacts with) 3",
+        "shared_interaction" : "interacts with",
+        "name" : "35 (interacts with) 3",
+        "interaction" : "interacts with",
+        "weight" : 61.8620952259836,
+        "SUID" : 43226,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43225",
+        "source" : "43109",
+        "target" : "43103",
+        "shared_name" : "34 (interacts with) 28",
+        "shared_interaction" : "interacts with",
+        "name" : "34 (interacts with) 28",
+        "interaction" : "interacts with",
+        "weight" : 69.171063234998,
+        "SUID" : 43225,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43224",
+        "source" : "43109",
+        "target" : "43101",
+        "shared_name" : "34 (interacts with) 26",
+        "shared_interaction" : "interacts with",
+        "name" : "34 (interacts with) 26",
+        "interaction" : "interacts with",
+        "weight" : 64.4723975565384,
+        "SUID" : 43224,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43223",
+        "source" : "43109",
+        "target" : "43098",
+        "shared_name" : "34 (interacts with) 23",
+        "shared_interaction" : "interacts with",
+        "name" : "34 (interacts with) 23",
+        "interaction" : "interacts with",
+        "weight" : 71.2186138944403,
+        "SUID" : 43223,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43222",
+        "source" : "43109",
+        "target" : "43096",
+        "shared_name" : "34 (interacts with) 21",
+        "shared_interaction" : "interacts with",
+        "name" : "34 (interacts with) 21",
+        "interaction" : "interacts with",
+        "weight" : 58.882637657861,
+        "SUID" : 43222,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43221",
+        "source" : "43109",
+        "target" : "43088",
+        "shared_name" : "34 (interacts with) 13",
+        "shared_interaction" : "interacts with",
+        "name" : "34 (interacts with) 13",
+        "interaction" : "interacts with",
+        "weight" : 167.329182029193,
+        "SUID" : 43221,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43220",
+        "source" : "43109",
+        "target" : "43087",
+        "shared_name" : "34 (interacts with) 12",
+        "shared_interaction" : "interacts with",
+        "name" : "34 (interacts with) 12",
+        "interaction" : "interacts with",
+        "weight" : 168.282995464706,
+        "SUID" : 43220,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43219",
+        "source" : "43109",
+        "target" : "43086",
+        "shared_name" : "34 (interacts with) 11",
+        "shared_interaction" : "interacts with",
+        "name" : "34 (interacts with) 11",
+        "interaction" : "interacts with",
+        "weight" : 89.2955714327296,
+        "SUID" : 43219,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43218",
+        "source" : "43108",
+        "target" : "43105",
+        "shared_name" : "33 (interacts with) 30",
+        "shared_interaction" : "interacts with",
+        "name" : "33 (interacts with) 30",
+        "interaction" : "interacts with",
+        "weight" : 114.450644786358,
+        "SUID" : 43218,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43217",
+        "source" : "43108",
+        "target" : "43079",
+        "shared_name" : "33 (interacts with) 4",
+        "shared_interaction" : "interacts with",
+        "name" : "33 (interacts with) 4",
+        "interaction" : "interacts with",
+        "weight" : 123.732476229442,
+        "SUID" : 43217,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43216",
+        "source" : "43107",
+        "target" : "43105",
+        "shared_name" : "32 (interacts with) 30",
+        "shared_interaction" : "interacts with",
+        "name" : "32 (interacts with) 30",
+        "interaction" : "interacts with",
+        "weight" : 74.0464891253184,
+        "SUID" : 43216,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43215",
+        "source" : "43107",
+        "target" : "43099",
+        "shared_name" : "32 (interacts with) 24",
+        "shared_interaction" : "interacts with",
+        "name" : "32 (interacts with) 24",
+        "interaction" : "interacts with",
+        "weight" : 74.0607048147519,
+        "SUID" : 43215,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43214",
+        "source" : "43106",
+        "target" : "43139",
+        "shared_name" : "Q8BPN8 (interacts with) Q9Z1G3",
+        "shared_interaction" : "interacts with",
+        "name" : "Q8BPN8 (interacts with) Q9Z1G3",
+        "interaction" : "interacts with",
+        "SUID" : 43214,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43213",
+        "source" : "43106",
+        "target" : "43122",
+        "shared_name" : "Q8BPN8 (interacts with) Q920I9",
+        "shared_interaction" : "interacts with",
+        "name" : "Q8BPN8 (interacts with) Q920I9",
+        "interaction" : "interacts with",
+        "SUID" : 43213,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43212",
+        "source" : "43106",
+        "target" : "43103",
+        "shared_name" : "31 (interacts with) 28",
+        "shared_interaction" : "interacts with",
+        "name" : "31 (interacts with) 28",
+        "interaction" : "interacts with",
+        "weight" : 77.3503218496893,
+        "SUID" : 43212,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43211",
+        "source" : "43106",
+        "target" : "43101",
+        "shared_name" : "31 (interacts with) 26",
+        "shared_interaction" : "interacts with",
+        "name" : "31 (interacts with) 26",
+        "interaction" : "interacts with",
+        "weight" : 77.5470741738168,
+        "SUID" : 43211,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43210",
+        "source" : "43106",
+        "target" : "43094",
+        "shared_name" : "31 (interacts with) 19",
+        "shared_interaction" : "interacts with",
+        "name" : "31 (interacts with) 19",
+        "interaction" : "interacts with",
+        "weight" : 86.6875980111075,
+        "SUID" : 43210,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43209",
+        "source" : "43106",
+        "target" : "43089",
+        "shared_name" : "31 (interacts with) 14",
+        "shared_interaction" : "interacts with",
+        "name" : "31 (interacts with) 14",
+        "interaction" : "interacts with",
+        "weight" : 55.4490880173009,
+        "SUID" : 43209,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43208",
+        "source" : "43106",
+        "target" : "43082",
+        "shared_name" : "31 (interacts with) 7",
+        "shared_interaction" : "interacts with",
+        "name" : "31 (interacts with) 7",
+        "interaction" : "interacts with",
+        "weight" : 68.3403599949472,
+        "SUID" : 43208,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43207",
+        "source" : "43105",
+        "target" : "43099",
+        "shared_name" : "30 (interacts with) 24",
+        "shared_interaction" : "interacts with",
+        "name" : "30 (interacts with) 24",
+        "interaction" : "interacts with",
+        "weight" : 98.4019166960871,
+        "SUID" : 43207,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43206",
+        "source" : "43103",
+        "target" : "43091",
+        "shared_name" : "28 (interacts with) 16",
+        "shared_interaction" : "interacts with",
+        "name" : "28 (interacts with) 16",
+        "interaction" : "interacts with",
+        "weight" : 76.9604452681042,
+        "SUID" : 43206,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43205",
+        "source" : "43103",
+        "target" : "43087",
+        "shared_name" : "28 (interacts with) 12",
+        "shared_interaction" : "interacts with",
+        "name" : "28 (interacts with) 12",
+        "interaction" : "interacts with",
+        "weight" : 63.7451287716566,
+        "SUID" : 43205,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43204",
+        "source" : "43103",
+        "target" : "43086",
+        "shared_name" : "28 (interacts with) 11",
+        "shared_interaction" : "interacts with",
+        "name" : "28 (interacts with) 11",
+        "interaction" : "interacts with",
+        "weight" : 68.1340215551855,
+        "SUID" : 43204,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43203",
+        "source" : "43102",
+        "target" : "43080",
+        "shared_name" : "27 (interacts with) 5",
+        "shared_interaction" : "interacts with",
+        "name" : "27 (interacts with) 5",
+        "interaction" : "interacts with",
+        "weight" : 95.0847590448522,
+        "SUID" : 43203,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43202",
+        "source" : "43102",
+        "target" : "43075",
+        "shared_name" : "27 (interacts with) 0",
+        "shared_interaction" : "interacts with",
+        "name" : "27 (interacts with) 0",
+        "interaction" : "interacts with",
+        "weight" : 107.122005201885,
+        "SUID" : 43202,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43201",
+        "source" : "43101",
+        "target" : "43094",
+        "shared_name" : "26 (interacts with) 19",
+        "shared_interaction" : "interacts with",
+        "name" : "26 (interacts with) 19",
+        "interaction" : "interacts with",
+        "weight" : 134.333511499377,
+        "SUID" : 43201,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43200",
+        "source" : "43101",
+        "target" : "43091",
+        "shared_name" : "26 (interacts with) 16",
+        "shared_interaction" : "interacts with",
+        "name" : "26 (interacts with) 16",
+        "interaction" : "interacts with",
+        "weight" : 74.3299658227873,
+        "SUID" : 43200,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43199",
+        "source" : "43101",
+        "target" : "43088",
+        "shared_name" : "26 (interacts with) 13",
+        "shared_interaction" : "interacts with",
+        "name" : "26 (interacts with) 13",
+        "interaction" : "interacts with",
+        "weight" : 63.0434547090973,
+        "SUID" : 43199,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43198",
+        "source" : "43101",
+        "target" : "43086",
+        "shared_name" : "26 (interacts with) 11",
+        "shared_interaction" : "interacts with",
+        "name" : "26 (interacts with) 11",
+        "interaction" : "interacts with",
+        "weight" : 63.214688482404,
+        "SUID" : 43198,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43197",
+        "source" : "43099",
+        "target" : "43085",
+        "shared_name" : "24 (interacts with) 10",
+        "shared_interaction" : "interacts with",
+        "name" : "24 (interacts with) 10",
+        "interaction" : "interacts with",
+        "weight" : 100.05690435625,
+        "SUID" : 43197,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43196",
+        "source" : "43099",
+        "target" : "43081",
+        "shared_name" : "24 (interacts with) 6",
+        "shared_interaction" : "interacts with",
+        "name" : "24 (interacts with) 6",
+        "interaction" : "interacts with",
+        "weight" : 94.779368589593,
+        "SUID" : 43196,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43195",
+        "source" : "43099",
+        "target" : "43077",
+        "shared_name" : "24 (interacts with) 2",
+        "shared_interaction" : "interacts with",
+        "name" : "24 (interacts with) 2",
+        "interaction" : "interacts with",
+        "weight" : 77.2875429178144,
+        "SUID" : 43195,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43194",
+        "source" : "43098",
+        "target" : "43096",
+        "shared_name" : "23 (interacts with) 21",
+        "shared_interaction" : "interacts with",
+        "name" : "23 (interacts with) 21",
+        "interaction" : "interacts with",
+        "weight" : 101.735517670134,
+        "SUID" : 43194,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43193",
+        "source" : "43098",
+        "target" : "43088",
+        "shared_name" : "23 (interacts with) 13",
+        "shared_interaction" : "interacts with",
+        "name" : "23 (interacts with) 13",
+        "interaction" : "interacts with",
+        "weight" : 68.5477698316238,
+        "SUID" : 43193,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43192",
+        "source" : "43098",
+        "target" : "43087",
+        "shared_name" : "23 (interacts with) 12",
+        "shared_interaction" : "interacts with",
+        "name" : "23 (interacts with) 12",
+        "interaction" : "interacts with",
+        "weight" : 66.8382729540832,
+        "SUID" : 43192,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43191",
+        "source" : "43098",
+        "target" : "43078",
+        "shared_name" : "23 (interacts with) 3",
+        "shared_interaction" : "interacts with",
+        "name" : "23 (interacts with) 3",
+        "interaction" : "interacts with",
+        "weight" : 77.8088513469931,
+        "SUID" : 43191,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43190",
+        "source" : "43097",
+        "target" : "43088",
+        "shared_name" : "22 (interacts with) 13",
+        "shared_interaction" : "interacts with",
+        "name" : "22 (interacts with) 13",
+        "interaction" : "interacts with",
+        "weight" : 57.5693169957001,
+        "SUID" : 43190,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43189",
+        "source" : "43097",
+        "target" : "43084",
+        "shared_name" : "22 (interacts with) 9",
+        "shared_interaction" : "interacts with",
+        "name" : "22 (interacts with) 9",
+        "interaction" : "interacts with",
+        "weight" : 86.1848314605075,
+        "SUID" : 43189,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43188",
+        "source" : "43097",
+        "target" : "43081",
+        "shared_name" : "22 (interacts with) 6",
+        "shared_interaction" : "interacts with",
+        "name" : "22 (interacts with) 6",
+        "interaction" : "interacts with",
+        "weight" : 70.3279582695731,
+        "SUID" : 43188,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43187",
+        "source" : "43097",
+        "target" : "43080",
+        "shared_name" : "22 (interacts with) 5",
+        "shared_interaction" : "interacts with",
+        "name" : "22 (interacts with) 5",
+        "interaction" : "interacts with",
+        "weight" : 66.1258365460131,
+        "SUID" : 43187,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43186",
+        "source" : "43097",
+        "target" : "43078",
+        "shared_name" : "22 (interacts with) 3",
+        "shared_interaction" : "interacts with",
+        "name" : "22 (interacts with) 3",
+        "interaction" : "interacts with",
+        "weight" : 68.7448508537649,
+        "SUID" : 43186,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43185",
+        "source" : "43097",
+        "target" : "43075",
+        "shared_name" : "22 (interacts with) 0",
+        "shared_interaction" : "interacts with",
+        "name" : "22 (interacts with) 0",
+        "interaction" : "interacts with",
+        "weight" : 68.2761348064389,
+        "SUID" : 43185,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43184",
+        "source" : "43096",
+        "target" : "43088",
+        "shared_name" : "21 (interacts with) 13",
+        "shared_interaction" : "interacts with",
+        "name" : "21 (interacts with) 13",
+        "interaction" : "interacts with",
+        "weight" : 57.7474169363804,
+        "SUID" : 43184,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43183",
+        "source" : "43096",
+        "target" : "43087",
+        "shared_name" : "21 (interacts with) 12",
+        "shared_interaction" : "interacts with",
+        "name" : "21 (interacts with) 12",
+        "interaction" : "interacts with",
+        "weight" : 56.1039594197074,
+        "SUID" : 43183,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43182",
+        "source" : "43095",
+        "target" : "43129",
+        "shared_name" : "Q62442 (interacts with) Q9ERB0",
+        "shared_interaction" : "interacts with",
+        "name" : "Q62442 (interacts with) Q9ERB0",
+        "interaction" : "interacts with",
+        "SUID" : 43182,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43181",
+        "source" : "43095",
+        "target" : "43085",
+        "shared_name" : "20 (interacts with) 10",
+        "shared_interaction" : "interacts with",
+        "name" : "20 (interacts with) 10",
+        "interaction" : "interacts with",
+        "weight" : 73.1817485989619,
+        "SUID" : 43181,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43180",
+        "source" : "43095",
+        "target" : "43076",
+        "shared_name" : "20 (interacts with) 1",
+        "shared_interaction" : "interacts with",
+        "name" : "20 (interacts with) 1",
+        "interaction" : "interacts with",
+        "weight" : 78.5164310357139,
+        "SUID" : 43180,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43179",
+        "source" : "43095",
+        "target" : "43075",
+        "shared_name" : "20 (interacts with) 0",
+        "shared_interaction" : "interacts with",
+        "name" : "20 (interacts with) 0",
+        "interaction" : "interacts with",
+        "weight" : 73.6088427332353,
+        "SUID" : 43179,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43178",
+        "source" : "43094",
+        "target" : "43134",
+        "shared_name" : "Q62419 (interacts with) Q9JKD3",
+        "shared_interaction" : "interacts with",
+        "name" : "Q62419 (interacts with) Q9JKD3",
+        "interaction" : "interacts with",
+        "SUID" : 43178,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43177",
+        "source" : "43094",
+        "target" : "43088",
+        "shared_name" : "19 (interacts with) 13",
+        "shared_interaction" : "interacts with",
+        "name" : "19 (interacts with) 13",
+        "interaction" : "interacts with",
+        "weight" : 73.6151705898927,
+        "SUID" : 43177,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43176",
+        "source" : "43093",
+        "target" : "43140",
+        "shared_name" : "Q62277 (interacts with) Q9Z1G4",
+        "shared_interaction" : "interacts with",
+        "name" : "Q62277 (interacts with) Q9Z1G4",
+        "interaction" : "interacts with",
+        "SUID" : 43176,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43175",
+        "source" : "43093",
+        "target" : "43132",
+        "shared_name" : "Q62277 (interacts with) Q9JK48",
+        "shared_interaction" : "interacts with",
+        "name" : "Q62277 (interacts with) Q9JK48",
+        "interaction" : "interacts with",
+        "SUID" : 43175,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43174",
+        "source" : "43093",
+        "target" : "43117",
+        "shared_name" : "Q62277 (interacts with) Q8R191",
+        "shared_interaction" : "interacts with",
+        "name" : "Q62277 (interacts with) Q8R191",
+        "interaction" : "interacts with",
+        "SUID" : 43174,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43173",
+        "source" : "43093",
+        "target" : "43115",
+        "shared_name" : "Q62277 (interacts with) Q8K221",
+        "shared_interaction" : "interacts with",
+        "name" : "Q62277 (interacts with) Q8K221",
+        "interaction" : "interacts with",
+        "SUID" : 43173,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43172",
+        "source" : "43092",
+        "target" : "43077",
+        "shared_name" : "17 (interacts with) 2",
+        "shared_interaction" : "interacts with",
+        "name" : "17 (interacts with) 2",
+        "interaction" : "interacts with",
+        "weight" : 73.8808242260672,
+        "SUID" : 43172,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43171",
+        "source" : "43091",
+        "target" : "43122",
+        "shared_name" : "Q3TDK6 (interacts with) Q920I9",
+        "shared_interaction" : "interacts with",
+        "name" : "Q3TDK6 (interacts with) Q920I9",
+        "interaction" : "interacts with",
+        "SUID" : 43171,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43170",
+        "source" : "43091",
+        "target" : "43106",
+        "shared_name" : "Q3TDK6 (interacts with) Q8BPN8",
+        "shared_interaction" : "interacts with",
+        "name" : "Q3TDK6 (interacts with) Q8BPN8",
+        "interaction" : "interacts with",
+        "SUID" : 43170,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43169",
+        "source" : "43091",
+        "target" : "43082",
+        "shared_name" : "16 (interacts with) 7",
+        "shared_interaction" : "interacts with",
+        "name" : "16 (interacts with) 7",
+        "interaction" : "interacts with",
+        "weight" : 67.7178752024441,
+        "SUID" : 43169,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43168",
+        "source" : "43089",
+        "target" : "43138",
+        "shared_name" : "P63082 (interacts with) Q9WTT4",
+        "shared_interaction" : "interacts with",
+        "name" : "P63082 (interacts with) Q9WTT4",
+        "interaction" : "interacts with",
+        "SUID" : 43168,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43167",
+        "source" : "43089",
+        "target" : "43093",
+        "shared_name" : "P63082 (interacts with) Q62277",
+        "shared_interaction" : "interacts with",
+        "name" : "P63082 (interacts with) Q62277",
+        "interaction" : "interacts with",
+        "SUID" : 43167,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43166",
+        "source" : "43088",
+        "target" : "43087",
+        "shared_name" : "13 (interacts with) 12",
+        "shared_interaction" : "interacts with",
+        "name" : "13 (interacts with) 12",
+        "interaction" : "interacts with",
+        "weight" : 153.545031200025,
+        "SUID" : 43166,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43165",
+        "source" : "43088",
+        "target" : "43086",
+        "shared_name" : "13 (interacts with) 11",
+        "shared_interaction" : "interacts with",
+        "name" : "13 (interacts with) 11",
+        "interaction" : "interacts with",
+        "weight" : 155.458877294118,
+        "SUID" : 43165,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43164",
+        "source" : "43088",
+        "target" : "43078",
+        "shared_name" : "13 (interacts with) 3",
+        "shared_interaction" : "interacts with",
+        "name" : "13 (interacts with) 3",
+        "interaction" : "interacts with",
+        "weight" : 84.3841029286803,
+        "SUID" : 43164,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43163",
+        "source" : "43087",
+        "target" : "43138",
+        "shared_name" : "P50518 (interacts with) Q9WTT4",
+        "shared_interaction" : "interacts with",
+        "name" : "P50518 (interacts with) Q9WTT4",
+        "interaction" : "interacts with",
+        "SUID" : 43163,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43162",
+        "source" : "43087",
+        "target" : "43109",
+        "shared_name" : "P50518 (interacts with) Q8BVE3",
+        "shared_interaction" : "interacts with",
+        "name" : "P50518 (interacts with) Q8BVE3",
+        "interaction" : "interacts with",
+        "SUID" : 43162,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43161",
+        "source" : "43087",
+        "target" : "43086",
+        "shared_name" : "12 (interacts with) 11",
+        "shared_interaction" : "interacts with",
+        "name" : "12 (interacts with) 11",
+        "interaction" : "interacts with",
+        "weight" : 152.013418777604,
+        "SUID" : 43161,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43160",
+        "source" : "43086",
+        "target" : "43140",
+        "shared_name" : "P50516 (interacts with) Q9Z1G4",
+        "shared_interaction" : "interacts with",
+        "name" : "P50516 (interacts with) Q9Z1G4",
+        "interaction" : "interacts with",
+        "SUID" : 43160,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43159",
+        "source" : "43086",
+        "target" : "43139",
+        "shared_name" : "P50516 (interacts with) Q9Z1G3",
+        "shared_interaction" : "interacts with",
+        "name" : "P50516 (interacts with) Q9Z1G3",
+        "interaction" : "interacts with",
+        "SUID" : 43159,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43158",
+        "source" : "43086",
+        "target" : "43138",
+        "shared_name" : "P50516 (interacts with) Q9WTT4",
+        "shared_interaction" : "interacts with",
+        "name" : "P50516 (interacts with) Q9WTT4",
+        "interaction" : "interacts with",
+        "SUID" : 43158,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43157",
+        "source" : "43086",
+        "target" : "43125",
+        "shared_name" : "P50516 (interacts with) Q9D1K2",
+        "shared_interaction" : "interacts with",
+        "name" : "P50516 (interacts with) Q9D1K2",
+        "interaction" : "interacts with",
+        "SUID" : 43157,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43156",
+        "source" : "43086",
+        "target" : "43117",
+        "shared_name" : "P50516 (interacts with) Q8R191",
+        "shared_interaction" : "interacts with",
+        "name" : "P50516 (interacts with) Q8R191",
+        "interaction" : "interacts with",
+        "SUID" : 43156,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43155",
+        "source" : "43086",
+        "target" : "43109",
+        "shared_name" : "P50516 (interacts with) Q8BVE3",
+        "shared_interaction" : "interacts with",
+        "name" : "P50516 (interacts with) Q8BVE3",
+        "interaction" : "interacts with",
+        "SUID" : 43155,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43154",
+        "source" : "43086",
+        "target" : "43106",
+        "shared_name" : "P50516 (interacts with) Q8BPN8",
+        "shared_interaction" : "interacts with",
+        "name" : "P50516 (interacts with) Q8BPN8",
+        "interaction" : "interacts with",
+        "SUID" : 43154,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43153",
+        "source" : "43086",
+        "target" : "43088",
+        "shared_name" : "P50516 (interacts with) P62814",
+        "shared_interaction" : "interacts with",
+        "name" : "P50516 (interacts with) P62814",
+        "interaction" : "interacts with",
+        "SUID" : 43153,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43152",
+        "source" : "43086",
+        "target" : "43087",
+        "shared_name" : "P50516 (interacts with) P50518",
+        "shared_interaction" : "interacts with",
+        "name" : "P50516 (interacts with) P50518",
+        "interaction" : "interacts with",
+        "SUID" : 43152,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43151",
+        "source" : "43085",
+        "target" : "43077",
+        "shared_name" : "10 (interacts with) 2",
+        "shared_interaction" : "interacts with",
+        "name" : "10 (interacts with) 2",
+        "interaction" : "interacts with",
+        "weight" : 66.4095970026966,
+        "SUID" : 43151,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43150",
+        "source" : "43085",
+        "target" : "43076",
+        "shared_name" : "10 (interacts with) 1",
+        "shared_interaction" : "interacts with",
+        "name" : "10 (interacts with) 1",
+        "interaction" : "interacts with",
+        "weight" : 105.374900122317,
+        "SUID" : 43150,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43149",
+        "source" : "43084",
+        "target" : "43080",
+        "shared_name" : "9 (interacts with) 5",
+        "shared_interaction" : "interacts with",
+        "name" : "9 (interacts with) 5",
+        "interaction" : "interacts with",
+        "weight" : 103.942112589088,
+        "SUID" : 43149,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43148",
+        "source" : "43084",
+        "target" : "43077",
+        "shared_name" : "9 (interacts with) 2",
+        "shared_interaction" : "interacts with",
+        "name" : "9 (interacts with) 2",
+        "interaction" : "interacts with",
+        "weight" : 90.51047899422,
+        "SUID" : 43148,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43147",
+        "source" : "43083",
+        "target" : "43076",
+        "shared_name" : "8 (interacts with) 1",
+        "shared_interaction" : "interacts with",
+        "name" : "8 (interacts with) 1",
+        "interaction" : "interacts with",
+        "weight" : 83.4687615149212,
+        "SUID" : 43147,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43146",
+        "source" : "43082",
+        "target" : "43079",
+        "shared_name" : "7 (interacts with) 4",
+        "shared_interaction" : "interacts with",
+        "name" : "7 (interacts with) 4",
+        "interaction" : "interacts with",
+        "weight" : 63.7667435991275,
+        "SUID" : 43146,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43145",
+        "source" : "43081",
+        "target" : "43075",
+        "shared_name" : "6 (interacts with) 0",
+        "shared_interaction" : "interacts with",
+        "name" : "6 (interacts with) 0",
+        "interaction" : "interacts with",
+        "weight" : 89.3900917139104,
+        "SUID" : 43145,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43144",
+        "source" : "43079",
+        "target" : "43136",
+        "shared_name" : "O35239 (interacts with) Q9JM62",
+        "shared_interaction" : "interacts with",
+        "name" : "O35239 (interacts with) Q9JM62",
+        "interaction" : "interacts with",
+        "SUID" : 43144,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43143",
+        "source" : "43079",
+        "target" : "43093",
+        "shared_name" : "O35239 (interacts with) Q62277",
+        "shared_interaction" : "interacts with",
+        "name" : "O35239 (interacts with) Q62277",
+        "interaction" : "interacts with",
+        "SUID" : 43143,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43142",
+        "source" : "43077",
+        "target" : "43128",
+        "shared_name" : "E9PYK3 (interacts with) Q9EQK5",
+        "shared_interaction" : "interacts with",
+        "name" : "E9PYK3 (interacts with) Q9EQK5",
+        "interaction" : "interacts with",
+        "SUID" : 43142,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "43141",
+        "source" : "43077",
+        "target" : "43075",
+        "shared_name" : "2 (interacts with) 0",
+        "shared_interaction" : "interacts with",
+        "name" : "2 (interacts with) 0",
+        "interaction" : "interacts with",
+        "weight" : 76.7704613649129,
+        "SUID" : 43141,
+        "selected" : false
+      },
+      "selected" : false
+    } ]
+}
