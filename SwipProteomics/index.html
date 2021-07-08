@@ -93,34 +93,6 @@
 
 								</section>
 
-								<!-- intro: konigsberg problem -->
-								<section>
-										<h2>Konigsberg Problem</h2>
-										<img class="r-stretch" src="./lib/images/konigsberg.png" alt="konigsberg">
-										<p>A view of the modern city of Kaliningrad, Russia.</p>
-								</section>
-
-								<!-- intro: konigsberg solution -->
-								<section>
-										<h3>Euler 1735: Konigsberg Graph</h3>
-										<div class="fig-container r-stretch" data-file="lib/graphs/konigsberg/index.html"></div>
-								</section>
-
-								<!-- intro: community detection -->
-								<section>
-										<h4>Two Routes to Community Detection</h4>
-										<div class="container">
-												<div class="col">
-														<img class="r-stretch" src="./lib/images/svm.png" alt="svm">
-														<p><b>Supervised:</b> Support Vector Machine</p>
-												</div>
-												<div class="col">
-														<img class="r-stretch" src="./lib/images/unsupervised.png" alt="unsupervised">
-														<p><b>Unsupervised:</b> Quality Optimization</p>
-												</div>
-										</div>
-								</section>
-
 								<!-- background: fundamental biology -->
 								<section>
 										<h3>Cells are compartmentalized</h3>
@@ -206,6 +178,22 @@
 										</aside>
 
 								</section>
+
+								<!-- intro: community detection -->
+								<section>
+										<h4>Two Routes to Community Detection</h4>
+										<div class="container">
+												<div class="col">
+														<img class="r-stretch" src="./lib/images/svm.png" alt="svm">
+														<p><b>Supervised:</b> Support Vector Machine</p>
+												</div>
+												<div class="col">
+														<img class="r-stretch" src="./lib/images/unsupervised.png" alt="unsupervised">
+														<p><b>Unsupervised:</b> Quality Optimization</p>
+												</div>
+										</div>
+								</section>
+
 
 								<!-- intro: WASHC4 -->
 								<section>
@@ -596,6 +584,20 @@
 										<h2 class="r-fit-text">Extra Slides</h2>
 								</section>
 
+								<!-- intro: konigsberg problem -->
+								<section>
+										<h2>Konigsberg Problem</h2>
+										<img class="r-stretch" src="./lib/images/konigsberg.png" alt="konigsberg">
+										<p>A view of the modern city of Kaliningrad, Russia.</p>
+								</section>
+
+								<!-- intro: konigsberg solution -->
+								<section>
+										<h3>Euler 1735: Konigsberg Graph</h3>
+										<div class="fig-container r-stretch" data-file="lib/graphs/konigsberg/index.html"></div>
+								</section>
+
+
 								<!-- background: overview -->
 								<section>
 										<h4>Resolving Subcellular Space with Proximity and Spatial Proteomics</h4>
@@ -712,25 +714,33 @@
 
 				<!-- reveal.js src -->
 				<script src="dist/reveal.js"></script>
+				<script src="plugin/zoom/zoom.js"></script>
+				<script src="plugin/math/math.js"></script>
+				<script src="plugin/zoom/zoom.js"></script>,
+				<script src="plugin/search/search.js"></script>
+				<script src="plugin/markdown/markdown.js"></script>,
+				<script src="plugin/highlight/highlight.js"></script>
+				<script src="plugin/notes/notes.js"></script>
 				<script>
-
 						Reveal.initialize({
 								// slide settings:
+								hash: true,
+								center: true,
 								controls: true,
 								progress: true,
-								center: true,
-								hash: true,
 								slideNumber: true,
-								// dependencies:
+								//backgroundTransition: 'none',
+								// dependencies (note: this feature is deprecated!):
+								plugins: [RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight, RevealMath],
 								dependencies: [ 
 										{ src: 'lib/js/reveald3.js' },
-									    { src: 'reveal.js/plugin/math/math.js'},
-										{ src: 'reveal.js/plugin/zoom/zoom.js' },
-									    { src: 'reveal.js/plugin/search/search.js'},
-									    { src: 'reveal.js/plugin/markdown/markdown.js' },
-									    { src: 'reveal.js/plugin/highlight/highlight.js'},
-									    { src: 'reveal.js/plugin/notes/notes.js', async: true }
-										]
+									   // { src: 'reveal.js/plugin/math/math.js'},
+									   // { src: 'reveal.js/plugin/zoom/zoom.js' },
+									   // { src: 'reveal.js/plugin/search/search.js'},
+									   // { src: 'reveal.js/plugin/markdown/markdown.js' },
+									   // { src: 'reveal.js/plugin/highlight/highlight.js'},
+									   // { src: 'reveal.js/plugin/notes/notes.js', async: true }
+										],
 						});
 				</script>
 
