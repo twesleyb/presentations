@@ -377,8 +377,8 @@ section.has-light-background, section.has-light-background h1, section.has-light
  * 2-COLUMN LAYOUT: https://stackoverflow.com/a/44392145
  *********************************************/
 .reveal .container {
-		    display: flex;
-	}
+		display: flex;
+}
 
 .reveal .col {
 		flex: 1;
@@ -389,17 +389,36 @@ section.has-light-background, section.has-light-background h1, section.has-light
  *********************************************/
 
 div.cytoscape {
-  border-width: 0.1em;
-  border-style: solid;
-  border-color: white;
-  text-align: justify;
-  margin: auto;
-  minScale: 0;
-  maxScale: 1;
-  height: 80vh;
-  width: 80vh;
+		border-width: 0.1em;
+		border-style: solid;
+		border-color: white;
+		text-align: justify;
+		margin: auto;
+		minScale: 0;
+		maxScale: 1;
+		height: 80vh;
+		width: 80vh;
 }
 
-/* Style graph */
-#konigsberg-graph {
+/*********************************************
+ * TABLE STYLE from: https://github.com/hakimel/reveal.js/issues/894#issuecomment-41886378
+ *********************************************/
+
+.reveal table {
+		margin: auto;
+		border-collapse: collapse;
+		border-spacing: 0;
+}
+
+.reveal table th {
+		font-weight: bold;
+		font-size: 26pt;
+}
+
+.reveal table th,
+.reveal table td {
+		text-align: left;
+		padding: 0.2em 0.5em 0.2em 0.5em;
+		border-bottom: 1px solid;
+		font-size: 18pt;
 }
