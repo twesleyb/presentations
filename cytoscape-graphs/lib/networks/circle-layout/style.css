@@ -1,9 +1,0 @@
-#cy {
-  border-width: 0.1em; /* a border can be helpful to visualize the position of a graph on the page */
-  border-style: solid;
-  border-color: white;
-  width: 80%; /* width of graph */
-  height: 80%; /* width of graph */
-  margin: auto; /* set to auto for centering */
-  z-index: 999; /* z-position of graph */
-}
