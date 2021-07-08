@@ -16,8 +16,9 @@
 
 				<link rel="stylesheet" href="dist/reset.css">
 				<link rel="stylesheet" href="dist/reveal.css">
-				<link rel="stylesheet" href="lib/css/custom.css" id="theme">
 				<link rel="stylesheet" href="plugin/highlight/zenburn.css">
+
+				<link rel="stylesheet" href="lib/css/custom.css" id="theme">
 		</head>
 
 		<body>
@@ -92,7 +93,7 @@
 
 								</section>
 
-								<!-- intro: konigsberg problem
+								<!-- intro: konigsberg problem -->
 								<section>
 										<h2>Konigsberg Problem</h2>
 										<img class="r-stretch" src="./lib/images/konigsberg.png" alt="konigsberg">
@@ -119,7 +120,6 @@
 												</div>
 										</div>
 								</section>
-								-->
 
 								<!-- background: fundamental biology -->
 								<section>
@@ -712,12 +712,14 @@
 
 				<!-- reveal.js src -->
 				<script src="dist/reveal.js"></script>
+				<!--
 				<script src="plugin/math/math.js"></script>
 				<script src="plugin/zoom/zoom.js"></script>
 				<script src="plugin/notes/notes.js"></script>
 				<script src="plugin/search/search.js"></script>
 				<script src="plugin/markdown/markdown.js"></script>
 				<script src="plugin/highlight/highlight.js"></script>
+				-->
 				<script>
 
 						Reveal.initialize({
@@ -730,11 +732,17 @@
 								hash: true,
 								slideNumber: true,
 								// plugins:
-								plugins: [RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight, RevealMath],
+								//plugins: [RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight, RevealMath],
 								// dependencies:
 								dependencies: [ 
-										{ src: 'node_modules/reveald3/reveald3.js' }
-								]
+										{ src: 'lib/js/reveald3.js' },
+									    { src: 'reveal.js/plugin/math/math.js'},
+										{ src: 'reveal.js/plugin/zoom/zoom.js' },
+									    { src: 'reveal.js/plugin/search/search.js'},
+									    { src: 'reveal.js/plugin/markdown/markdown.js' },
+									    { src: 'reveal.js/plugin/highlight/highlight.js'},
+									    { src: 'reveal.js/plugin/notes/notes.js', async: true }
+										]
 						});
 				</script>
 
