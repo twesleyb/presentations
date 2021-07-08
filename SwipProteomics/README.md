@@ -1,5 +1,5 @@
 # swip presentation
-[slides](https://twesleyb.github.io/presentations/swip/index.html)
+[slides](https://twesleyb.github.io/presentations/SwipProteomics/index.html)
 
 ## Notes
 
@@ -23,4 +23,4 @@ gg=G
 ### Appearance of cytoscape graphs
 * avoid apply global defaults like `width: '100%'`
 * style div element with css!
-* graphs/figures inserted with reveald3 only render when hosted
+* graphs/figures inserted with `reveald3` only render when hosted locally...
