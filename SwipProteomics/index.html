@@ -161,6 +161,7 @@
 								<section>
 										<h3>Assembling Protein Covariation Networks</h3>
 										<img class="r-stretch" src="./lib/images/cor-mat-ppi.png" alt="prot-covar">
+										<p>The abundance of proteins that function and interact together tend to be highly correlated.</p>
 								</section>
 
 								<!-- background: proximity proteomics -->
@@ -192,8 +193,8 @@
 
 								<!-- background: overview -->
 								<section>
-										<h4>Resolving Subcellular Space with Proximity and Spatial Proteomics</h4>
-										<img class="r-stretch" src="./lib/images/protms.png" alt="protms">
+										<h4>Network-level Analysis Facilitates Biological Insight</h4>
+										<img class="r-stretch" src="./lib/images/protms-netw.png" alt="protms">
 										<p>Proximity Proteomics (A) and Spatial Proteomics (B) define protein subcellular localization.</p>
 
 										<aside data-markdown class="notes" >
@@ -208,13 +209,30 @@
 										<div class="container">
 												<div class="col">
 														<img class="r-stretch" src="./lib/images/svm.png" alt="svm">
-														<p><b>Supervised:</b> Support Vector Machine</p>
+														<p><b>Supervised:</b> <em>e.g.</em> Support Vector Machine</p>
 												</div>
 												<div class="col">
 														<img class="r-stretch" src="./lib/images/unsupervised.png" alt="unsupervised">
 														<p><b>Unsupervised:</b> Quality Optimization</p>
 												</div>
 										</div>
+								</section>
+
+								<!-- intro: leiden alg table -->
+								<section data-markdown>
+										 <textarea data-template>
+												#### The Leiden Algorithm Functions to Maximize a Quality Statistic
+												| Quality | Multi-Resolution | Weighted | Signed | Reference |
+												|:--------|:----------------:|:--------:|:------:|:----------|
+												| Modularity | False | True | False | Newman _et al._, 2004 |
+												| RBER | True | True | False | Reichardt _et al._, 2006 |
+												| RBConfiguration | True | True | False | Reichardt _et al._, 2006 |
+												| CPM | True | True | True | Traag _et al._, 2011 |
+												| Significance | False | False | False | Traag _et al._, 2013 |
+												| Surprise | False | True | False | Traag _et al._, 2015 |
+
+												Leiden Algorithm: [Traag _et al._, 2019](https://www.nature.com/articles/s41598-019-41695-z)
+										 </textarea>
 								</section>
 
 								<!-- intro: WASHC4 -->
@@ -429,6 +447,22 @@
 
 								</section>
 
+								<!-- variance partition -->
+								<section>
+										<h3>Partitioning the Variance</h3>
+										<img class="r-stretch" src="./lib/images/pca-varpart.png" alt="varpart">
+										<br><br>
+										<div class='foot-right'>
+												<a href="https://bit.ly/35OtYiG" target="_blank">Hoffman <em>et al.</em> 2016, 2019</a>
+										</div>
+								</section>
+
+								<!-- two levels of analysis -->
+								<section>
+										<h4>Module-level Analysis Powers Biological Insight</h4>
+										<img class="r-stretch" src="lib/images/washc4-prot-module.png">
+								</section>
+
 								<!-- results: Endosomal Module -->
 								<section>
 										<h4>Significant Disruption of an Endosomal Module Containing SWIP</h4>
@@ -478,31 +512,6 @@
 
 								</section>
 
-								<!-- results: ER Stress Module -->
-								<section>
-										<h3>Disruption of an ER Stress Associated Module</h3>
-										<img class="r-stretch" src="./lib/images/m6.png" alt="m6">
-										<p>Increased ER stress proteins: e.g. HSPA5, PDIA3, PDIA4, PDIA6, and DNAJC3</p>
-
-										<!-- notes -->
-										<aside data-markdown class="notes" >
-												transition:
-										</aside>
-
-								</section>
-
-								<!-- results: Neurodegeneration -->
-								<section>
-										<h4>Evidence of Neurodegeneration in SWIP<sup>P1019R</sup> Adult Motor Cortex</h4>
-										<img class="r-stretch" src="./lib/images/caspase.png" alt="caspase">
-
-										<!-- notes -->
-										<aside data-markdown class="notes" >
-												transition:
-										</aside>
-
-								</section>
-
 								<!-- results: Synapse -->
 								<section>
 										<h4>Decreased abundance of a Synapse Module</h4>
@@ -517,7 +526,7 @@
 
 								<!-- results: aged-motor -->
 								<section>
-										<h3>Motor Function Decline</h3>
+										<h4>Motor Function Decline with Age</h4>
 										<div class="container">
 												<div class="col">
 														<figure>
@@ -603,6 +612,32 @@
 										<h2 class="r-fit-text">Extra Slides</h2>
 								</section>
 
+								<!-- results: ER Stress Module -->
+								<section>
+										<h3>Disruption of an ER Stress Associated Module</h3>
+										<img class="r-stretch" src="./lib/images/m6.png" alt="m6">
+										<p>Increased ER stress proteins: e.g. HSPA5, PDIA3, PDIA4, PDIA6, and DNAJC3</p>
+
+										<!-- notes -->
+										<aside data-markdown class="notes" >
+												transition:
+										</aside>
+
+								</section>
+
+								<!-- results: Neurodegeneration -->
+								<section>
+										<h4>Evidence of Neurodegeneration in SWIP<sup>P1019R</sup> Adult Motor Cortex</h4>
+										<img class="r-stretch" src="./lib/images/caspase.png" alt="caspase">
+
+										<!-- notes -->
+										<aside data-markdown class="notes" >
+												transition:
+										</aside>
+
+								</section>
+
+
 								<!-- intro: konigsberg problem -->
 								<section>
 										<h2>Konigsberg Problem</h2>
@@ -616,20 +651,7 @@
 										<div class="fig-container r-stretch" data-file="lib/graphs/konigsberg/index.html"></div>
 								</section>
 
-								<!-- intro: leiden alg table -->
-								<section data-markdown>
-												#### The Leiden Algorithm Functions to Maximize a Quality Statistic
-												| Quality | Multi-Resolution | Weighted | Signed | Reference |
-												|:--------|:----------------:|:--------:|:------:|:----------|
-												| Modularity | False | True | False | Newman _et al._, 2004 |
-												| RBER | True | True | False | Reichardt _et al._, 2006 |
-												| RBConfiguration | True | True | False | Reichardt _et al._, 2006 |
-												| CPM | True | True | True | Traag _et al._, 2011 |
-												| Significance | False | False | False | Traag _et al._, 2013 |
-												| Surprise | False | True | False | Traag _et al._, 2015 |
-								</section>
-
-								<!-- leidenalg: cpm -->
+								<!-- leidenalg -->
 								<section>
 										<h3>The Leiden Algorithm</h3>
 										<img class="r-stretch" src="./lib/images/leiden.png" alt="leiden">
@@ -666,16 +688,6 @@
 										<br><br>
 										<div class='foot-right'>
 												<a href="https://github.com/soderling-lab/neten" target="_blank">soderling-lab/neten</a>
-										</div>
-								</section>
-
-								<!-- variance partition -->
-								<section>
-										<h3>Partitioning the Variance</h3>
-										<img src="./lib/images/varpart.png" alt="varpart" style="width:70%">
-										<br><br>
-										<div class='foot-right'>
-												<a href="https://bit.ly/35OtYiG" target="_blank">Hoffman <em>et al.</em> 2016, 2019</a>
 										</div>
 								</section>
 
@@ -739,13 +751,22 @@
 								<!-- Rogdi-Rav2 alignment -->
 								<section>
 										<h3>Rogdi, Rav2, and the RAVE Complex</h3>
-										<img class="r-stretch" src="./lib/images/rogdi-rav2.png" alt="rogdi-structure">
-										<p>Structural alignment of Rogdi and Rav2.</p>
+										<div class="container">
+												<div class="col">
+														<img src="./lib/images/rogdi-rav2.png" alt="rogdi-structure" style="width:80%">
+												</div>
+												<div class="col">
+														<img src="./lib/images/rogdi-prot-module.png" alt="rogdi-module" style="width:100%">
+												</div>
+										</div>
 										<br>
 										<div class='foot-right'>
 												Rogdi crystal structure: <a href="https://go.nature.com/3d6jpf1" target="_blank">Lee <em>et al.</em>, 2017</a>
 										</div>
 								</section>
+
+								<!--
+								-->
 
 										</div>
 						</div>
