@@ -422,3 +422,13 @@ div.cytoscape {
 		border-bottom: 1px solid;
 		font-size: 18pt;
 }
+
+/*********************************************
+ * custom sup tag
+ *********************************************/
+
+mysup {
+		  vertical-align: super;
+		    font-size: smaller;
+			color: red;
+	}
