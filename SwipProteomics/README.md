@@ -24,3 +24,7 @@ gg=G
 * avoid apply global defaults like `width: '100%'`
 * style div element with css!
 * graphs/figures inserted with `reveald3` only render when hosted locally...
+
+### Reveal.js pointer
+* press q to activate
+* see: https://github.com/burnpiro/reveal-pointer

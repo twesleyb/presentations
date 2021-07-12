@@ -17,6 +17,7 @@
 				<link rel="stylesheet" href="dist/reset.css">
 				<link rel="stylesheet" href="dist/reveal.css">
 				<link rel="stylesheet" href="plugin/highlight/zenburn.css">
+				<link rel="stylesheet" href="plugin/pointer/pointer.css">
 
 				<link rel="stylesheet" href="lib/css/custom.css" id="theme">
 		</head>
@@ -784,6 +785,7 @@
 						<script src="plugin/markdown/markdown.js"></script>,
 						<script src="plugin/highlight/highlight.js"></script>
 						<script src="plugin/notes/notes.js"></script>
+						<script src="plugin/pointer/pointer.js"></script>
 						<script>
 								Reveal.initialize({
 										// slide settings:
@@ -794,11 +796,18 @@
 										slideNumber: true,
 										//backgroundTransition: 'none',
 										// plugins:
-										plugins: [RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight, RevealMath],
+										plugins: [RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight, RevealMath, RevealPointer],
 										// dependencies: (note: this feature is deprecated!)
 										dependencies: [ 
 												{ src: 'lib/js/reveald3.js' },
 										],
+										// RevealPointer configuration:
+										pointer: {
+												    //key: "q", 
+												    color: "#800080", 
+												    pointerSize: 16, 
+												    //alwaysVisible: false, 
+												  }
 								});
 						</script>
 
