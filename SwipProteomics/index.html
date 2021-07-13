@@ -71,8 +71,8 @@
 												<br>
 												<li><b>Resolving cellular space:</b></li>
 												<ul>
-														<li><em>Proximity Proteomics</em> (proximity labeling)</li>
 														<li><em>Spatial Proteomics</em> (subcellular fractionation)</li>
+														<li><em>Proximity Proteomics</em> (proximity labeling)</li>
 												</ul>
 										</ul>
 
@@ -168,6 +168,13 @@
 												...
 										</aside>
 
+								</section>
+
+								<!-- assembling covariation networks -->
+								<section>
+										<h3>Assembling Protein Covariation Networks</h3>
+										<img class="r-stretch" src="./lib/images/cor-mat-ppi.png" alt="prot-covar">
+										<p>The abundance of proteins that function and interact together tend to be highly correlated.</p>
 								</section>
 
 
@@ -388,30 +395,29 @@
 												abundance at two different
 												resolutions...
 										</aside>
+								</section>
 
+								<!-- network enhancement -->
+								<section>
+										<h4>Network Enhancement Facilitates Community Detection</h4>
+										<img class="r-stretch" src="./lib/images/neten.png" alt="neten">
+										<br><br>
+										<div class='foot-right'>
+												R implementation: <a href="https://github.com/soderling-lab/neten" target="_blank">soderling-lab/neten</a>
+										</div>
 								</section>
 
 								<!-- overview: spatprot network -->
 								<section>
 										<h2 class="r-fit-text">Swip Spatial Proteome</h2>
 										<img class="r-stretch" src="lib/images/swip-spatprot-netw.png">
-										<p><small>Nodes = 5,869, Modules = 49 (neten + surprise)</small></p>
+										<p><small>(Nodes = 5,869 | Modules = 49)</small></p>
 
 										<!-- notes -->
 										<aside data-markdown class="notes" >
 												transition:
 										</aside>
 
-								</section>
-
-								<!-- variance partition -->
-								<section>
-										<h3>Partitioning the Variance</h3>
-										<img class="r-stretch" src="./lib/images/pca-varpart.png" alt="varpart">
-										<br><br>
-										<div class='foot-right'>
-												VariancePartition: <a href="https://bit.ly/35OtYiG" target="_blank">Hoffman <em>et al.</em> 2016 & 2019</a>
-										</div>
 								</section>
 
 								<!-- two levels of analysis -->
@@ -425,18 +431,11 @@
 
 								<!-- NS compartments -->
 								<section>
-										<h4>NS Compartments Identified by Spatial Proteomics</h4>
+										<h4>No change in six Compartments Identified by Spatial Proteomics</h4>
 										<img class="r-stretch" src="./lib/images/organelles.png" alt="ns-compartments">
-										<p>Compartments enriched for Geladaki <em>et al.,</em> (2019) marker proteins.</p>
-								</section>
 
-								<!-- subtle sig compartments -->
-								<section>
-										<h3>Compartments with subtle changes in SWIP Mutant Mice</h3>
-										<img class="r-stretch" src="./lib/images/cyto-mito.png" alt="sig-compartments">
-										<p>Compartments enriched for Geladaki <em>et al.,</em> (2019) marker proteins.</p>
-								</section>
 
+								</section>
 
 								<!-- results: Endosomal Module -->
 								<section>
@@ -589,20 +588,13 @@
 										<h2 class="r-fit-text">Extra Slides</h2>
 								</section>
 
-								<!-- assembling covariation networks -->
+								<!-- variance partition -->
 								<section>
-										<h3>Assembling Protein Covariation Networks</h3>
-										<img class="r-stretch" src="./lib/images/cor-mat-ppi.png" alt="prot-covar">
-										<p>The abundance of proteins that function and interact together tend to be highly correlated.</p>
-								</section>
-
-								<!-- network enhancment -->
-								<section>
-										<h4>Network Enhancement Facilitates Community Detection</h4>
-										<img class="r-stretch" src="./lib/images/neten.png" alt="neten">
+										<h3>Partitioning the Variance</h3>
+										<img class="r-stretch" src="./lib/images/pca-varpart.png" alt="varpart">
 										<br><br>
 										<div class='foot-right'>
-												R implementation: <a href="https://github.com/soderling-lab/neten" target="_blank">soderling-lab/neten</a>
+												VariancePartition: <a href="https://bit.ly/35OtYiG" target="_blank">Hoffman <em>et al.</em> 2016 & 2019</a>
 										</div>
 								</section>
 
@@ -637,6 +629,15 @@
 
 								</section>
 
+								<!-- subtle sig compartments -->
+								<section>
+										<h3>Compartments with subtle changes in SWIP Mutant Mice</h3>
+										<img class="r-stretch" src="./lib/images/cyto-mito.png" alt="sig-compartments">
+										<p>Compartments enriched for Geladaki <em>et al.,</em> (2019) marker proteins.</p>
+								</section>
+
+
+
 								<!-- results: alt Endosome Module -->
 								<section>
 										<h3>Disruption of an Endosomal Module</h3>
@@ -645,7 +646,7 @@
 
 								<!-- results: Synapse -->
 								<section>
-										<h4>Decreased abundance of an Excitatory Postsynape Module</h4>
+										<h4>Decreased abundance of an Excitatory Postsynapse Module</h4>
 										<img class="r-stretch" src="./lib/images/synapse-2.png" alt="synapse">
 
 										<!-- notes -->
