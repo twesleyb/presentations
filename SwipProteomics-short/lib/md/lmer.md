@@ -3,8 +3,8 @@
 library(tidyProt)
 
 # load the data
-data(washc, package="SwipProteomics") 
-data(swip_tmt, package="SwipProteomics")
+data("washc", package="SwipProteomics") 
+data("swip_tmt", package="SwipProteomics")
 
 # fit a model
 fx <- log2(rel_Intensity) ~ 0 + Condition + (1|Protein)

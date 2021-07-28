@@ -62,17 +62,23 @@
 										</div>
 								</section>
 
-								<!-- two levels of analysis -->
-								<section>
-										<h4>Module-level Analysis Powers Biological Insight</h4>
-										<img class="r-stretch" src="lib/images/washc4-prot-module.png">
-								</section>
-
 								<!-- assembling covariation networks -->
 								<section>
 										<h3>Assembling Protein Covariation Networks</h3>
 										<img class="r-stretch" src="./lib/images/cor-mat-ppi.png" alt="prot-covar">
 										<p>The abundance of proteins that function and interact together tend to be highly correlated.</p>
+								</section>
+
+								<!-- two levels of analysis -->
+								<section>
+										<h4>Module-level Analysis Powers Biological Insight</h4>
+										<img class="r-stretch" src="lib/images/washc4-prot-module.png">
+										<p>
+										<small>
+												Protein-level model: <code>Abundance ~ 0 + Condition</code>
+												<br>
+												Module-level model: <code>Abundance ~ 0 + Condition + (1|Protein)</code>
+										</small>
 								</section>
 
 								<!-- intro: community detection -->
@@ -218,8 +224,8 @@
 										// RevealPointer configuration:
 										pointer: {
 												    //key: "q", 
-												    color: "#800080", 
-												    pointerSize: 16, 
+												    color: "rgb(66,175,250)", //"#800080", 
+												    pointerSize: 14, 
 												    //alwaysVisible: false, 
 												  }
 								});
