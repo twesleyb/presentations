@@ -54,12 +54,6 @@
 								<section>
 										<h4>Proximity and Spatial Proteomics define protein localization</h4>
 										<img class="r-stretch" src="./lib/images/protms-netw.png" alt="protms">
-										<p>Normalization &rarr; Protein Summarization &rarr; 
-										<u>Statistical Testing</u></p>
-										<br>
-										<div class='foot-right'>
-												statistical testing: <a href="https://github.com/soderling-lab/tidyProt" target="_blank">soderling-lab/tidyProt</a>
-										</div>
 								</section>
 
 								<!-- assembling covariation networks -->
@@ -67,18 +61,6 @@
 										<h3>Assembling Protein Covariation Networks</h3>
 										<img class="r-stretch" src="./lib/images/cor-mat-ppi.png" alt="prot-covar">
 										<p>The abundance of proteins that function and interact together tend to be highly correlated.</p>
-								</section>
-
-								<!-- two levels of analysis -->
-								<section>
-										<h4>Module-level Analysis Powers Biological Insight</h4>
-										<img class="r-stretch" src="lib/images/washc4-prot-module.png">
-										<p>
-										<small>
-												Protein-level model: <code>Abundance ~ 0 + Condition</code>
-												<br>
-												Module-level model: <code>Abundance ~ 0 + Condition + (1|Protein)</code>
-										</small>
 								</section>
 
 								<!-- intro: community detection -->
@@ -103,6 +85,19 @@
 										<p><small>(Nodes = 5,869 | Modules = 49)</small></p>
 								</section>
 
+								<!-- two levels of analysis -->
+								<section>
+										<h4>Module-level Analysis Powers Biological Insight</h4>
+										<img class="r-stretch" src="lib/images/washc4-prot-module.png">
+										<p>
+										<small>
+												Protein-level model: <code>Abundance ~ 0 + Condition</code>
+												<br>
+												Module-level model: <code>Abundance ~ 0 + Condition + (1|Protein)</code>
+										</small>
+								</section>
+
+
 								<!-- extras -->
 								<section>
 										<h2 class="r-fit-text">Extra Slides</h2>
@@ -110,7 +105,7 @@
 
 								<!-- statistics -->
 								<section>
-										<h2>Extending Linear Models with Mixed Effects</h2>
+										<h3>Model Based Comparisons</h3>
 
 										<div class="container">
 
@@ -132,64 +127,14 @@
 										</div>
 								</section>
 
-								<!-- example: tidyProt -->
+								<!-- example: tidyProt linear model -->
 								<section data-markdown="./lib/md/lm.md">
 										</textarea>
 								</section>
 
-								<!-- example: tidyProt -->
+								<!-- example: tidyProt mixed model -->
 								<section data-markdown="./lib/md/lmer.md">
 										</textarea>
-								</section>
-
-								<!-- network enhancement -->
-								<section>
-										<h4>Network Enhancement Facilitates Community Detection</h4>
-										<img class="r-stretch" src="./lib/images/neten.png" alt="neten">
-										<br><br>
-										<div class='foot-right'>
-												R implementation: <a href="https://github.com/soderling-lab/neten" target="_blank">soderling-lab/neten</a>
-										</div>
-								</section>
-
-								<!-- intro: leiden alg table -->
-								<section data-markdown>
-										 <textarea data-template>
-												#### The Leiden Algorithm Functions to Maximize a Quality Statistic
-												| Quality | Multi-Resolution | Weighted | Signed | Reference |
-												|:--------|:----------------:|:--------:|:------:|:----------|
-												| Modularity | False | True | False | Newman _et al._, 2004 |
-												| RBER | True | True | False | Reichardt _et al._, 2006 |
-												| RBConfiguration | True | True | False | Reichardt _et al._, 2006 |
-												| CPM | True | True | True | Traag _et al._, 2011 |
-												| Significance | False | False | False | Traag _et al._, 2013 |
-												| Surprise | False | True | False | Traag _et al._, 2015 |
-
-												Leiden Algorithm: [Traag _et al._, 2019](https://www.nature.com/articles/s41598-019-41695-z)
-										 </textarea>
-								</section>
-
-								<!-- predicting protein subcellular localization -->
-								<section data-background-image="lib/images/sv.png" data-background-position="top right" data-background-size="3em">
-										<h4>A presynaptic vesicle module containing ROGDI, WDR7, and DMXL2</h4>
-										<div class="fig-container r-stretch" data-file="lib/graphs/rogdi/index.html"></div>
-								</section>
-
-								<!-- Rogdi-Rav2 alignment -->
-								<section>
-										<h3>Rogdi, Rav2, and the RAVE Complex</h3>
-										<div class="container">
-												<div class="col">
-														<img src="./lib/images/rogdi-rav2.png" alt="rogdi-structure" style="width:80%">
-												</div>
-												<div class="col">
-														<img src="./lib/images/rogdi-prot-module.png" alt="rogdi-module" style="width:100%">
-												</div>
-										</div>
-										<br>
-										<div class='foot-right'>
-												Rogdi crystal structure: <a href="https://go.nature.com/3d6jpf1" target="_blank">Lee <em>et al.</em>, 2017</a>
-										</div>
 								</section>
 
 										</div>
