@@ -598,9 +598,37 @@
 										</div>
 								</section>
 
+								<!-- Modularity -->
+								<section>
+										<h2>Modularity</h2>
+										\[\begin{aligned}
+										Q = \frac{1}{2m}\sum_{c=1}^{C}\left( e_c - \gamma\frac{K_c^2}{2m} \right)
+										\end{aligned} \]
+										<br>
+										<div class='foot-right'>
+												<a href="https://bit.ly/3iYp60N" target="_blank">Newman and Girvan 2004</a>
+										</div>
+								</section>
+
+								<!-- Surprise -->
+								<section>
+										<h2>Surprise</h2>
+
+										\[\begin{aligned}
+										Q &amp; = mD \left( q \parallel \left\langle q\right\rangle \right)\\
+										q &amp; = \frac{\sum_{c}^{}m_c}{m}\\
+										\left\langle q \right\rangle &amp; = \frac{\sum_{c}\binom{n_c}{2}}{\binom{n}{2}}\\
+										D\left( x\parallel y \right) &amp; = x\ln{\frac{x}{y}}+\left( 1-x \right)\ln{\frac{1-x}{1-y}}
+										\end{aligned} \]
+										<br>
+										<div class='foot-right'>
+												<a href="https://bit.ly/2VhuIv0" target="_blank">Traag <em>et al.</em> 2015</a>
+										</div>
+								</section>
+
 								<!-- intro: leiden alg table -->
 								<section data-markdown>
-										 <textarea data-template>
+										<textarea data-template>
 												#### The Leiden Algorithm Functions to Maximize a Quality Statistic
 												| Quality | Multi-Resolution | Weighted | Signed | Reference |
 												|:--------|:----------------:|:--------:|:------:|:----------|
@@ -612,7 +640,7 @@
 												| Surprise | False | True | False | Traag _et al._, 2015 |
 
 												Leiden Algorithm: [Traag _et al._, 2019](https://www.nature.com/articles/s41598-019-41695-z)
-										 </textarea>
+										</textarea>
 								</section>
 
 								<!-- results: ER Stress Module -->
@@ -805,7 +833,6 @@
 										controls: true,
 										progress: true,
 										slideNumber: true,
-										//backgroundTransition: 'none',
 										// plugins:
 										plugins: [RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight, RevealMath, RevealPointer],
 										// dependencies: (note: this feature is deprecated!)
@@ -814,11 +841,11 @@
 										],
 										// RevealPointer configuration:
 										pointer: {
-												    //key: "q", 
-												    color: "#800080", 
-												    pointerSize: 16, 
-												    //alwaysVisible: false, 
-												  }
+												//key: "q", 
+												color: "#800080", 
+												pointerSize: 16, 
+												//alwaysVisible: false, 
+										}
 								});
 						</script>
 
