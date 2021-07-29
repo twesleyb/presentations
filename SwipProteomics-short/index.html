@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+
+		<head>
+				<meta charset="utf-8">
+
+				<title>SwipProteomics Slides</title>
+
+				<meta name="description" content="SwipProteomics Short Talk">
+				<meta name="author" content="Tyler W. A. Bradshaw">
+
+				<meta name="apple-mobile-web-app-capable" content="yes">
+				<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+				<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+				<link rel="stylesheet" href="dist/reset.css">
+				<link rel="stylesheet" href="dist/reveal.css">
+				<link rel="stylesheet" href="plugin/highlight/zenburn.css">
+				<link rel="stylesheet" href="plugin/pointer/pointer.css">
+
+				<link rel="stylesheet" href="lib/css/custom.css" id="theme">
+		</head>
+
+		<body>
+
+				<!-- reveal.js slides -->
+				<div class="reveal">
+
+						<div class="slides">
+
+
+								<!-- title slide -->
+								<section>
+										<em>Revealing Organization of the Neuronal Proteome with
+												Proximity and Spatial Proteomics</em>
+										<img class="r-stretch" src="./lib/images/goodsell.png" alt="goodsell">
+
+										<h3>Tyler W. A. Bradshaw</h3>
+										Neurobiology PhD
+										<br>
+										<small>Duke University</small>
+
+										<div class='foot-left'>
+												<a href="https://bit.ly/355Lvmg" target="_blank">Art by David Goodsell</a>
+										</div>
+
+										<div class='foot-right'>
+												<a href="https://github.com/twesleyb/presentations/tree/master/SwipProteomics" target="_blank">Slide Source Code</a>
+										</div>
+								</section>
+
+								<!-- background: overview -->
+								<section>
+										<h4>Proximity and Spatial Proteomics define protein localization</h4>
+										<img class="r-stretch" src="./lib/images/protms-netw.png" alt="protms">
+								</section>
+
+								<!-- assembling covariation networks -->
+								<section>
+										<h3>Assembling Protein Covariation Networks</h3>
+										<img class="r-stretch" src="./lib/images/cor-mat-ppi.png" alt="prot-covar">
+										<p>The abundance of proteins that function and interact together tend to be highly correlated.</p>
+								</section>
+
+								<!-- intro: community detection -->
+								<section>
+										<h4>Two Routes to Community Detection</h4>
+										<div class="container">
+												<div class="col">
+														<img class="r-stretch" src="./lib/images/svm.png" alt="svm">
+														<p><b>Supervised:</b> <small><em>e.g.</em> Support Vector Machine<br>(SVM)</small></p>
+												</div>
+												<div class="col">
+														<img class="r-stretch" src="./lib/images/unsupervised.png" alt="unsupervised">
+														<p><b>Unsupervised:</b> <small><em>e.g.</em> Leiden Algorithm<br>(Quality Optimization)</small></p>
+												</div>
+										</div>
+								</section>
+
+								<!-- overview: spatprot network -->
+								<section>
+										<h2 class="r-fit-text">Swip Spatial Proteome</h2>
+										<img class="r-stretch" src="lib/images/swip-spatprot-netw.png">
+										<p><small>(Nodes = 5,869 | Modules = 49)</small></p>
+								</section>
+
+								<!-- extras -->
+								<section>
+										<h2 class="r-fit-text">Extra Slides</h2>
+								</section>
+
+								<!-- two levels of analysis -->
+								<section>
+										<h4>Module-level Analysis Powers Biological Insight</h4>
+										<img class="r-stretch" src="lib/images/washc4-prot-module.png">
+										<p>
+										<small>
+												Protein-level model: <code>Abundance ~ 0 + Condition</code>
+												<br>
+												Module-level model: <code>Abundance ~ 0 + Condition + (1|Protein)</code>
+										</small>
+								</section>
+
+								<!-- statistics -->
+								<section>
+										<h3>Model Based Comparisons</h3>
+
+										<div class="container">
+
+												<div class="col">
+														\[\begin{aligned}
+														Y_{p} = X\beta_{p} + \epsilon_{p} \\ % lm
+														Y_{p} =  Z\alpha_{p} + X\beta_{p} + \epsilon_{p} \\ % lmer
+														\epsilon_{p} \stackrel{iid}{\sim} N(0,\sigma^2) \\ % e = N(0,s2)
+														\alpha_{p} \stackrel{iid}{\sim} N(0,\sigma_{Z}^2) \\ % a = N(0,s2)
+														\end{aligned} \]
+												</div>
+
+												<div class="col">
+														\[\begin{aligned}
+														H_0: l^T * \beta = 0 \\
+														t = \frac{l^T \hat{\beta}}{\sqrt{l \sigma^2 \hat{V} l^T}} \\ % t-stat
+														\end{aligned} \]
+												</div>
+										</div>
+								</section>
+
+								<!-- example: tidyProt linear model -->
+								<section data-markdown="./lib/md/lm.md">
+										</textarea>
+								</section>
+
+								<!-- example: tidyProt mixed model -->
+								<section data-markdown="./lib/md/lmer.md">
+										</textarea>
+								</section>
+
+										</div>
+						</div>
+						<!-- end slides -->
+
+						<!-- reveal.js src -->
+						<script src="dist/reveal.js"></script>
+						<script src="plugin/zoom/zoom.js"></script>
+						<script src="plugin/math/math.js"></script>
+						<script src="plugin/zoom/zoom.js"></script>,
+						<script src="plugin/search/search.js"></script>
+						<script src="plugin/markdown/markdown.js"></script>,
+						<script src="plugin/highlight/highlight.js"></script>
+						<script src="plugin/notes/notes.js"></script>
+						<script src="plugin/pointer/pointer.js"></script>
+						<script>
+								Reveal.initialize({
+										// slide settings:
+										hash: true,
+										center: true,
+										controls: true,
+										progress: true,
+										slideNumber: true,
+										//backgroundTransition: 'none',
+										// plugins:
+										plugins: [RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight, RevealMath, RevealPointer],
+										// dependencies: (note: this feature is deprecated!)
+										dependencies: [ 
+												{ src: 'lib/js/reveald3.js' },
+										],
+										// RevealPointer configuration:
+										pointer: {
+												    //key: "q", 
+												    color: "rgb(66,175,250)", //"#800080", 
+												    pointerSize: 14, 
+												    //alwaysVisible: false, 
+												  }
+								});
+						</script>
+
+		</body>
+</html>
