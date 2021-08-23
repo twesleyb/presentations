@@ -29,7 +29,6 @@
 
 						<div class="slides">
 
-
 								<!-- title slide -->
 								<section>
 										<em>Revealing Organization of the Neuronal Proteome with
@@ -71,8 +70,8 @@
 												<br>
 												<li><b>Resolving cellular space:</b></li>
 												<ul>
-														<li><em>Spatial Proteomics</em> (subcellular fractionation)</li>
-														<li><em>Proximity Proteomics</em> (proximity labeling)</li>
+														<li type="circle"><em>Spatial Proteomics</em> (subcellular fractionation)</li>
+														<li type="circle"><em>Proximity Proteomics</em> (proximity labeling)</li>
 												</ul>
 										</ul>
 
@@ -130,7 +129,8 @@
 										<h4>Proteomics: Identifying and Quantifying proteins in Complex Biological Preparations</h4>
 										<img class="r-stretch" src="./lib/images/ms-overview.png" alt="ms">
 										<p>Normalization &rarr; Protein Summarization &rarr; 
-										<u>Statistical Testing</u></p>
+										<u>Statistical Testing</u>
+										</p>
 										<br>
 										<div class='foot-right'>
 												statistical testing: <a href="https://github.com/soderling-lab/tidyProt" target="_blank">soderling-lab/tidyProt</a>
@@ -170,12 +170,6 @@
 
 								</section>
 
-								<!-- assembling covariation networks -->
-								<section>
-										<h3>Assembling Protein Covariation Networks</h3>
-										<img class="r-stretch" src="./lib/images/cor-mat-ppi.png" alt="prot-covar">
-										<p>The abundance of proteins that function and interact together tend to be highly correlated.</p>
-								</section>
 
 
 								<!-- background: proximity proteomics -->
@@ -197,33 +191,6 @@
 												quantify proteins...
 										</aside>
 
-								</section>
-
-
-								<!-- background: structure and function in biological networks -->
-								<section>
-										<h3>Structure and Function in Biological Networks</h3>
-										<img class="r-stretch" src="./lib/images/ipsd-modules.png" alt="ipsd-modules">
-										<br><br>
-										<div class='foot-right'>
-												<a href="https://github.com/soderling-lab/getPPIs" target="_blank">soderling-lab/getPPIs</a>
-										</div>
-								</section>
-
-
-								<!-- intro: community detection -->
-								<section>
-										<h4>Two Routes to Community Detection</h4>
-										<div class="container">
-												<div class="col">
-														<img class="r-stretch" src="./lib/images/svm.png" alt="svm">
-														<p><b>Supervised:</b> <small><em>e.g.</em> Support Vector Machine<br>(SVM)</small></p>
-												</div>
-												<div class="col">
-														<img class="r-stretch" src="./lib/images/unsupervised.png" alt="unsupervised">
-														<p><b>Unsupervised:</b> <small><em>e.g.</em> Leiden Algorithm<br>(Quality Optimization)</small></p>
-												</div>
-										</div>
 								</section>
 
 								<!-- intro: WASHC4 -->
@@ -363,38 +330,102 @@
 
 								</section>
 
-								<!--pRoloc: <a href="https://bit.ly/3wYPayA" target="_blank">Breckels, Gatto, Crook <em>et al.</em>, 2014, 2016, 2019</a> -->
-
-								<!-- EMPHASIS: Solutions -->
-								<section data-background-image="./lib/images/swip-spatprot-netw.png" 
-				 data-background-size="contain" data-background-opacity=0.20>
-										<h3>Challenges inherent in analyzing spatial proteomics</h3>
-										<br>
-										<div class="container">
-												<div class="col">
-														<h4>Community Detection</h4>
-														<em>Network Enhancement + Leidenalg (Surprise)</em>
-														<br>
-														<small><code>neten</code>: <a href="https://go.nature.com/3gT86Jv" target="_blank">Wang <em>et al.</em> 2018</a></small>
-														<small><code>leidenalg</code>: <a href="https://go.nature.com/3gSl75U" target="_blank">Traag <em>et al.</em> 2019</a></small>
-												</div>
-
-												<div class="col">
-														<h4>Statistical Inference</h4>
-														<em>Linear Mixed-Effects Models</em>
-														<br>
-														<small><code>lme4</code>: <a href="https://bit.ly/2TTIl2F" target="_blank">Bates <em>et al.</em>, 2021</a></small>
-														<small>t-statistic: <a href="https://bit.ly/3gYRnTX" target="_blank">Kuznetsova <em>et al.</em>, 2017</a></small>
-												</div>
-										</div>
+								<!-- emphasis: Challenges -->
+								<section data-background-image="./lib/images/swip-spatprot-netw.png" data-background-size="contain" data-background-opacity=0.20>
+										<h2>Challenges inherent in analyzing spatial proteomics</h3>
+										<ul>
+												<li><em>The data are <u>dense</u> and <u>noisy</u>.</em></li>
+												<li><em>The number of communities is <u>unknown</u>.</em></li>
+										</ul>
 
 										<!-- notes -->
 										<aside data-markdown class="notes" >
-												transition: I use linear models
-												to assess differential
-												abundance at two different
-												resolutions...
 										</aside>
+								</section>
+
+								<!-- visualizing the challenge -->
+								<section>
+										<h3>A Standard View of the Data</h3>
+										<img class="r-stretch" src="./lib/images/pca.png" alt="pca">
+										<ul>
+												<li><em>The data are <u>dense</u> and <u>noisy</u>.</em></li>
+												<li><em>The number of communities is <u>unknown</u>.</em></li>
+										</ul>
+								</section>
+
+								<!-- emphasis: solutions -->
+								<section data-background-image="./lib/images/swip-spatprot-netw.png" 
+				 data-background-size="contain" data-background-opacity=0.20>
+										<h2>Solutions to analysis of spatial proteomics</h2>
+										<ol>
+												<li class="fragment" data-fragment-index="1">
+														<b>Network Enhancement</b></li>
+												<ul>
+														<li class="fragment" data-fragment-index="1">
+																<a href="https://go.nature.com/3gT86Jv" target="_blank">Wang <em>et al.</em> 2018</a>: <code>neten</code>
+														</li>
+												</ul>
+												<li class="fragment" data-fragment-index="2"><b>Community Detection</b></li>
+												<ul>
+														<li class="fragment" data-fragment-index="2">
+																<a href="https://go.nature.com/3gSl75U" target="_blank">Traag <em>et al.</em> 2019</a>: <code>leidenalg</code>
+														</li>
+												</ul>
+												<li class="fragment" data-fragment-index="3"><b>Statistical Inference</b></li>
+												<ul>
+														<li class="fragment" data-fragment-index="3">
+																<a href="https://bit.ly/2TTIl2F" target="_blank">Bates <em>et al.</em>, 2021</a>: <code>lme4</code>
+														</li>
+														<li class="fragment" data-fragment-index="3">
+																<a href="https://bit.ly/3gYRnTX" target="_blank">Kuznetsova <em>et al.</em>, 2017</a>: t-statistic
+														</li>
+										</ol>
+
+								</section>
+
+								<!-- network enhancement -->
+								<section>
+										<h4>Network Enhancement Facilitates Community Detection</h4>
+										<img class="r-stretch" src="./lib/images/wang-neten.png" alt="neten">
+										<br><br>
+										<div class='foot-right'>
+												R implementation: <a href="https://github.com/soderling-lab/neten" target="_blank">soderling-lab/neten</a>
+										</div>
+								</section>
+
+								<!-- network enhancement
+								<section>
+										<h4>Network Enhancement Facilitates Community Detection</h4>
+										<img class="r-stretch" src="./lib/images/neten2.png" alt="neten">
+										<br><br>
+										<div class='foot-right'>
+												R implementation: <a href="https://github.com/soderling-lab/neten" target="_blank">soderling-lab/neten</a>
+										</div>
+								</section>
+								-->
+
+								<!-- intro: community detection -->
+								<section>
+										<h4>Two Routes to Community Detection</h4>
+										<div class="container">
+												<div class="col">
+														<img class="r-stretch" src="./lib/images/svm.png" alt="svm">
+														<p><b>Supervised:</b> <small><em>e.g.</em> Support Vector Machine<br>(SVM)</small></p>
+												</div>
+												<div class="col">
+														<img class="r-stretch" src="./lib/images/unsupervised.png" alt="unsupervised">
+														<p><b>Unsupervised:</b> <small><em>e.g.</em> Leiden Algorithm<br>(Quality Optimization)</small></p>
+												</div>
+										</div>
+								</section>
+
+								<!-- two levels of analysis -->
+								<section>
+										<h4>Module-level Analysis Powers Biological Insight</h4>
+										<img class="r-stretch" src="lib/images/washc4-prot-module.png">
+										<p>
+										<b>module-level model:</b> <code>log2(Abundance) ~ 0 + Condition + (1|Protein)</code>
+										</p>
 								</section>
 
 								<!-- overview: spatprot network -->
@@ -410,20 +441,16 @@
 
 								</section>
 
-								<!-- two levels of analysis -->
+								<!-- overview: Shiny Module Profiles -->
 								<section>
-										<h4>Module-level Analysis Powers Biological Insight</h4>
-										<img class="r-stretch" src="lib/images/washc4-prot-module.png">
-										<p>
-										<b>module-level model:</b> <code>log2(Abundance) ~ 0 + Condition + (1|Protein)</code>
-										</p>
+										<h2>Module Profiles</h2>
+										<div class="fig-container r-stretch" data-file="https://twesleyb.shinyapps.io/module-profiles/"></div>
 								</section>
 
 								<!-- NS compartments -->
 								<section>
 										<h4>No change in six Compartments Identified by Spatial Proteomics</h4>
 										<img class="r-stretch" src="./lib/images/organelles.png" alt="ns-compartments">
-
 
 								</section>
 
@@ -581,21 +608,51 @@
 								<!-- variance partition -->
 								<section>
 										<h3>Partitioning the Variance</h3>
-										<img class="r-stretch" src="./lib/images/pca-varpart.png" alt="varpart">
+										<img class="r-stretch" src="./lib/images/varpart.png" alt="varpart">
 										<br><br>
 										<div class='foot-right'>
 												VariancePartition: <a href="https://bit.ly/35OtYiG" target="_blank">Hoffman <em>et al.</em> 2016 & 2019</a>
 										</div>
 								</section>
 
-								<!-- network enhancement -->
+
+								<!-- assembling covariation networks -->
 								<section>
-										<h4>Network Enhancement Facilitates Community Detection</h4>
-										<img class="r-stretch" src="./lib/images/neten.png" alt="neten">
+										<h3>Assembling Protein Covariation Networks</h3>
+										<img class="r-stretch" src="./lib/images/cor-mat-ppi.png" alt="prot-covar">
+										<p>The abundance of proteins that function and interact together tend to be highly correlated.</p>
+								</section>
+
+								<!-- intro: konigsberg problem -->
+								<section>
+										<h2>Konigsberg Problem</h2>
+										<img class="r-stretch" src="./lib/images/konigsberg.png" alt="konigsberg">
+										<p>A view of the modern city of Kaliningrad, Russia.</p>
+								</section>
+
+								<!--  konigsberg graph -->
+								<section>
+										<h3>Euler 1735: Konigsberg Graph</h3>
+										<div class="fig-container r-stretch" data-file="lib/graphs/konigsberg/index.html"></div>
+								</section>
+
+								<!-- background: structure and function in biological networks -->
+								<section>
+										<h3>Structure and Function in Biological Networks</h3>
+										<img class="r-stretch" src="./lib/images/ipsd-modules.png" alt="ipsd-modules">
 										<br><br>
 										<div class='foot-right'>
-												R implementation: <a href="https://github.com/soderling-lab/neten" target="_blank">soderling-lab/neten</a>
+												<a href="https://github.com/soderling-lab/getPPIs" target="_blank">soderling-lab/getPPIs</a>
 										</div>
+								</section>
+
+
+
+
+								<!-- Publications -->
+								<section>
+										<!-- point to external html with reveal.js-d3 -->
+										<div class="fig-container" data-file="https://twesleyb.github.io/publications-list/"></div>
 								</section>
 
 								<!-- Modularity -->
@@ -681,18 +738,6 @@
 
 								</section>
 
-								<!-- intro: konigsberg problem -->
-								<section>
-										<h2>Konigsberg Problem</h2>
-										<img class="r-stretch" src="./lib/images/konigsberg.png" alt="konigsberg">
-										<p>A view of the modern city of Kaliningrad, Russia.</p>
-								</section>
-
-								<!--  konigsberg graph -->
-								<section>
-										<h3>Euler 1735: Konigsberg Graph</h3>
-										<div class="fig-container r-stretch" data-file="lib/graphs/konigsberg/index.html"></div>
-								</section>
 
 								<!-- leidenalg -->
 								<section>
@@ -808,18 +853,7 @@
 										</div>
 								</section>
 
-								<!-- Shiny: Module Profiles -->
-								<section>
-										<h2>Module Profiles</h2>
-										<div class="fig-container r-stretch" data-file="https://twesleyb.shinyapps.io/module-profiles/"></div>
-								</section>
-
-								<!-- try pointing to external html -->
-								<section data-background-color="rgb(0,9,26)">
-										<div class="fig-container" data-file="https://twesleyb.github.io/publications-list/"></div>
-								</section>
-
-						<!-- end slides -->
+								<!-- end slides -->
 										</div>
 						</div>
 						<!-- end slides -->
@@ -851,7 +885,7 @@
 										// RevealPointer configuration:
 										pointer: {
 												//key: "q", 
-												color: "#800080", 
+												color: "#42AFFA", 
 												pointerSize: 16, 
 												//alwaysVisible: false, 
 										}
