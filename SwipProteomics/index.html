@@ -147,6 +147,27 @@
 
 								</section>
 
+								<!-- background: proximity proteomics -->
+								<section>
+										<h4>Proximity Proteomics: Resolving Subcellular Space by Proximity Labeling</h4>
+
+										<img class="r-stretch" src="./lib/images/gphn.png" alt="gphn-bioid">
+										<p>Hard-to-reach subcellular compartments can be captured with BioID proximity proteomics.</p>
+										<br>
+										<div class='foot-right'>
+												iPSD Proximity Proteome: <a href="https://bit.ly/3wO1CkG" target="_blank">Uezu, Kanak and Bradshaw <em>et al.</em>, 2016</a>
+										</div>
+
+										<!-- notes -->
+										<aside data-markdown class="notes" >
+												transition: both of these
+												proteomics approaches use mass
+												spectrometry to identify and
+												quantify proteins...
+										</aside>
+
+								</section>
+
 								<!-- background: spatial proteomics -->
 								<section>
 										<h4>Spatial Proteomics: Resolving Subcellular Space by Fractionation</h4>
@@ -170,27 +191,11 @@
 
 								</section>
 
-
-
-								<!-- background: proximity proteomics -->
+								<!-- assembling covariation networks -->
 								<section>
-										<h4>Proximity Proteomics: Resolving Subcellular Space by Proximity Labeling</h4>
-
-										<img class="r-stretch" src="./lib/images/gphn.png" alt="gphn-bioid">
-										<p>Hard-to-reach subcellular compartments can be captured with BioID proximity proteomics.</p>
-										<br>
-										<div class='foot-right'>
-												iPSD Proximity Proteome: <a href="https://bit.ly/3wO1CkG" target="_blank">Uezu, Kanak and Bradshaw <em>et al.</em>, 2016</a>
-										</div>
-
-										<!-- notes -->
-										<aside data-markdown class="notes" >
-												transition: both of these
-												proteomics approaches use mass
-												spectrometry to identify and
-												quantify proteins...
-										</aside>
-
+										<h3>Assembling Protein Covariation Networks</h3>
+										<img class="r-stretch" src="./lib/images/cor-mat-ppi.png" alt="prot-covar">
+										<p>The abundance of proteins that function and interact together tend to be highly correlated.</p>
 								</section>
 
 								<!-- intro: WASHC4 -->
@@ -387,26 +392,22 @@
 								<section>
 										<h4>Network Enhancement Facilitates Community Detection</h4>
 										<img class="r-stretch" src="./lib/images/wang-neten.png" alt="neten">
-										<br><br>
+										<!-- see: https://tex.stackexchange.com/questions/60453/reducing-font-size-in-equation -->
+										\[\scriptscriptstyle
+										P_{i,j} \gets \frac{W_{i,j}}{\sum_k\in \mathcal{N}_i} \mathbb{II}_{j\in\mathcal{N}_i},\quad
+										\mathcal{T}_{i,j} \gets \sum_{k=1}^{n}\frac{P_{i,j}P_{j,k}}{\sum_{v=1}^{n}P_{v,k}}\\ 
+										\scriptscriptstyle
+										W_{t+1} = \alpha \mathcal{T} * W_t * \mathcal{T} + (1-\alpha)\mathcal{T}
+										\]
+										<br>
 										<div class='foot-right'>
 												R implementation: <a href="https://github.com/soderling-lab/neten" target="_blank">soderling-lab/neten</a>
 										</div>
 								</section>
-
-								<!-- network enhancement
-								<section>
-										<h4>Network Enhancement Facilitates Community Detection</h4>
-										<img class="r-stretch" src="./lib/images/neten2.png" alt="neten">
-										<br><br>
-										<div class='foot-right'>
-												R implementation: <a href="https://github.com/soderling-lab/neten" target="_blank">soderling-lab/neten</a>
-										</div>
-								</section>
-								-->
 
 								<!-- intro: community detection -->
 								<section>
-										<h4>Two Routes to Community Detection</h4>
+										<h4>Unsupervised community detection with the Leiden algorithm</h4>
 										<div class="container">
 												<div class="col">
 														<img class="r-stretch" src="./lib/images/svm.png" alt="svm">
@@ -416,6 +417,16 @@
 														<img class="r-stretch" src="./lib/images/unsupervised.png" alt="unsupervised">
 														<p><b>Unsupervised:</b> <small><em>e.g.</em> Leiden Algorithm<br>(Quality Optimization)</small></p>
 												</div>
+										</div>
+								</section>
+
+								<!-- variance partition -->
+								<section>
+										<h3>Partitioning the Variance with Mixed Models</h3>
+										<img class="r-stretch" src="./lib/images/varpart.png" alt="varpart">
+										<br><br>
+										<div class='foot-right'>
+												VariancePartition: <a href="https://bit.ly/35OtYiG" target="_blank">Hoffman <em>et al.</em> 2016 & 2019</a>
 										</div>
 								</section>
 
@@ -432,7 +443,7 @@
 								<section>
 										<h2 class="r-fit-text">Swip Spatial Proteome</h2>
 										<img class="r-stretch" src="lib/images/swip-spatprot-netw.png">
-										<p><small>(Nodes = 5,869 | Modules = 49)</small></p>
+										<p><small>(Nodes = 5,869 | Modules<sub>Surprise</sub> = 49)</small></p>
 
 										<!-- notes -->
 										<aside data-markdown class="notes" >
@@ -603,24 +614,6 @@
 								<!-- extras -->
 								<section>
 										<h2 class="r-fit-text">Extra Slides</h2>
-								</section>
-
-								<!-- variance partition -->
-								<section>
-										<h3>Partitioning the Variance</h3>
-										<img class="r-stretch" src="./lib/images/varpart.png" alt="varpart">
-										<br><br>
-										<div class='foot-right'>
-												VariancePartition: <a href="https://bit.ly/35OtYiG" target="_blank">Hoffman <em>et al.</em> 2016 & 2019</a>
-										</div>
-								</section>
-
-
-								<!-- assembling covariation networks -->
-								<section>
-										<h3>Assembling Protein Covariation Networks</h3>
-										<img class="r-stretch" src="./lib/images/cor-mat-ppi.png" alt="prot-covar">
-										<p>The abundance of proteins that function and interact together tend to be highly correlated.</p>
 								</section>
 
 								<!-- intro: konigsberg problem -->
