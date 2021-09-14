@@ -1,5 +1,6 @@
 # swip presentation
-[slides](https://twesleyb.github.io/presentations/SwipProteomics/index.html)
+> title: Revealing Organization of the Neuronal Proteome with Proximity and Spatial Proteomics  
+> slides: [reveal.js](https://twesleyb.github.io/presentations/SwipProteomics/index.html)  
 
 ## Notes
 
